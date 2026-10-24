@@ -15,11 +15,7 @@ const homeFaqs = [
     answer:
       "First check the transaction status in your account. Failed payments are generally reversed by the payment provider. If the amount is not returned, contact Apphany support with your transaction ID so the team can help you.",
   },
-  {
-    question: "How will I know whether my recharge or bill payment succeeded?",
-    answer:
-      "After completing a payment, you will receive its latest status and transaction reference. Keep the reference number available if you need help from support.",
-  },
+
   {
     question: "Can I book bus, train, flight, and hotel services here?",
     answer:

@@ -43,7 +43,7 @@ export default function BBPSFeatures() {
           <div>
             <div>
               <h2 className="text-3xl font-bold tracking-tight text-[#0C3D4C]  sm:text-4xl">
-                The BBPS Advantage
+                The Advantage
               </h2>
               <p className="mt-4 text-lg text-gray-600">
                 Experience a payment system built for trust, speed, and ultimate convenience—backed

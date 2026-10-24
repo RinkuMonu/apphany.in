@@ -7,7 +7,7 @@ import { ArrowRight } from "lucide-react";
 const services = [
   {
     title: "Recharges",
-    text: "Apphany BBPS makes supported mobile and DTH recharges quick and convenient, helping users maintain access to essential communication and entertainment services.",
+    text: "Apphany  makes supported mobile and DTH recharges quick and convenient, helping users maintain access to essential communication and entertainment services.",
     image: "/allservices/recharge.png",
     href: "/service-payment/mobile",
   },
@@ -50,9 +50,7 @@ export default function AllServices() {
             className={`grid items-center gap-8 border-b border-[#e0eef1] py-12 last:border-b-0 lg:grid-cols-2 lg:gap-14 ${index % 2 ? "lg:[&>*:first-child]:order-2" : ""}`}
           >
             <div>
-              <p className="text-xs font-bold uppercase tracking-[0.16em] text-[#0289ad]">
-                BBPS Service
-              </p>
+          
               <h3 className="mt-3 text-3xl font-extrabold text-[#0C3D4C] sm:text-4xl">
                 {service.title}
               </h3>

@@ -63,7 +63,7 @@ const slides = [
   {
     id: 4,
     subheading: " Bharat Bill Payment System",
-    heading: "Har Bill, Har Payment, BBPS ke Saath!",
+    heading: "Bharat Bill Payment System",
     centerImage: "/home/homebanner6.png",
     alt: "BBPS",
     bgImage: "/banner/bbg4.png",
