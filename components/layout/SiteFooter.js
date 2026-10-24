@@ -116,17 +116,15 @@ export default function SiteFooter() {
       <div className="mx-auto max-w-7xl px-5 pb-7 pt-10 sm:px-6 lg:py-12">
         <div className="grid gap-9 sm:grid-cols-2 lg:grid-cols-[1.25fr_0.8fr_1fr_1.15fr_1.15fr] lg:gap-0">
           <section className="lg:pr-8">
-            <Link href="/" className="inline-flex flex-col items-start" aria-label="Apphany home">
+            <Link href="/" className="inline-flex flex-col items-start bg-[#ffffff] rounded-md" aria-label="Apphany home">
               <Image
-                src="/image/SaveDostlogo.png"
+                src="/image/apphany-logoo.png"
                 alt="Apphany"
                 width={1686}
                 height={933}
                 className="h-auto w-48 object-contain"
               />
-              <span className="-mt-5 ml-6 text-[9px] font-bold uppercase tracking-[0.18em] text-white/75">
-                Powered by Apphany Technologies Pvt. Ltd.
-              </span>
+
             </Link>
             <p className="mt-4 max-w-xs text-xs leading-5 text-white/80">
               Innovating digital payment solutions and simplifying business operations across India.
@@ -179,9 +177,9 @@ export default function SiteFooter() {
           <section className="border-white/15 lg:border-l lg:px-8">
             <FooterHeading>Company</FooterHeading>
             <p className="text-xs leading-5 text-white/80">
-              Apphany, powered by Apphany Technologies Pvt. Ltd., brings recharge, bill payments, travel bookings and
-              essential financial services together on one secure platform for customers and
-              merchants across India.
+            Office No. 506, 5th Floor, Chordia&apos;s Kosmos (A Block),
+Plot No. E-5, Dr. Rajendra Prasad Nagar E, Village Badarwas,
+Jaipur, Rajasthan – 302019
             </p>
             <div className="mt-5 flex items-center gap-3 rounded-xl bg-white/10 p-4 ring-1 ring-white/10">
               <ShieldCheck size={30} className="shrink-0 text-lime-400" />
@@ -191,45 +189,7 @@ export default function SiteFooter() {
             </div>
           </section>
 
-          <section className="space-y-4 lg:pl-8">
-            <div className="rounded-xl bg-white/10 p-5 ring-1 ring-white/10">
-              <FooterHeading>Verified &amp; Secure</FooterHeading>
-              <div className="flex items-center gap-4">
-                <Image
-                  src="/home/pci-logo.png"
-                  width={82}
-                  height={52}
-                  alt="PCI DSS compliant"
-                  className="h-12 w-auto rounded bg-white p-1 object-contain"
-                />
-                <Image
-                  src="/home/iso-logo.png"
-                  width={82}
-                  height={52}
-                  alt="ISO certified"
-                  className="h-12 w-auto rounded bg-white p-1 object-contain"
-                />
-              </div>
-            </div>
-
-            {/* <div className="rounded-xl bg-white/10 p-5 ring-1 ring-white/10">
-              <FooterHeading>Follow Us</FooterHeading>
-              <div className="flex flex-nowrap items-center gap-2.5">
-                {socialLinks.map(([Icon, href, label, color]) => (
-                  <Link
-                    key={label}
-                    href={href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={label}
-                    className={`flex h-8 w-8 items-center justify-center rounded-full text-sm text-white transition hover:-translate-y-0.5 ${color}`}
-                  >
-                    <Icon />
-                  </Link>
-                ))}
-              </div>
-            </div> */}
-          </section>
+        
         </div>
 
         <nav

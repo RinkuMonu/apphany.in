@@ -95,9 +95,9 @@ export default function AnimatedHeroPreview() {
       <div className="preview-grid" aria-hidden="true" />
       <div className="preview-glow preview-glow-one" aria-hidden="true" />
       <div className="preview-glow preview-glow-two" aria-hidden="true" />
-      <Link href="/" className="hero-corner-brand" aria-label="Apphany home">
+      <Link href="/" className="hero-corner-brand bg-[#ffffff] rounded-md" aria-label="Apphany home">
         <Image
-          src="/image/SaveDostlogo.png"
+          src="/image/apphany-logoo.png"
           alt="Apphany"
           width={1686}
           height={933}
@@ -311,8 +311,8 @@ export default function AnimatedHeroPreview() {
           overflow: hidden;
           display: flex;
           align-items: center;
-          background: linear-gradient(135deg, #fbfefe 0%, #f2fafb 52%, #e7f7fa 100%);
-          color: #0c3d4c;
+          background: url("/image/hero-bg.jpg") center / cover no-repeat;
+          color: #f8fbff;
           padding: 64px 5vw 72px;
         }
         .preview-hero,
@@ -329,7 +329,7 @@ export default function AnimatedHeroPreview() {
           display: flex;
           align-items: center;
           gap: 11px;
-          color: #0c3d4c;
+          color: #f8fbff;
           opacity: 0;
           transform: translateY(18px);
           animation: previewRise 0.65s ease 0.05s forwards;
@@ -353,7 +353,7 @@ export default function AnimatedHeroPreview() {
         }
         .hero-corner-brand small {
           margin-top: 4px;
-          color: #56808a;
+          color: #d2e3f3;
           font-size: 8px;
           font-weight: 700;
           letter-spacing: 0.08em;
@@ -409,23 +409,24 @@ export default function AnimatedHeroPreview() {
           align-items: center;
           gap: 9px;
           padding: 9px 16px;
-          border: 1px solid #b8dff5;
+          border: 1px solid rgba(255, 255, 255, 0.34);
           border-radius: 999px;
-          background: rgba(255, 255, 255, 0.78);
-          color: #17427c;
+          background: rgba(4, 24, 53, 0.62);
+          color: #f2f7ff;
           font-size: 11px;
           font-weight: 850;
           letter-spacing: 0.13em;
           text-transform: uppercase;
-          box-shadow: 0 8px 25px rgba(25, 73, 132, 0.06);
+          box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
           opacity: 0;
           animation: previewRise 0.6s ease 0.2s forwards;
         }
         .preview-pill span {
-          color: #1688ef;
+          color: #62cfff;
         }
         .preview-copy h1 {
           margin: 24px 0 0;
+          color: #f8fbff;
           font-size: clamp(3.4rem, 6vw, 6.5rem);
           line-height: 0.92;
           letter-spacing: -0.065em;
@@ -446,7 +447,7 @@ export default function AnimatedHeroPreview() {
         .reveal-line em {
           font-style: normal;
           color: transparent;
-          background: linear-gradient(100deg, #018ede, #00a8e8, #45b99d);
+          background: linear-gradient(100deg, #52c8ff, #36d5f2, #70e5c1);
           background-clip: text;
           -webkit-background-clip: text;
           background-size: 180% auto;
@@ -455,7 +456,7 @@ export default function AnimatedHeroPreview() {
         .preview-description {
           max-width: 590px;
           margin-top: 24px;
-          color: #56737a;
+          color: #e0ebf5;
           font-size: clamp(1rem, 1.35vw, 1.16rem);
           line-height: 1.8;
           opacity: 0;
@@ -495,22 +496,22 @@ export default function AnimatedHeroPreview() {
           box-shadow: 0 18px 34px rgba(12, 61, 76, 0.28);
         }
         .preview-watch {
-          border: 1px solid #c7dfe4;
-          background: rgba(255, 255, 255, 0.82);
-          color: #0c3d4c;
+          border: 1px solid rgba(255, 255, 255, 0.4);
+          background: rgba(4, 24, 53, 0.62);
+          color: #f2f7ff;
         }
         .preview-watch span {
           display: grid;
           place-items: center;
           width: 30px;
           height: 30px;
-          border: 1px solid #b8d7dd;
+          border: 1px solid rgba(255, 255, 255, 0.42);
           border-radius: 50%;
-          color: #0289ad;
+          color: #62cfff;
         }
         .preview-watch:hover {
           transform: translateY(-3px);
-          background: white;
+          background: rgba(9, 38, 72, 0.9);
         }
         .trust-strip {
           width: min(660px, 100%);
@@ -518,10 +519,11 @@ export default function AnimatedHeroPreview() {
           grid-template-columns: repeat(4, 1fr);
           margin-top: 54px;
           padding: 18px 22px;
-          border: 1px solid #dbe8f4;
+          border: 1px solid rgba(255, 255, 255, 0.32);
           border-radius: 20px;
-          background: rgba(255, 255, 255, 0.88);
-          box-shadow: 0 18px 45px rgba(45, 93, 148, 0.12);
+          background: rgba(4, 24, 53, 0.7);
+          box-shadow: 0 18px 45px rgba(0, 0, 0, 0.2);
+          backdrop-filter: blur(12px);
           opacity: 0;
           animation: previewRise 0.75s ease 1.38s forwards;
         }
@@ -530,7 +532,7 @@ export default function AnimatedHeroPreview() {
           align-items: center;
           justify-content: center;
           gap: 10px;
-          border-right: 1px solid #dbe6f0;
+          border-right: 1px solid rgba(255, 255, 255, 0.22);
         }
         .trust-strip > div:last-child {
           border: 0;
@@ -554,7 +556,7 @@ export default function AnimatedHeroPreview() {
         }
         .trust-strip span {
           margin-top: 2px;
-          color: #718199;
+          color: #c1d2e4;
           font-size: 9px;
         }
         .visual-stage {
@@ -694,10 +696,7 @@ export default function AnimatedHeroPreview() {
           border: 5px solid #e0e7ef;
           border-radius: 48px;
           background: linear-gradient(135deg, #fff, #bdcad8);
-          box-shadow:
-            18px 24px 45px rgba(32, 70, 120, 0.22),
-            -8px -8px 28px rgba(255, 255, 255, 0.9),
-            inset 0 0 0 2px white;
+        
         }
         .phone-frame::after {
           content: "";
@@ -1196,10 +1195,10 @@ export default function AnimatedHeroPreview() {
             border: 0;
           }
           .trust-strip > div:nth-child(odd) {
-            border-right: 1px solid #e3edf5;
+            border-right: 1px solid rgba(255, 255, 255, 0.22);
           }
           .trust-strip > div:nth-child(-n + 2) {
-            border-bottom: 1px solid #e3edf5;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.22);
           }
           .trust-strip svg {
             width: 21px;

@@ -15,14 +15,7 @@ export default function HomeAppDownload() {
       <div className="relative mx-auto grid max-w-7xl overflow-hidden rounded-[22px] bg-white shadow-[0_16px_45px_rgba(12,61,76,0.08)] sm:rounded-[30px] lg:grid-cols-[1.15fr_.85fr]">
         <div className="relative z-10 px-4 py-6 sm:px-10 sm:py-10 lg:px-14 lg:py-14">
           <div className="flex items-center gap-2.5 sm:gap-3">
-            <Image
-              src="/image/Apphany-initial.png"
-              alt="Apphany"
-              width={58}
-              height={58}
-              className="h-10 w-auto object-contain sm:h-12"
-              style={{ width: "auto" }}
-            />
+         
             <span className="text-xs font-bold uppercase tracking-[0.16em] text-[#026381] sm:text-sm sm:tracking-[0.18em]">
               Apphany App
             </span>

@@ -21,21 +21,21 @@ import {
 } from "lucide-react";
 
 const navGroups = [
-  {
-    label: "Recharge & Bills",
-    links: [
-      { label: "Mobile Recharge", href: "/service-payment/mobile" },
-      { label: "DTH Recharge", href: "/service-payment/dth" },
-      { label: "FASTag Recharge", href: "/service-payment/fastag" },
-      { label: "Electricity Bill", href: "/service-payment/electricity" },
-      { label: "Water Bill", href: "/service-payment/water" },
-      { label: "Piped Gas Bill", href: "/service-payment/piped-gas" },
-      { label: "Broadband / Landline", href: "/service-payment/broadband" },
-      { label: "Book LPG Cylinder", href: "/service-payment/cylinder" },
-      { label: "Gift Cards", href: "/service-payment/gift-card" },
-      // { label: "BBPS Services", href: "/bbps" },
-    ],
-  },
+  // {
+  //   label: "Recharge & Bills",
+  //   links: [
+  //     { label: "Mobile Recharge", href: "/service-payment/mobile" },
+  //     { label: "DTH Recharge", href: "/service-payment/dth" },
+  //     { label: "FASTag Recharge", href: "/service-payment/fastag" },
+  //     { label: "Electricity Bill", href: "/service-payment/electricity" },
+  //     { label: "Water Bill", href: "/service-payment/water" },
+  //     { label: "Piped Gas Bill", href: "/service-payment/piped-gas" },
+  //     { label: "Broadband / Landline", href: "/service-payment/broadband" },
+  //     { label: "Book LPG Cylinder", href: "/service-payment/cylinder" },
+  //     { label: "Gift Cards", href: "/service-payment/gift-card" },
+    
+  //   ],
+  // },
   {
     label: "Ticket Booking",
     links: [
@@ -92,7 +92,7 @@ function DesktopDropdown({ group, activeMenu, setActiveMenu, startNavigation }) 
 
   return (
     <div
-      className="relative flex h-full items-center"
+      className="relative flex h-full shrink-0 items-center"
       onMouseEnter={() => setActiveMenu(group.label)}
       onMouseLeave={() => setActiveMenu(null)}
     >
@@ -249,24 +249,24 @@ export default function SiteHeader() {
         <Link
           href="/"
           onClick={startNavigation}
-          className="flex shrink-0 items-center gap-2.5"
+          className="flex shrink-0 items-center gap-2.5 "
           aria-label="Apphany home"
         >
           <Image
-            src="/image/SaveDostlogo.png"
+            src="/image/apphany-logoo.png"
             width={1686}
             height={933}
-            alt="SaveDostlogo"
+            alt="Apphany logo"
             priority
             className="h-auto w-38 object-contain sm:w-42"
           />
         </Link>
 
         <nav
-          className="ml-auto hidden h-full min-w-0 items-center justify-end gap-2 lg:flex xl:gap-5"
+          className="ml-auto hidden h-full min-w-0 items-center justify-end gap-3 xl:flex 2xl:gap-5"
           aria-label="Main navigation"
         >
-          <div className="flex h-full min-w-0 items-center gap-2 xl:gap-6">
+          <div className="flex h-full min-w-0 items-center gap-3 2xl:gap-6">
             {navGroups.map((group) => (
               <DesktopDropdown
                 key={group.label}
@@ -319,7 +319,7 @@ export default function SiteHeader() {
 
         <button
           type="button"
-          className="rounded-md p-2 text-[#003a80] lg:hidden"
+          className="rounded-md p-2 text-[#003a80] xl:hidden"
           onClick={() => setMobileMenu((current) => !current)}
           aria-label={mobileMenu ? "Close navigation" : "Open navigation"}
           aria-expanded={mobileMenu}

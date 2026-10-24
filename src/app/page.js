@@ -24,7 +24,7 @@ export default function Home() {
     <>
       <AnimatedHeroPreview />
       <RechargeBillsPreviewPage />
-      <TravelPreviewPage />
+      {/* <TravelPreviewPage /> */}
       <HomePromoBanners />
       <HomeCreditScoreSection />
       <HomeAppDownload />
@@ -38,7 +38,7 @@ export default function Home() {
       {/* <HomePaymentGatewaySection /> */}
       <HomeMap />
       <TestimonialSlider />
-      <ComplianceSection />
+      {/* <ComplianceSection /> */}
       <HomeFAQ />
       <ContactBanner variant="home" />
     </>

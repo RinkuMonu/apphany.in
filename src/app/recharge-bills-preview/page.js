@@ -220,7 +220,7 @@ export default function RechargeBillsPreviewPage() {
 
   return (
     <main className="bg-[#f4f7fb] px-3 py-3 sm:px-6 sm:py-4 lg:px-8">
-      <section className="mx-auto grid max-w-[1760px] gap-4 lg:grid-cols-[minmax(0,1fr)_390px]">
+      {/* <section className="mx-auto grid max-w-[1760px] gap-4 lg:grid-cols-[minmax(0,1fr)_390px]">
         <div className="rounded-[20px] bg-white px-4 py-5 shadow-[0_10px_35px_rgba(12,61,76,0.04)] sm:rounded-[24px] sm:px-9 sm:py-7 lg:min-h-[310px] lg:px-10 lg:py-7">
           <h1 className="text-xl font-bold tracking-tight text-[#111827] sm:text-[28px]">
             Recharges &amp; Bill Payments
@@ -355,7 +355,7 @@ export default function RechargeBillsPreviewPage() {
             </button>
           </div>
         </aside>
-      </section>
+      </section> */}
 
       {productsOpen && (
         <div

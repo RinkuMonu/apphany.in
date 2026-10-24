@@ -45,7 +45,7 @@ export const metadata = {
     images: ["/image/Apphany-initial.png"],
   },
   icons: {
-    icon: "/image/Apphany-initial.png",
+    icon: "/image/apphany-fav.png",
   },
 };
 
@@ -90,7 +90,7 @@ export default function RootLayout({ children }) {
           }}
         />
 
-        <link rel="icon" type="image/png" href="/image/Apphany-initial.png" />
+        <link rel="icon" type="image/png" href="/image/apphany-fav.png" />
 
         {/* Google Tag Manager */}
         <Script id="google-tag-manager" strategy="afterInteractive">

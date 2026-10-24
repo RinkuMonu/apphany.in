@@ -20,50 +20,46 @@ export const metadata = {
 };
 
 const technicalTeam = [
+   {
+    name: "Vijay Gupta",
+    role: "Team Head",
+    designation: "Backend Developer",
+    image: "/image/gupta-vijay.PNG",
+  },
   {
     name: "Rajyavardhan Singh",
-    role: "Technical Team",
+    role: "Tech Lead",
     designation: "Backend Developer",
     image: "/teams/RajRajyavardhan Singh.jpeg",
   },
-  {
-    name: "Rahul Singh",
-    role: "Technical Team",
-    designation: "Backend Developer",
-    image: "/teams/Rahul Singh.jpeg",
-  },
+ 
   {
     name: "Rinku Yadav",
-    role: "Technical Team",
+    role: "Server Admin",
     designation: "Server Administrator",
     image: "/teams/Rinku yadav.jpeg",
   },
   {
     name: "Devika Chhipa",
-    role: "Technical Team",
+    role: "Frontend Developer",
     designation: "Senior Frontend Developer",
     image: "/teams/Devika Chhipa.jpeg",
   },
   {
     name: "Khyati Jain",
-    role: "Technical Team",
+    role: "UI/UX Designer",
     designation: "UI/UX Designer",
     image: "/teams/Khyati Jain.jpeg",
   },
-  {
-    name: "Rahul Jain",
-    role: "Technical Team",
-    designation: "Frontend Developer Intern",
-    image: "/teams/Rahul Jain.png",
-  },
+ 
 ];
 
 const growthTeam = [
   {
-    name: "Chandan Sharma",
+    name: "Kratika Sharma",
     role: "Growth & Engagement",
     designation: "SEO Specialist",
-    image: "/teams/Chandan Sharma.jpeg",
+    image: "/image/kratika-sharma.PNG",
   },
   {
     name: "Vishal Prajapat",
@@ -130,7 +126,7 @@ function TeamMemberCard({ member, tone = "blue" }) {
             alt={`${member.name}, ${member.role} at Apphany`}
             fill
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-            className="object-cover object-top transition duration-500 group-hover:scale-[1.025]"
+            className="object-contain object-top transition duration-500 group-hover:scale-[1.025]"
           />
         ) : (
           <div className="grid h-full place-items-center">
