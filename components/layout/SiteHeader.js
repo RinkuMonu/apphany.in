@@ -279,7 +279,7 @@ export default function SiteHeader() {
           </div>
 
           <div className="ml-1 flex shrink-0 items-center gap-2 border-l border-slate-200 pl-2 xl:ml-2 xl:gap-5 xl:pl-6">
-            <button
+            {/* <button
               type="button"
               onClick={() => setDownloadOpen(true)}
               aria-label="Download App"
@@ -288,7 +288,7 @@ export default function SiteHeader() {
             >
               <Download size={17} strokeWidth={1.8} />
               <span>Download App</span>
-            </button>
+            </button> */}
             {session?.authenticated ? (
               <button
                 type="button"

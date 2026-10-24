@@ -622,9 +622,9 @@ export default function AboutUsPage() {
       <HeroSection />
       <StatisticsSection />
       <StorySection />
-      <LeadershipSection />
+      {/* <LeadershipSection /> */}
       <MissionVisionSection />
-      <ServicesSection />
+      {/* <ServicesSection /> */}
       <BenefitsSection />
       <SecuritySection />
       <ValuesSection />

@@ -8,20 +8,20 @@ const quickLinks = [
   ["About Us", "/about"],
   ["Blog", "/blog"],
   ["Contact Us", "/contact"],
-  ["Team Members", "/team"],
+  // ["Team Members", "/team"],
 ];
 
 const navigationLinks = [
-  {
-    title: "Recharge & Bills",
-    links: [
-      ["Mobile Recharge", "/service-payment/mobile"],
-      ["DTH Recharge", "/service-payment/dth"],
-      ["FASTag Recharge", "/service-payment/fastag"],
-      ["Electricity Bill", "/service-payment/electricity"],
-      // ["BBPS Services", "/bbps"],
-    ],
-  },
+  // {
+  //   title: "Recharge & Bills",
+  //   links: [
+  //     ["Mobile Recharge", "/service-payment/mobile"],
+  //     ["DTH Recharge", "/service-payment/dth"],
+  //     ["FASTag Recharge", "/service-payment/fastag"],
+  //     ["Electricity Bill", "/service-payment/electricity"],
+  //     ["BBPS Services", "/bbps"],
+  //   ],
+  // },
   {
     title: "Bookings",
     links: [

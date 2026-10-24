@@ -1233,7 +1233,7 @@ function Brand() {
   return (
     <Link href="/" className="inline-flex w-fit items-center gap-3">
       <Image
-        src="/image/Apphany-initial.png"
+        src="/image/apphany-fav.png"
         alt="Apphany"
         width={40}
         height={40}
@@ -1242,7 +1242,7 @@ function Brand() {
       />
       <span>
         <span className="block text-xl font-extrabold tracking-tight text-[#0C3D4C]">
-          Save<span className="text-[#00a8e8]">Dost</span>
+          Apphany<span className="text-[#00a8e8]"></span>
         </span>
         <span className="block text-[8px] font-semibold uppercase tracking-[0.13em] text-[#315381]">
           Powered by Apphany Technologies Pvt. Ltd.

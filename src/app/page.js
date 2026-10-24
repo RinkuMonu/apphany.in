@@ -27,7 +27,7 @@ export default function Home() {
       {/* <TravelPreviewPage /> */}
       <HomePromoBanners />
       <HomeCreditScoreSection />
-      <HomeAppDownload />
+      {/* <HomeAppDownload /> */}
       {/* <HomePartners /> */}
       {/* <APi /> */}
       {/* <HomeOnboarding /> */}
