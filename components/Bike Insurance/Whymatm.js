@@ -6,7 +6,7 @@ const reasons = [
   {
     icon: ShieldCheck,
     title: "RBI & NPCI Compliant",
-    desc: "SaveDost Micro ATM services follow strict RBI and NPCI regulations, guaranteeing safe, secure, and fully compliant transactions.",
+    desc: "Apphany Micro ATM services follow strict RBI and NPCI regulations, guaranteeing safe, secure, and fully compliant transactions.",
   },
   {
     icon: IndianRupee,
@@ -42,11 +42,11 @@ export default function WhyMicroATM() {
         {/* Section Heading */}
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-[#0C3D4C]">
-            Why Choose SaveDost for Micro ATM?
+            Why Choose Apphany for Micro ATM?
           </h2>
           <p className="mt-4 text-gray-600 text-lg">
             Empower your retail business with secure, profitable, and reliable Micro ATM services
-            backed by SaveDost.
+            backed by Apphany.
           </p>
         </div>
 

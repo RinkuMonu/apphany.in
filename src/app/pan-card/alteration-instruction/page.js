@@ -358,7 +358,7 @@ export default function Page() {
     {
       icon: <ClipboardList size={20} />,
       title: "Submission Support",
-      content: <p>Contact support@savedost.in for current submission instructions.</p>,
+      content: <p>Contact support@apphany.in for current submission instructions.</p>,
     },
   ];
 

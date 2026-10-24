@@ -33,7 +33,7 @@ const navGroups = [
       { label: "Broadband / Landline", href: "/service-payment/broadband" },
       { label: "Book LPG Cylinder", href: "/service-payment/cylinder" },
       { label: "Gift Cards", href: "/service-payment/gift-card" },
-      { label: "BBPS Services", href: "/bbps" },
+      // { label: "BBPS Services", href: "/bbps" },
     ],
   },
   {
@@ -232,7 +232,7 @@ export default function SiteHeader() {
   };
 
   const accountInitial = session?.user?.name?.trim()?.charAt(0)?.toUpperCase();
-  const accountName = session?.user?.name?.trim() || "SaveDost User";
+  const accountName = session?.user?.name?.trim() || "Apphany User";
 
   return (
     <header
@@ -250,13 +250,13 @@ export default function SiteHeader() {
           href="/"
           onClick={startNavigation}
           className="flex shrink-0 items-center gap-2.5"
-          aria-label="SaveDost home"
+          aria-label="Apphany home"
         >
           <Image
-            src="/image/SaveDost logo.png"
+            src="/image/SaveDostlogo.png"
             width={1686}
             height={933}
-            alt="SaveDost Logo"
+            alt="SaveDostlogo"
             priority
             className="h-auto w-38 object-contain sm:w-42"
           />
@@ -365,10 +365,10 @@ export default function SiteHeader() {
                     className="flex items-center gap-3"
                   >
                     <Image
-                      src="/image/SaveDost logo.png"
+                      src="/image/SaveDostlogo.png"
                       width={1686}
                       height={933}
-                      alt="SaveDost"
+                      alt="Apphany"
                       className="h-auto w-40 object-contain"
                     />
                   </Link>
@@ -562,9 +562,9 @@ export default function SiteHeader() {
                   </span>
                   <div className="min-w-0">
                     <p className="truncate text-xl font-extrabold text-[#0C3D4C]">
-                      {session.user?.name || "SaveDost User"}
+                      {session.user?.name || "Apphany User"}
                     </p>
-                    <p className="mt-1 text-sm text-slate-500">SaveDost account</p>
+                    <p className="mt-1 text-sm text-slate-500">Apphany account</p>
                   </div>
                 </div>
 
@@ -632,7 +632,7 @@ export default function SiteHeader() {
                   id="header-download-title"
                   className="pr-12 text-center text-xl font-extrabold text-[#0C3D4C] sm:pr-0 sm:text-2xl"
                 >
-                  Download the SaveDost App
+                  Download the Apphany App
                 </h2>
 
                 <div className="mt-7 grid items-center gap-6 rounded-2xl bg-[#f2f7fb] p-5 sm:grid-cols-[1fr_230px] sm:p-7">
@@ -656,7 +656,7 @@ export default function SiteHeader() {
                   <div className="mx-auto rounded-xl bg-white p-3 shadow-[0_8px_24px_rgba(12,61,76,0.14)]">
                     <Image
                       src="/MainQR.jpeg"
-                      alt="QR code to download the SaveDost app"
+                      alt="QR code to download the Apphany app"
                       width={210}
                       height={210}
                       className="h-44 w-44 object-contain sm:h-52 sm:w-52"
@@ -666,7 +666,7 @@ export default function SiteHeader() {
 
                 <div className="mt-6 flex flex-col gap-4 border-t border-slate-200 pt-6 sm:flex-row sm:items-center sm:justify-between">
                   <p className="max-w-58.75 text-sm font-semibold leading-5 text-[#132238] sm:text-base">
-                    Choose your app store and start using SaveDost.
+                    Choose your app store and start using Apphany.
                   </p>
                   <div className="flex flex-wrap gap-3">
                     <Link

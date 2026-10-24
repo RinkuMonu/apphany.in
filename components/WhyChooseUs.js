@@ -2,7 +2,7 @@
 
 import { Clock3, Grid2X2, Headphones, RefreshCw, ShieldCheck, Smartphone } from "lucide-react";
 
-// Benefits are written exclusively for customers using SaveDost services.
+// Benefits are written exclusively for customers using Apphany services.
 const features = [
   {
     icon: RefreshCw,
@@ -17,7 +17,7 @@ const features = [
   {
     icon: Grid2X2,
     title: "Multiple Services",
-    text: "Manage recharges, payments, bookings, insurance, and more with SaveDost.",
+    text: "Manage recharges, payments, bookings, insurance, and more with Apphany.",
   },
   {
     icon: Headphones,
@@ -45,7 +45,7 @@ export default function WhyChooseUs() {
             Why Choose Us
           </p>
           <h2 className="mt-3 text-3xl font-extrabold tracking-tight text-[#0C3D4C] sm:text-4xl">
-            Why users choose SaveDost
+            Why users choose Apphany
           </h2>
           <p className="mt-3 text-base leading-7 text-slate-600">
             Useful services, secure technology, and helpful support brought together for your

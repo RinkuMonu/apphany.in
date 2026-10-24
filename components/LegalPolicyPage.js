@@ -47,9 +47,9 @@ export default function LegalPolicyPage({
         <div className="mb-8 grid gap-px overflow-hidden rounded-2xl border border-[#d7e9ed] bg-slate-100 shadow-sm sm:grid-cols-3">
           <div className="bg-white p-5">
             <p className="text-xs font-bold uppercase text-slate-400">Brand &amp; operator</p>
-            <p className="mt-2 font-bold text-[#0C3D4C]">SaveDost</p>
+            {/* <p className="mt-2 font-bold text-[#0C3D4C]">Apphany</p> */}
             <p className="mt-1 text-xs text-slate-500">
-              Powered and operated by Finunique Small Private Limited
+              Apphany Technologies Pvt. Ltd.
             </p>
           </div>
           <div className="bg-white p-5">
@@ -58,7 +58,7 @@ export default function LegalPolicyPage({
           </div>
           <div className="bg-white p-5">
             <p className="text-xs font-bold uppercase text-slate-400">Support</p>
-            <p className="mt-2 text-slate-600">support@savedost.in</p>
+            <p className="mt-2 text-slate-600">support@apphany.in</p>
           </div>
         </div>
 

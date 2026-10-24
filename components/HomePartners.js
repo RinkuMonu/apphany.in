@@ -57,8 +57,8 @@ const HomePartners = () => {
     <div className="relative bg-[#E6F6FF]">
       <Link href="/">
         <Image
-          src="/image/SaveDost-initial.png"
-          alt="SaveDost Icon"
+          src="/image/Apphany-initial.png"
+          alt="Apphany Icon"
           width={48}
           height={48}
           className="absolute top-0 w-12 h-12 left-0 invisible"
@@ -71,7 +71,7 @@ const HomePartners = () => {
             Open up Unlimited Growth
           </h3>
           <p className="mt-4 max-w-2xl mx-auto text-gray-500">
-            We, at SaveDost, realize that successful business development depends on effective
+            We, at Apphany, realize that successful business development depends on effective
             partnerships. By partnering with us, you can tap into numerous opportunities that can
             fuel the development of the digital financial sector exponentially.
           </p>

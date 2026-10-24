@@ -40,8 +40,8 @@ function page() {
     description:
       "AePS allows you to use banking services with just your Aadhaar number and fingerprint no card or PIN required. You can withdraw cash, check your balance, transfer funds, and deposit money safely through authorized service points.",
     features: [
-      "SaveDost enables retailers to offer AePS services, making banking easier for customers and creating income opportunities for distributors. Our system ensures fast, secure, and reliable transactions.",
-      "By expanding AePS services in remote areas, SaveDost helps reduce bank dependency and supports digital and financial inclusion across India.",
+      "Apphany enables retailers to offer AePS services, making banking easier for customers and creating income opportunities for distributors. Our system ensures fast, secure, and reliable transactions.",
+      "By expanding AePS services in remote areas, Apphany helps reduce bank dependency and supports digital and financial inclusion across India.",
     ],
   };
 
@@ -53,20 +53,20 @@ function page() {
     retailer: {
       title: "Aadhaar Enabled Payment System—Retailer Partnership Program",
       features: [
-        "Become an AePS retailer and turn your shop into a mini banking point. As an authorized SaveDost agent, you can offer essential banking services and earn attractive commissions on every transaction.",
+        "Become an AePS retailer and turn your shop into a mini banking point. As an authorized Apphany agent, you can offer essential banking services and earn attractive commissions on every transaction.",
         "Start with minimal investment with just a smartphone and a biometric device. Provide services like cash withdrawal, balance enquiry, fund transfer, and bill payments, making your store the go-to banking hub in your area.",
         "Our retailer program is designed for maximum profit and ease of use. Earn commissions and increase daily footfall with complete training, technical assistance, and secure RBI-approved systems for total peace of mind.",
-        "Join thousands of successful retailers across India who are growing their business with AEPS. Enjoy real-time transactions and daily settlements to focus on expanding your business while we manage the technology. Register today as a SaveDost AePS retailer and start your journey.",
+        "Join thousands of successful retailers across India who are growing their business with AEPS. Enjoy real-time transactions and daily settlements to focus on expanding your business while we manage the technology. Register today as a Apphany AePS retailer and start your journey.",
       ],
       image: "/aeps/e1.png",
     },
     distributor: {
       title: "Aadhaar Enabled Payment System—partnership with Distributors Program",
       features: [
-        "Grow a strong and profitable banking network with SaveDost’s AePS Distributor Program. As a distributor, you can onboard retailers in your area and earn attractive commissions on every transaction made through your network. This opportunity allows you to expand your reach while becoming a key contributor to digital banking services.",
-        "SaveDost supports you at every step with professional training, marketing assistance, and reliable technical support. Our proven business model helps you build a steady income while promoting financial inclusion in your region. All you need to get started is basic business understanding and a smartphone.",
+        "Grow a strong and profitable banking network with Apphany’s AePS Distributor Program. As a distributor, you can onboard retailers in your area and earn attractive commissions on every transaction made through your network. This opportunity allows you to expand your reach while becoming a key contributor to digital banking services.",
+        "Apphany supports you at every step with professional training, marketing assistance, and reliable technical support. Our proven business model helps you build a steady income while promoting financial inclusion in your region. All you need to get started is basic business understanding and a smartphone.",
         "Boost your business visibility by enabling local retailers to offer essential AePS banking services. By supporting shop owners in serving their customers better, you also grow your own distribution network through a transparent commission structure and real-time performance tracking.",
-        "Join SaveDost’s trusted network of distributors across India and be part of the digital banking transformation. Take the first step toward financial independence and leadership by becoming an authorized AePS distributor today.",
+        "Join Apphany’s trusted network of distributors across India and be part of the digital banking transformation. Take the first step toward financial independence and leadership by becoming an authorized AePS distributor today.",
       ],
       image: "/aeps/e2.png",
     },

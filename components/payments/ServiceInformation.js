@@ -34,7 +34,7 @@ const descriptions = {
     "Broadband and landline payments clear eligible invoices raised by supported internet and telephone service providers.",
   challan:
     "An e-challan payment clears an eligible traffic penalty associated with a vehicle after the challan details are verified.",
-  more: "SaveDost brings supported recharge, bill-payment and recurring-payment categories together in one convenient service directory.",
+  more: "Apphany brings supported recharge, bill-payment and recurring-payment categories together in one convenient service directory.",
   nps: "An NPS contribution adds an eligible voluntary amount to a National Pension System account using the subscriber's PRAN.",
   "cable-tv":
     "A cable TV payment renews or clears charges for a supported local or national cable television subscription.",
@@ -337,14 +337,14 @@ const capabilities = {
     ["Explore categories", "Browse supported recharge, utility and recurring-payment services."],
     ["Choose a provider", "Select the biller or organisation relevant to your payment."],
     ["Enter customer details", "Provide the information required for the selected category."],
-    ["Continue in one app", "Use SaveDost for an eligible service request."],
+    ["Continue in one app", "Use Apphany for an eligible service request."],
   ],
 };
 
 export default function ServiceInformation({ service }) {
   const description =
     descriptions[service.slug] ||
-    `This service helps you complete an eligible ${service.title.toLowerCase()} request through supported providers on SaveDost.`;
+    `This service helps you complete an eligible ${service.title.toLowerCase()} request through supported providers on Apphany.`;
   const image = serviceImages[service.slug] || "/bbps/billpayment.png";
   const availableActions = capabilities[service.slug] || capabilities.more;
 
@@ -360,7 +360,7 @@ export default function ServiceInformation({ service }) {
           </h2>
           <p className="mt-5 max-w-3xl text-base leading-8 text-slate-600">{description}</p>
           <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-600">
-            SaveDost provides a clear digital journey for selecting a supported provider, entering
+            Apphany provides a clear digital journey for selecting a supported provider, entering
             the required details, reviewing the request and continuing securely.
           </p>
         </ScrollReveal>
@@ -368,7 +368,7 @@ export default function ServiceInformation({ service }) {
           <div className="relative h-64 overflow-hidden sm:h-72">
             <Image
               src={image}
-              alt={`${service.title} service with SaveDost`}
+              alt={`${service.title} service with Apphany`}
               fill
               sizes="(max-width: 1024px) 90vw, 420px"
               className="object-contain mix-blend-multiply"
@@ -387,7 +387,7 @@ export default function ServiceInformation({ service }) {
           </h2>
           <p className="mt-4 text-sm leading-7 text-slate-600">
             Explore the main actions available for {service.title.toLowerCase()} through supported
-            SaveDost providers.
+            Apphany providers.
           </p>
         </ScrollReveal>
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
@@ -414,7 +414,7 @@ export default function ServiceInformation({ service }) {
             Simple process
           </p>
           <h2 className="mt-3 text-3xl font-extrabold text-[#0C3D4C]">
-            How to continue with SaveDost
+            How to continue with Apphany
           </h2>
         </ScrollReveal>
         <div className="mt-9 grid gap-5 md:grid-cols-3">
@@ -432,7 +432,7 @@ export default function ServiceInformation({ service }) {
             [
               CheckCircle2,
               "Complete securely",
-              "Continue through the SaveDost app and retain the transaction reference for your records.",
+              "Continue through the Apphany app and retain the transaction reference for your records.",
             ],
           ].map(([StepIcon, title, text], index) => (
             <ScrollReveal key={title} delay={index * 0.08} className="h-full">
@@ -452,7 +452,7 @@ export default function ServiceInformation({ service }) {
       <section className="border-t border-[#e1edef] bg-[#0C3D4C] px-6 py-14 text-white sm:px-10 lg:px-14 lg:py-18">
         <ScrollReveal className="mx-auto max-w-3xl text-center">
           <p className="text-xs font-extrabold uppercase tracking-[.18em] text-[#9de4ef]">
-            The SaveDost advantage
+            The Apphany advantage
           </p>
           <h2 className="mt-3 text-3xl font-extrabold sm:text-4xl">
             A clearer way to manage everyday payments
@@ -477,12 +477,12 @@ export default function ServiceInformation({ service }) {
             [
               RefreshCw,
               "Convenient access",
-              "Use the SaveDost app to continue eligible payment requests when it suits you.",
+              "Use the Apphany app to continue eligible payment requests when it suits you.",
             ],
             [
               Headphones,
               "Helpful support",
-              "Reach SaveDost support when you need guidance about an account or transaction.",
+              "Reach Apphany support when you need guidance about an account or transaction.",
             ],
           ].map(([BenefitIcon, title, text], index) => (
             <ScrollReveal key={title} delay={index * 0.07} className="h-full">
@@ -546,7 +546,7 @@ export default function ServiceInformation({ service }) {
             ],
             [
               "What if the status is pending?",
-              "Avoid paying again immediately. Keep the reference and contact SaveDost support if the status does not update.",
+              "Avoid paying again immediately. Keep the reference and contact Apphany support if the status does not update.",
             ],
           ].map(([question, answer], index) => (
             <ScrollReveal key={question} delay={index * 0.07} className="h-full">

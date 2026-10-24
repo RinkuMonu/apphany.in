@@ -42,7 +42,7 @@ export default function FreeCreditScorePage() {
             </h1>
             <p className="mx-auto mt-5 max-w-2xl text-base leading-7 text-slate-600 lg:mx-0 lg:text-lg">
               Check your credit score for free, understand the factors behind it, and make more
-              informed financial decisions with SaveDost.
+              informed financial decisions with Apphany.
             </p>
 
             <div className="mt-7 flex flex-wrap justify-center gap-x-6 gap-y-3 lg:justify-start">
@@ -68,7 +68,7 @@ export default function FreeCreditScorePage() {
               <div className="relative h-[260px] sm:h-[330px]">
                 <Image
                   src="/image/credit-score-img.png"
-                  alt="SaveDost credit score overview"
+                  alt="Apphany credit score overview"
                   fill
                   className="object-contain"
                   priority
@@ -100,7 +100,7 @@ export default function FreeCreditScorePage() {
         <div className="mx-auto max-w-7xl">
           <div className="mx-auto max-w-2xl text-center">
             <p className="text-xs font-bold uppercase tracking-[0.16em] text-[#0289ad]">
-              Why check with SaveDost
+              Why check with Apphany
             </p>
             <h2 className="mt-3 text-2xl font-extrabold text-[#0C3D4C] sm:text-3xl">
               A clearer view of your credit profile

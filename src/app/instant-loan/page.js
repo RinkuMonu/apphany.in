@@ -20,9 +20,9 @@ import FAQ from "../../../components/Bike Insurance/FAQ";
 import ScrollReveal from "../../../components/ScrollReveal";
 
 export const metadata = {
-  title: "Instant Loan Online | Quick Digital Loan Assistance | SaveDost",
+  title: "Instant Loan Online | Quick Digital Loan Assistance | Apphany",
   description:
-    "Learn how SaveDost helps you explore instant loan options through a simple digital journey, clear eligibility guidance, document support, and secure assistance.",
+    "Learn how Apphany helps you explore instant loan options through a simple digital journey, clear eligibility guidance, document support, and secure assistance.",
 };
 
 const benefits = [
@@ -44,7 +44,7 @@ const benefits = [
   {
     icon: Headphones,
     title: "Helpful assistance",
-    text: "SaveDost helps you understand the journey and connect with suitable lending options.",
+    text: "Apphany helps you understand the journey and connect with suitable lending options.",
   },
 ];
 
@@ -154,9 +154,9 @@ const faqs = [
       "An instant loan generally refers to a loan with a digital application and faster assessment process. Approval and disbursal times still depend on lender verification, eligibility, and documentation.",
   },
   {
-    question: "Does SaveDost directly approve the loan?",
+    question: "Does Apphany directly approve the loan?",
     answer:
-      "SaveDost helps users explore and navigate loan options. The lending institution makes the final eligibility, approval, interest-rate, and disbursal decision.",
+      "Apphany helps users explore and navigate loan options. The lending institution makes the final eligibility, approval, interest-rate, and disbursal decision.",
   },
   {
     question: "How quickly can funds be received?",
@@ -178,7 +178,7 @@ export default function InstantLoanPage() {
           src="/loan/generated/instant-loan-hero.png"
           fill
           priority
-          alt="Woman using SaveDost digital instant loan assistance"
+          alt="Woman using Apphany digital instant loan assistance"
           className="object-cover object-[68%_center] sm:object-center"
           sizes="100vw"
         />
@@ -193,7 +193,7 @@ export default function InstantLoanPage() {
               <span className="text-[#9de4ef]"> urgent moments.</span>
             </h1>
             <p className="mt-4 max-w-xl text-sm leading-6 text-white/80 sm:mt-6 sm:text-lg sm:leading-7">
-              SaveDost simplifies the loan discovery journey with digital guidance, clear document
+              Apphany simplifies the loan discovery journey with digital guidance, clear document
               support, and access to options that may match your needs.
             </p>
             <div className="mt-6 flex flex-col gap-3 sm:mt-8 sm:flex-row sm:flex-wrap">
@@ -252,7 +252,7 @@ export default function InstantLoanPage() {
         <div className="mx-auto max-w-7xl">
           <ScrollReveal className="mx-auto max-w-3xl text-center">
             <p className="text-xs font-bold uppercase tracking-[0.16em] text-[#0289ad]">
-              How SaveDost helps
+              How Apphany helps
             </p>
             <h2 className="mt-3 text-3xl font-extrabold text-[#0C3D4C] sm:text-4xl">
               A simpler way to explore instant credit
@@ -291,7 +291,7 @@ export default function InstantLoanPage() {
                 How the instant loan journey works
               </h2>
               <p className="mt-4 leading-7 text-slate-600">
-                SaveDost helps you prepare and navigate the journey; the lender completes assessment
+                Apphany helps you prepare and navigate the journey; the lender completes assessment
                 and makes the final decision.
               </p>
               <div className="relative mt-6 h-[210px] sm:mt-8 sm:h-[280px]">
@@ -362,7 +362,7 @@ export default function InstantLoanPage() {
           <div className="flex flex-col justify-between gap-4 lg:flex-row lg:items-end">
             <div className="max-w-2xl">
               <p className="text-xs font-bold uppercase tracking-[0.16em] text-[#0289ad]">
-                SaveDost advantages
+                Apphany advantages
               </p>
               <h2 className="mt-3 text-3xl font-extrabold text-[#0C3D4C] sm:text-4xl">
                 Benefits that help you borrow smarter

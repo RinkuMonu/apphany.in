@@ -66,7 +66,7 @@ export default function PanMoreinfo() {
               </h2>
               <p className="mb-2">
                 {" "}
-                SaveDost offers an online PAN service platform that streamlines the entire process,
+                Apphany offers an online PAN service platform that streamlines the entire process,
                 making it faster, simpler, and completely digital.
               </p>
               <ol className="list-decimal list-inside space-y-10">
@@ -113,7 +113,7 @@ export default function PanMoreinfo() {
                     </li>
                     <li style={{ listStylePosition: "outside" }}>
                       Through India’s digital PAN card system, both Indian and foreign citizens can
-                      conveniently apply for new PANs or request corrections online using SaveDost’s
+                      conveniently apply for new PANs or request corrections online using Apphany’s
                       quick and reliable PAN application services.
                     </li>
                   </ul>
@@ -126,7 +126,7 @@ export default function PanMoreinfo() {
             <div>
               <h2 className="text-lg font-semibold mb-3">How to Apply for PAN</h2>
               <p className="mb-4">
-                SaveDost offers two convenient ways to apply for a PAN card, allowing applicants to
+                Apphany offers two convenient ways to apply for a PAN card, allowing applicants to
                 choose the method that best suits them:
               </p>
 
@@ -135,7 +135,7 @@ export default function PanMoreinfo() {
                 <li>
                   <p className="font-semibold text-gray-900 mb-1">Online Application:</p>
                   <p className="text-gray-700">
-                    Applicants can submit their PAN request digitally through SaveDost’s online PAN
+                    Applicants can submit their PAN request digitally through Apphany’s online PAN
                     platform. The entire process can be completed paperlessly using e-KYC, e-Sign,
                     or a Digital Signature Certificate (DSC). If preferred, applicants may also
                     upload the form online and later send physical documents for verification.
@@ -149,7 +149,7 @@ export default function PanMoreinfo() {
                     For those who prefer an offline process, the PAN application form can be
                     downloaded and printed. After filling in the details manually and attaching the
                     necessary supporting documents, the completed form can be submitted at any
-                    SaveDost-authorized PAN service center. Before submitting the application,
+                    Apphany-authorized PAN service center. Before submitting the application,
                     applicants are advised to review all instructions and guidelines carefully to
                     ensure accurate details and smooth processing without delays.
                   </p>
@@ -187,12 +187,12 @@ export default function PanMoreinfo() {
             <div>
               <h2 className="text-lg font-semibold mb-3">Communications</h2>
               <p className="mb-3 text-gray-700">
-                After submission, SaveDost verifies and digitizes your PAN application details
+                After submission, Apphany verifies and digitizes your PAN application details
                 before securely transmitting them to the Income Tax Department (ITD).
               </p>
 
               <p className="mb-3 text-gray-700">
-                For Form 49A (New PAN) applications, the ITD issues a fresh PAN number. SaveDost
+                For Form 49A (New PAN) applications, the ITD issues a fresh PAN number. Apphany
                 then arranges the printing and delivery of the physical PAN card, while the e-PAN is
                 sent directly to your registered email address.
               </p>
@@ -225,21 +225,21 @@ export default function PanMoreinfo() {
               <h2 className="text-lg font-semibold mb-4">Processing Fee</h2>
 
               <p className="mb-3 text-gray-700">
-                <span className="text-[#E60012] font-semibold">SaveDost</span> provides
+                <span className="text-[#E60012] font-semibold">Apphany</span> provides
                 cost-effective and fully transparent pricing for all types of PAN card applications
                 submitted through its online PAN service platform.
               </p>
 
               <p className="mb-3 text-gray-700">
                 <b>Note:</b>eSign charges apply only when applicants opt for e-KYC or e-Sign based
-                verification. All payments processed via the SaveDost PAN service portal are
+                verification. All payments processed via the Apphany PAN service portal are
                 completed through secure and protected channels. This ensures fast confirmation,
                 dependable transactions, and a seamless application experience for users.
               </p>
 
               <p className="mb-6 text-gray-700">
                 All payments made through the{" "}
-                <span className="text-[#E60012] font-semibold">SaveDost PAN service portal</span>{" "}
+                <span className="text-[#E60012] font-semibold">Apphany PAN service portal</span>{" "}
                 are handled in a safe and secure manner, ensuring instant and reliable processing
                 for a smooth experience.
               </p>
@@ -371,13 +371,13 @@ export default function PanMoreinfo() {
 
               <p className="mb-3 text-gray-700">
                 For applicants choosing the paperless e-PAN option, the processing is significantly
-                faster. Using SaveDost’s Online Quick PAN Service, the e-PAN is usually generated
+                faster. Using Apphany’s Online Quick PAN Service, the e-PAN is usually generated
                 and delivered digitally within 2–3 working days.
               </p>
 
               <p className="mb-3 text-gray-700">
                 Applicants can conveniently track the progress of their PAN application at any stage
-                through the SaveDost PAN Service Portal by entering their acknowledgment number.
+                through the Apphany PAN Service Portal by entering their acknowledgment number.
               </p>
 
               <p className="text-gray-700">

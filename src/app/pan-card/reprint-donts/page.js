@@ -74,12 +74,12 @@ export default function Reprintguideline() {
           <ul className="list-disc list-inside text-gray-700 leading-relaxed space-y-2 marker:text-[#0077b6]">
             <li>
               E-mail:{" "}
-              <a href="mailto:support@savedost.in" className="text-blue-600 hover:underline">
-                support@savedost.in
+              <a href="mailto:support@apphany.in" className="text-blue-600 hover:underline">
+                support@apphany.in
               </a>
             </li>
             <li>
-              Track Status / SMS Status: Send <strong>SaveDost 15-digit Acknowledgement No.</strong>{" "}
+              Track Status / SMS Status: Send <strong>Apphany 15-digit Acknowledgement No.</strong>{" "}
               to <strong>57575</strong> to obtain application status.
             </li>
           </ul>

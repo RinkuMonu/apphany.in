@@ -36,7 +36,7 @@ export default function ReprintOfpancard() {
   const contentData = [
     {
       content:
-        "Request a reprint of your PAN Card easily through SaveDost’s online PAN services. This option is available if you do not need to make any changes to your PAN information.",
+        "Request a reprint of your PAN Card easily through Apphany’s online PAN services. This option is available if you do not need to make any changes to your PAN information.",
     },
     {
       content:

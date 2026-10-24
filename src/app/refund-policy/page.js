@@ -1,12 +1,12 @@
 import LegalPolicyPage from "../../../components/LegalPolicyPage";
 
-// Refund rules written for customers using SaveDost services.
+// Refund rules written for customers using Apphany services.
 const sections = [
   {
     id: "scope",
     title: "Policy Scope",
     paragraphs: [
-      "This policy explains when a user may request a refund for a payment made through SaveDost. It applies to supported recharges, bill payments, bookings, applications, and other digital or financial services.",
+      "This policy explains when a user may request a refund for a payment made through Apphany. It applies to supported recharges, bill payments, bookings, applications, and other digital or financial services.",
     ],
   },
   {
@@ -16,7 +16,7 @@ const sections = [
       "Payment was deducted but the transaction failed and was not automatically reversed.",
       "The same transaction was charged more than once.",
       "The service provider confirms that the requested service was not delivered.",
-      "SaveDost or the provider approves a refund after investigating a verified technical error.",
+      "Apphany or the provider approves a refund after investigating a verified technical error.",
     ],
   },
   {
@@ -34,14 +34,14 @@ const sections = [
     id: "request",
     title: "How to Request a Refund",
     paragraphs: [
-      "Email support@savedost.in and provide the registered mobile number, transaction ID, date, amount, service type, and a clear explanation of the issue. Additional proof may be requested when needed for verification.",
+      "Email support@apphany.in and provide the registered mobile number, transaction ID, date, amount, service type, and a clear explanation of the issue. Additional proof may be requested when needed for verification.",
     ],
   },
   {
     id: "review",
     title: "Review and Verification",
     paragraphs: [
-      "SaveDost will review internal records and may seek confirmation from the payment gateway, bank, biller, or service provider. Acknowledgement is generally provided within 24–48 business hours, although final verification may take longer when a third party is involved.",
+      "Apphany will review internal records and may seek confirmation from the payment gateway, bank, biller, or service provider. Acknowledgement is generally provided within 24–48 business hours, although final verification may take longer when a third party is involved.",
     ],
   },
   {
@@ -69,7 +69,7 @@ const sections = [
     id: "support",
     title: "Support and Escalation",
     paragraphs: [
-      "If a refund is delayed beyond the communicated timeline, contact support with the original case reference. Users should contact SaveDost before initiating a bank chargeback so the transaction can first be investigated through the normal resolution process.",
+      "If a refund is delayed beyond the communicated timeline, contact support with the original case reference. Users should contact Apphany before initiating a bank chargeback so the transaction can first be investigated through the normal resolution process.",
     ],
   },
 ];

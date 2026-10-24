@@ -56,7 +56,7 @@ export default function Guidelineforeign() {
         "Applicants not having an office in India:",
         "Proof of Identity: Certificate of Registration issued in the country of residence of the applicant, duly attested by Apostille or by the Indian Embassy, High Commission, or Consulate, or by authorized officials of overseas branches of scheduled banks registered in India (in prescribed format).",
         "Proof of Address: Same as Proof of Identity mentioned above.",
-        "Example: Finunique Small Private Limited must submit a Certificate of Incorporation issued by the Registrar of Companies as Proof of Identity (POI) and Proof of Address (POA) when its office is located in India.",
+        "Example: Apphany Technologies Pvt. Ltd. must submit a Certificate of Incorporation issued by the Registrar of Companies as Proof of Identity (POI) and Proof of Address (POA) when its office is located in India.",
       ],
     },
   ];

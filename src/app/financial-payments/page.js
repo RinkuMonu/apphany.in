@@ -19,7 +19,7 @@ import FAQ from "../../../components/Bike Insurance/FAQ";
 import ScrollReveal from "../../../components/ScrollReveal";
 
 export const metadata = {
-  title: "Financial Payments | SaveDost",
+  title: "Financial Payments | Apphany",
   description:
     "Explore supported financial payment categories including loan EMI, credit-card bills, insurance premiums, NPS contributions, recurring deposits and rent.",
 };
@@ -175,7 +175,7 @@ const faqs = [
   {
     question: "What if my institution or biller is unavailable?",
     answer:
-      "Availability depends on the category and participating provider. Try the relevant form to view supported options or contact the SaveDost support team.",
+      "Availability depends on the category and participating provider. Try the relevant form to view supported options or contact the Apphany support team.",
   },
   {
     question: "What if a payment is pending or unsuccessful?",

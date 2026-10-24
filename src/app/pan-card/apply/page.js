@@ -88,7 +88,7 @@ export default function ApplyNow() {
             <div>
               <h2 className="text-xl font-extrabold">Have your documents ready?</h2>
               <p className="mt-1 text-sm leading-6 text-white/75">
-                Sign in to continue securely through the SaveDost PAN application journey.
+                Sign in to continue securely through the Apphany PAN application journey.
               </p>
             </div>
           </div>

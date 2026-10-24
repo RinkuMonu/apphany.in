@@ -133,7 +133,7 @@ export default function PanCorrectionCard() {
                   details, such as your name, father’s name, or date of birth. <br />
                   A new PAN card will be issued with the same PAN number and the updated
                   information. <br />
-                  With the SaveDost PAN service portal, the entire process is fully online, secure,
+                  With the Apphany PAN service portal, the entire process is fully online, secure,
                   and verified digitally to ensure fast and accurate results.
                 </p>
 
@@ -231,7 +231,7 @@ export default function PanCorrectionCard() {
                   <div className="mx-auto rounded-2xl border border-[#d7e9ed] bg-white p-3 shadow-lg">
                     <Image
                       src="/MainQR.jpeg"
-                      alt="QR code to download the SaveDost app"
+                      alt="QR code to download the Apphany app"
                       width={160}
                       height={160}
                       className="h-36 w-36 object-contain sm:h-40 sm:w-40"
@@ -240,7 +240,7 @@ export default function PanCorrectionCard() {
                 </div>
                 <div className="mt-4 flex flex-col gap-3 border-t border-slate-200 pt-4 sm:flex-row sm:items-center sm:justify-between">
                   <p className="max-w-[245px] text-sm font-semibold leading-5 text-[#132238]">
-                    Download SaveDost to complete your PAN amendment securely.
+                    Download Apphany to complete your PAN amendment securely.
                   </p>
                   <div className="flex flex-wrap gap-3">
                     <Link

@@ -73,7 +73,7 @@ export default function WhiteLabelSection() {
         <div className="relative mx-auto h-[330px] w-full max-w-[520px] sm:h-[430px] lg:h-[520px]">
           <Image
             src="/image/white-label-man.PNG"
-            alt="SaveDost white label business solution"
+            alt="Apphany white label business solution"
             fill
             className="object-contain object-bottom"
           />

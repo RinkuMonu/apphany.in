@@ -27,7 +27,7 @@ const offerGroups = {
     ],
     [
       "App-only rewards",
-      "Check the SaveDost app for rewards available on eligible recharges.",
+      "Check the Apphany app for rewards available on eligible recharges.",
       Gift,
       "View app offers",
       "Bonus rewards*",
@@ -50,7 +50,7 @@ const offerGroups = {
     ],
     [
       "App rewards",
-      "Check for service-specific rewards available through the SaveDost app.",
+      "Check for service-specific rewards available through the Apphany app.",
       Gift,
       "View app rewards",
       "Reward bonus*",
@@ -420,7 +420,7 @@ export default function ServiceOffers({ serviceSlug, serviceName }) {
 
         <p className="mt-5 text-[10px] leading-5 text-slate-500">
           Offers are subject to eligibility, partner availability and applicable terms. Review the
-          final offer details in the SaveDost app before payment.
+          final offer details in the Apphany app before payment.
         </p>
       </section>
 
@@ -449,7 +449,7 @@ export default function ServiceOffers({ serviceSlug, serviceName }) {
                   id="offers-download-title"
                   className="pr-12 text-center text-xl font-extrabold text-[#0C3D4C] sm:pr-0 sm:text-2xl"
                 >
-                  Continue with the SaveDost App
+                  Continue with the Apphany App
                 </h2>
                 <p className="mx-auto mt-2 max-w-xl text-center text-sm leading-6 text-slate-600">
                   Open the app to check current eligibility and terms for this {serviceName} offer.
@@ -469,14 +469,14 @@ export default function ServiceOffers({ serviceSlug, serviceName }) {
                       </li>
                       <li className="flex gap-3">
                         <span className="font-bold">3.</span>
-                        <span>Open the link and download the SaveDost app</span>
+                        <span>Open the link and download the Apphany app</span>
                       </li>
                     </ol>
                   </div>
                   <div className="mx-auto rounded-xl bg-white p-3 shadow-[0_8px_24px_rgba(12,61,76,.14)]">
                     <Image
                       src="/MainQR.jpeg"
-                      alt="QR code to download the SaveDost app"
+                      alt="QR code to download the Apphany app"
                       width={210}
                       height={210}
                       className="h-44 w-44 object-contain sm:h-52 sm:w-52"

@@ -7,13 +7,13 @@ import SiteLayout from "../../components/layout/SiteLayout";
 export const metadata = {
   metadataBase: new URL("https://savedost.in"),
   title: {
-    default: "SaveDost | Payments, Recharge and Financial Services",
-    template: "%s | SaveDost",
+    default: "Apphany | Payments, Recharge and Financial Services",
+    template: "%s | Apphany",
   },
   description:
-    "Recharge, pay bills, explore insurance, booking, PAN card, credit and loan services with SaveDost.",
+    "Recharge, pay bills, explore insurance, booking, PAN card, credit and loan services with Apphany.",
   keywords: [
-    "SaveDost",
+    "Apphany",
     "bill payment",
     "mobile recharge",
     "insurance",
@@ -25,27 +25,27 @@ export const metadata = {
   },
   openGraph: {
     type: "website",
-    siteName: "SaveDost",
-    title: "SaveDost | Payments, Recharge and Financial Services",
+    siteName: "Apphany",
+    title: "Apphany | Payments, Recharge and Financial Services",
     description:
-      "Recharge, pay bills, explore insurance, booking, PAN card, credit and loan services with SaveDost.",
+      "Recharge, pay bills, explore insurance, booking, PAN card, credit and loan services with Apphany.",
     url: "/",
     images: [
       {
-        url: "/image/SaveDost-initial.png",
-        alt: "SaveDost",
+        url: "/image/Apphany-initial.png",
+        alt: "Apphany",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "SaveDost | Payments, Recharge and Financial Services",
+    title: "Apphany | Payments, Recharge and Financial Services",
     description:
-      "Recharge, pay bills, explore insurance, booking, PAN card, credit and loan services with SaveDost.",
-    images: ["/image/SaveDost-initial.png"],
+      "Recharge, pay bills, explore insurance, booking, PAN card, credit and loan services with Apphany.",
+    images: ["/image/Apphany-initial.png"],
   },
   icons: {
-    icon: "/image/SaveDost-initial.png",
+    icon: "/image/Apphany-initial.png",
   },
 };
 
@@ -76,7 +76,7 @@ export default function RootLayout({ children }) {
           "@type": "WebPage",
           "@id": "https://savedost.in/"
         },
-        "headline": "SaveDost Bill Payment, Recharge, Insurance, Booking, Credit Card, pancard, Loan",
+        "headline": "Apphany Bill Payment, Recharge, Insurance, Booking, Credit Card, pancard, Loan",
         "image": "https://savedost.in/_next/image?url=%2Fimage%2Fmen-home.png&w=1200&q=75",
         "author": { "@type": "Organization", "name": "" },
         "publisher": {
@@ -90,7 +90,7 @@ export default function RootLayout({ children }) {
           }}
         />
 
-        <link rel="icon" type="image/png" href="/image/SaveDost-initial.png" />
+        <link rel="icon" type="image/png" href="/image/Apphany-initial.png" />
 
         {/* Google Tag Manager */}
         <Script id="google-tag-manager" strategy="afterInteractive">
@@ -102,7 +102,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </Script>
         <meta
           property="og:image"
-          content="https://savedost.in/image/SaveDost-initial.png"
+          content="https://savedost.in/image/Apphany-initial.png"
         />
       </head>
 

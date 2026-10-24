@@ -2,7 +2,7 @@ import LoanProductPage from "../../../../components/LoanProductPage";
 import { loanProducts } from "../../../data/loanProducts";
 
 export const metadata = {
-  title: "Home Loan | SaveDost",
+  title: "Home Loan | Apphany",
   description: "Explore home loans for property purchase, construction and renovation.",
 };
 export default function HomeLoanPage() {

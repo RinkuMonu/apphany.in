@@ -34,7 +34,7 @@ export const loanProducts = {
     ],
     assistanceBanners: [
       {
-        label: "SaveDost support",
+        label: "Apphany support",
         title: "Prepare your property file with confidence",
         text: "Get a clear checklist for borrower details and the property papers commonly reviewed during assessment.",
         href: "/contact",
@@ -154,7 +154,7 @@ export const loanProducts = {
     ],
     assistanceBanners: [
       {
-        label: "SaveDost support",
+        label: "Apphany support",
         title: "Know what to prepare before applying",
         text: "Get help organising KYC, income, employment, and bank details for a smoother digital journey.",
         href: "/contact",
@@ -274,7 +274,7 @@ export const loanProducts = {
     ],
     assistanceBanners: [
       {
-        label: "SaveDost support",
+        label: "Apphany support",
         title: "Compare the car price with the complete cost",
         text: "Plan for contribution, registration, insurance, and EMI—not only the vehicle’s quoted price.",
         href: "/contact",
@@ -394,7 +394,7 @@ export const loanProducts = {
     ],
     assistanceBanners: [
       {
-        label: "SaveDost support",
+        label: "Apphany support",
         title: "Present a clearer business funding case",
         text: "Organise the funding purpose, banking, tax, ownership, and cash-flow records commonly reviewed by lenders.",
         href: "/contact",
@@ -514,7 +514,7 @@ export const loanProducts = {
     ],
     assistanceBanners: [
       {
-        label: "SaveDost support",
+        label: "Apphany support",
         title: "Build a complete equipment proposal",
         text: "Prepare the machine quotation, project use, contracts, business records, and repayment source for assessment.",
         href: "/contact",

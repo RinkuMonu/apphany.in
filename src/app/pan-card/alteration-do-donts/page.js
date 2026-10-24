@@ -72,7 +72,7 @@ export default function Page() {
         <p>
           For guidance or help with your PAN reprint or correction application:
           <br />
-          Email: support@savedost.in
+          Email: support@apphany.in
           <br />
           Track your application:{" "}
           <a href="https://www.7unique.in/pan-status" className="text-blue-600 underline">

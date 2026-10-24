@@ -75,7 +75,7 @@ export default function page() {
 
   const whydata = {
     title1: "Why Choose Us",
-    title2: "Why Choose SaveDost Insurance ",
+    title2: "Why Choose Apphany Insurance ",
     desc: "Protect your vehicle from all major risks with flexible coverage options designed for stress-free driving.",
     features: [
       {

@@ -26,7 +26,7 @@ export default function PancardAllotment() {
             currently possess one. You can also verify whether a PAN has already been allotted to
             you through the official Income Tax Department portal.
             <br />
-            SaveDost offers a seamless online PAN application service, providing a digital PAN
+            Apphany offers a seamless online PAN application service, providing a digital PAN
             within a short turnaround time. The entire submission process is paperless, secure, and
             completed through our online PAN service portal for a smooth and hassle-free experience.
           </p>

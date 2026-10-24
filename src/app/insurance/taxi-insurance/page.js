@@ -26,7 +26,7 @@ export default function page() {
     badge: "About Us",
     heading: "Insurance That Protects Your Daily Earnings",
     paragraphs: [
-      "Your taxi works hard every day, and so do you. At SaveDost, we provide reliable taxi insurance that safeguards your vehicle and your income from unexpected risks like accidents, theft, and legal liabilities.",
+      "Your taxi works hard every day, and so do you. At Apphany, we provide reliable taxi insurance that safeguards your vehicle and your income from unexpected risks like accidents, theft, and legal liabilities.",
       "We aim to make insurance easy to understand and quick to access, helping drivers stay protected while focusing on their rides and earnings.",
     ],
     stats: [

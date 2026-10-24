@@ -11,7 +11,7 @@ const faqs = [
   {
     question: "What types of insurance can I explore?",
     answer:
-      "You can explore bike, car, taxi, and commercial vehicle insurance options through SaveDost.",
+      "You can explore bike, car, taxi, and commercial vehicle insurance options through Apphany.",
   },
   {
     question: "How do I request insurance assistance?",
@@ -67,7 +67,7 @@ export default function InsurancePage() {
           </h2>
           <p className="mx-auto mt-4 max-w-4xl text-base leading-7 text-slate-600">
             The right insurance policy can help reduce the financial impact of covered loss or
-            damage. SaveDost helps customers explore vehicle insurance options through a clear and
+            damage. Apphany helps customers explore vehicle insurance options through a clear and
             convenient process.
           </p>
         </div>

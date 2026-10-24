@@ -33,7 +33,7 @@ const privacySections = [
     icon: <Shield />,
     title: "Introduction",
     content: [
-      "SaveDost is a consumer-facing brand powered and operated by Finunique Small Private Limited (“Company”, “we”, “our”, or “us”). The Company values the privacy of its users and is fully committed to safeguarding personal data. This Privacy Policy outlines how we collect, use, store, and protect your information when you access or use SaveDost services, including but not limited to Bharat Bill Payment System (BBPS), Mobile/DTH Recharges, Utility Bill Payments, and other financial technology solutions offered by us.",
+      "Apphany is a consumer-facing brand powered and operated by Apphany Technologies Pvt. Ltd. (“Company”, “we”, “our”, or “us”). The Company values the privacy of its users and is fully committed to safeguarding personal data. This Privacy Policy outlines how we collect, use, store, and protect your information when you access or use Apphany services, including but not limited to Bharat Bill Payment System (BBPS), Mobile/DTH Recharges, Utility Bill Payments, and other financial technology solutions offered by us.",
       "Our goal is to ensure that your personal and financial information is handled responsibly, securely, and in compliance with applicable laws and regulatory guidelines, including those prescribed by the Reserve Bank of India (RBI), National Payments Corporation of India (NPCI), and Unique Identification Authority of India (UIDAI).",
       "By using our services, you consent to the collection and use of your information in accordance with this Privacy Policy. We only gather information that is essential to provide seamless transactions, meet compliance obligations, and enhance user experience. We do not sell or rent your personal data to unauthorized third parties.",
       "We encourage all users to read this policy carefully to understand how we handle your information and to exercise your rights effectively.",
@@ -44,7 +44,7 @@ const privacySections = [
     icon: <Database />,
     title: "Information We Collect",
     content: [
-      "At Finunique Small Private Limited, we are committed to collecting only such information that is necessary for providing our financial and utility services in a safe, secure, and legally compliant manner. The categories of information we may collect include:",
+      "At Apphany Technologies Pvt. Ltd., we are committed to collecting only such information that is necessary for providing our financial and utility services in a safe, secure, and legally compliant manner. The categories of information we may collect include:",
       "Personal Information — such as your full name, contact details, Aadhaar, PAN, and KYC-related data.",
       "Financial Information — including bank details, UPI IDs, wallet data, and transaction history.",
       "Technical Information — like IP address, device details, and usage logs.",
@@ -156,8 +156,8 @@ const privacySections = [
     content: [
       "In compliance with Indian law, we have appointed a Grievance Officer to address privacy-related concerns.",
       "Grievance Officer",
-      "Finunique Small Private Limited",
-      "Email: support@savedost.in",
+      "Apphany Technologies Pvt. Ltd.",
+      "Email: support@apphany.in",
       "All complaints will be acknowledged and resolved promptly.",
     ],
   },
@@ -221,7 +221,7 @@ export default function Privacy() {
                 Privacy Policy
               </h1>
               <p className="mt-4 max-w-2xl text-base leading-7 text-slate-200 sm:text-lg">
-                Learn how SaveDost collects, protects, and responsibly uses your information.
+                Learn how Apphany collects, protects, and responsibly uses your information.
               </p>
             </div>
           </div>
@@ -295,9 +295,9 @@ export default function Privacy() {
                         <dt className="text-xs font-bold uppercase tracking-wider text-slate-400">
                           Brand &amp; operator
                         </dt>
-                        <dd className="mt-2 font-bold text-[#0C3D4C]">SaveDost</dd>
+                        <dd className="mt-2 font-bold text-[#0C3D4C]">Apphany</dd>
                         <dd className="mt-1 text-xs text-slate-500">
-                          Powered and operated by Finunique Small Private Limited
+                          Powered and operated by Apphany Technologies Pvt. Ltd.
                         </dd>
                       </div>
                     </dl>

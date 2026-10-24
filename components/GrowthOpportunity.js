@@ -7,9 +7,9 @@ import { CheckCircle2 } from "lucide-react";
 const content = {
   title: "Everyday services in one convenient place",
   description:
-    "Use SaveDost to explore and access essential digital and financial services with a simple, customer-friendly experience.",
+    "Use Apphany to explore and access essential digital and financial services with a simple, customer-friendly experience.",
   image: "/about/custom.jpg",
-  imageAlt: "Customer using SaveDost digital services",
+  imageAlt: "Customer using Apphany digital services",
   benefits: [
     "Recharge mobiles and pay supported utility bills.",
     "Explore booking, insurance, PAN, credit, and loan services.",

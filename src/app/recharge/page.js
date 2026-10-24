@@ -13,7 +13,7 @@ function page() {
     subheading: "RECHARGE",
     heading: "Mobile Recharge Bina Tension",
     description:
-      "Fill up your mobile immediately with SaveDost! Get the most popular plans and offers of all the major operators. Quick, safe, and dependable mobile recharge services.",
+      "Fill up your mobile immediately with Apphany! Get the most popular plans and offers of all the major operators. Quick, safe, and dependable mobile recharge services.",
     bgImage: "/recharge/rbg.png",
     centerImage: "/MainQR.jpeg",
   };
@@ -22,10 +22,10 @@ function page() {
     subheading: "Mobile Recharge",
     heading: "Service Bina Interruption, Recharge Bina Tension.",
     description:
-      "Be in touch with convenient mobile top-ups on SaveDost. Top up your prepaid account or postpaid bills within seconds using our secure system. Activate instantly and the top plans of all major operators.",
+      "Be in touch with convenient mobile top-ups on Apphany. Top up your prepaid account or postpaid bills within seconds using our secure system. Activate instantly and the top plans of all major operators.",
     features: [
       "Receive unique cashback and discounts on all recharges. We have a 24/7 service, so you will never experience a shortage of time or even data. Fuss-free, quick, and convenient recharge services for all your mobile requirements.",
-      "Install the SaveDost app to have a smooth recharge and bill payment. Feel the ease of recharging at any time and location with a few taps on your phone.",
+      "Install the Apphany app to have a smooth recharge and bill payment. Feel the ease of recharging at any time and location with a few taps on your phone.",
     ],
   };
 

@@ -22,7 +22,7 @@ const SERVICE_MENU = [
     children: [
       { id: "bill-payments", label: "Bill Payments", prompt: "How do I pay a bill?" },
       { id: "recharges", label: "Recharges", prompt: "How do I do a mobile/DTH recharge?" },
-      { id: "bbps", label: "BBPS Services", prompt: "What is BBPS and what can I pay through it?" },
+      // { id: "bbps", label: "BBPS Services", prompt: "What is BBPS and what can I pay through it?" },
     ],
   },
   {
@@ -65,7 +65,7 @@ const SERVICE_MENU = [
 
 // 👇 EDIT THESE to your real company contact details — shown at the end of the lead flow
 const COMPANY_CONTACT = {
-  email: "support@savedost.in",
+  email: "support@apphany.in",
 };
 
 // Ordered steps for the lead-capture flow. This now runs automatically
@@ -73,7 +73,7 @@ const COMPANY_CONTACT = {
 const LEAD_STEPS = [
   {
     key: "name",
-    question: "Hi there! I'm the SaveDost assistant. Let's get you sorted — what's your name?",
+    question: "Hi there! I'm the Apphany assistant. Let's get you sorted — what's your name?",
   },
   {
     key: "email",
@@ -321,7 +321,7 @@ export default function SupportChatbot() {
                 <span className="absolute -bottom-0.5 -right-0.5 h-3 w-3 rounded-full bg-emerald-400 ring-2 ring-[#3730A3]" />
               </div>
               <div>
-                <p className="font-semibold leading-tight tracking-tight">SaveDost</p>
+                <p className="font-semibold leading-tight tracking-tight">Apphany</p>
                 <p className="text-xs text-indigo-100/90">
                   {isLoading ? "Typing…" : "Online · You can ask me anything"}
                 </p>

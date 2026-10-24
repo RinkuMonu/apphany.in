@@ -17,16 +17,16 @@ import ReferAppButton from "../../../components/ReferAppButton";
 import ScrollReveal from "../../../components/ScrollReveal";
 
 export const metadata = {
-  title: "Refer & Earn ₹99 | SaveDost",
+  title: "Refer & Earn ₹99 | Apphany",
   description:
-    "Invite eligible friends to SaveDost and earn a ₹99 referral reward after they complete the qualifying steps.",
+    "Invite eligible friends to Apphany and earn a ₹99 referral reward after they complete the qualifying steps.",
 };
 
 const steps = [
   {
     icon: Smartphone,
     number: "01",
-    title: "Open SaveDost",
+    title: "Open Apphany",
     text: "Sign in and open Refer & Earn from your account.",
   },
   {
@@ -50,7 +50,7 @@ const steps = [
 ];
 
 const terms = [
-  "Your friend must be a new and eligible SaveDost user.",
+  "Your friend must be a new and eligible Apphany user.",
   "Your referral code or link must be used during registration.",
   "Registration, verification and the qualifying activity must be completed.",
   "Duplicate, self, fraudulent or incomplete referrals are not eligible.",
@@ -67,7 +67,7 @@ const faqs = [
   {
     question: "Who can I refer?",
     answer:
-      "You can refer an eligible friend who is new to SaveDost and has not registered previously using the same mobile number or identity details.",
+      "You can refer an eligible friend who is new to Apphany and has not registered previously using the same mobile number or identity details.",
   },
   {
     question: "When will I receive the reward?",
@@ -77,7 +77,7 @@ const faqs = [
   {
     question: "Where can I find my referral link?",
     answer:
-      "Sign in to the SaveDost app and open Refer & Earn to view and share your unique referral link or code.",
+      "Sign in to the Apphany app and open Refer & Earn to view and share your unique referral link or code.",
   },
   {
     question: "Why might a referral be ineligible?",
@@ -105,7 +105,7 @@ export default function ReferEarnPage() {
               <span className="mt-1 block text-[#0289ad]">Your rewards do too.</span>
             </h1>
             <p className="mt-6 max-w-xl text-base leading-8 text-slate-600 sm:text-lg">
-              Share SaveDost with an eligible friend. When they complete the qualifying journey, you
+              Share Apphany with an eligible friend. When they complete the qualifying journey, you
               earn a <strong className="font-extrabold text-[#0C3D4C]">₹99 referral reward.</strong>
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -145,7 +145,7 @@ export default function ReferEarnPage() {
                 </div>
                 <Image
                   src="/dmt/earn.png"
-                  alt="SaveDost user inviting a friend"
+                  alt="Apphany user inviting a friend"
                   fill
                   priority
                   className="object-contain object-bottom pt-16"
@@ -205,7 +205,7 @@ export default function ReferEarnPage() {
               From invite to ₹99
             </h2>
             <p className="mt-4 leading-7 text-slate-600">
-              Everything happens through the SaveDost app, so sharing and tracking stay simple.
+              Everything happens through the Apphany app, so sharing and tracking stay simple.
             </p>
           </ScrollReveal>
 

@@ -52,24 +52,24 @@ const AboutSlider = () => {
       imgSrc:
         "https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?q=80&w=2070&auto=format&fit=crop",
       title: "Empowering Small Businesses",
-      text: "Discover how SaveDost helped a local retailer streamline operations and grow revenue through our innovative solutions.",
+      text: "Discover how Apphany helped a local retailer streamline operations and grow revenue through our innovative solutions.",
     },
     // {
     //     imgSrc: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=2232&auto=format&fit=crop",
     //     title: "Seamless Loan Approval",
     //     text: "Read about a young entrepreneur who secured a business loan effortlessly and expanded their startup across multiple districts."
     // },
-    {
-      imgSrc:
-        "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=2070&auto=format&fit=crop",
-      title: "Transforming Digital Payments",
-      text: "Learn how our BBPS services simplified bill payments and recharges for thousands of customers nationwide.",
-    },
+    // {
+    //   imgSrc:
+    //     "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=2070&auto=format&fit=crop",
+    //   title: "Transforming Digital Payments",
+    //   text: "Learn how our BBPS services simplified bill payments and recharges for thousands of customers nationwide.",
+    // },
     {
       imgSrc:
         "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071&auto=format&fit=crop",
       title: "Reliable Insurance Solutions",
-      text: "See how SaveDost guided a family in choosing the right insurance plan, ensuring security and peace of mind.",
+      text: "See how Apphany guided a family in choosing the right insurance plan, ensuring security and peace of mind.",
     },
     {
       imgSrc:

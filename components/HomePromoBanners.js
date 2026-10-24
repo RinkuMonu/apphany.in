@@ -37,7 +37,7 @@ export default function HomePromoBanners() {
   return (
     <section
       className="overflow-hidden bg-[#f5f9fb] py-7 md:px-6 lg:px-8"
-      aria-label="Featured SaveDost services"
+      aria-label="Featured Apphany services"
     >
       <div className="scrollbar-hidden mx-auto flex max-w-[1760px] snap-x snap-mandatory gap-4 overflow-x-auto scroll-smooth px-4 pb-1 [scroll-padding-inline:1rem] [-webkit-overflow-scrolling:touch] md:grid md:grid-cols-3 md:overflow-visible md:px-0 md:pb-0">
         {banners.map((banner, index) => (

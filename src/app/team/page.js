@@ -14,9 +14,9 @@ import {
 import ScrollReveal from "../../../components/ScrollReveal";
 
 export const metadata = {
-  title: "Our Team | SaveDost",
+  title: "Our Team | Apphany",
   description:
-    "Meet the technology, growth and engagement teams working together to build and support SaveDost.",
+    "Meet the technology, growth and engagement teams working together to build and support Apphany.",
 };
 
 const technicalTeam = [
@@ -89,7 +89,7 @@ const values = [
   {
     icon: Heart,
     title: "Customer First",
-    text: "We start with the needs and experience of every SaveDost user.",
+    text: "We start with the needs and experience of every Apphany user.",
   },
   {
     icon: ShieldCheck,
@@ -127,7 +127,7 @@ function TeamMemberCard({ member, tone = "blue" }) {
         {member.image ? (
           <Image
             src={member.image}
-            alt={`${member.name}, ${member.role} at SaveDost`}
+            alt={`${member.name}, ${member.role} at Apphany`}
             fill
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
             className="object-cover object-top transition duration-500 group-hover:scale-[1.025]"
@@ -212,13 +212,13 @@ export default function TeamPage() {
         <div className="mx-auto grid max-w-7xl items-center gap-10 lg:grid-cols-[.95fr_1.05fr]">
           <ScrollReveal direction="left">
             <span className="inline-flex items-center gap-2 rounded-full border border-[#b8dfe7] bg-white px-4 py-2 text-xs font-extrabold uppercase tracking-[.16em] text-[#026381]">
-              <Sparkles size={15} /> The people at SaveDost
+              <Sparkles size={15} /> The people at Apphany
             </span>
             <h1 className="mt-6 max-w-2xl text-4xl font-extrabold leading-[1.08] tracking-tight text-[#0C3D4C] sm:text-5xl lg:text-[58px]">
               One team, building simpler digital experiences.
             </h1>
             <p className="mt-6 max-w-xl text-base leading-8 text-slate-600 sm:text-lg">
-              Meet the people who build our technology, support our services and help SaveDost grow
+              Meet the people who build our technology, support our services and help Apphany grow
               with its users.
             </p>
             <div className="mt-8 flex flex-wrap gap-6">
@@ -231,7 +231,7 @@ export default function TeamPage() {
           <ScrollReveal direction="right" delay={0.12} className="relative h-[320px] sm:h-[430px]">
             <Image
               src="/teams/team.png"
-              alt="The SaveDost team"
+              alt="The Apphany team"
               fill
               priority
               className="object-contain"
@@ -245,7 +245,7 @@ export default function TeamPage() {
           {[
             ["Technology", "Building secure, clear and useful digital journeys."],
             ["Service", "Keeping the user experience practical and dependable."],
-            ["Growth", "Helping more people discover and use SaveDost."],
+            ["Growth", "Helping more people discover and use Apphany."],
           ].map(([title, text], index) => (
             <ScrollReveal
               key={title}
@@ -312,7 +312,7 @@ export default function TeamPage() {
                 <BriefcaseBusiness size={22} />
               </span>
               <p className="text-xs font-extrabold uppercase tracking-[.2em] text-[#9de4ef]">
-                Careers at SaveDost
+                Careers at Apphany
               </p>
             </div>
             <h2 className="mt-6 max-w-3xl text-3xl font-extrabold tracking-tight sm:text-4xl lg:text-5xl">

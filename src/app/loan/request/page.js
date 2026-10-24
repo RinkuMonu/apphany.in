@@ -1,8 +1,8 @@
 import LoanEnquiryForm from "../../../../components/LoanEnquiryForm";
 
 export const metadata = {
-  title: "Loan Eligibility & Enquiry | SaveDost",
-  description: "Submit a SaveDost loan eligibility request or product enquiry.",
+  title: "Loan Eligibility & Enquiry | Apphany",
+  description: "Submit a Apphany loan eligibility request or product enquiry.",
 };
 
 export default async function LoanRequestPage({ searchParams }) {

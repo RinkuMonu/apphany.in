@@ -6,7 +6,7 @@ export default function Guidelines() {
   const guidelinesData = [
     {
       title: "Online PAN Applications Steps",
-      desc: `SaveDost, powered by Finunique Small Private Limited, provides a secure digital PAN card application service for Indian citizens, and it is also available to foreign nationals of Indian origin. Applicants must begin by selecting Form 49A, choosing the correct category, and entering basic personal details. After submission, a unique token number is generated and sent to the registered email address, allowing the form to be saved and edited before final submission. The system verifies all information entered, and any errors can be corrected. Once validation is complete, a confirmation page displays the details for final review.`,
+      desc: `Apphany, powered by Apphany Technologies Pvt. Ltd., provides a secure digital PAN card application service for Indian citizens, and it is also available to foreign nationals of Indian origin. Applicants must begin by selecting Form 49A, choosing the correct category, and entering basic personal details. After submission, a unique token number is generated and sent to the registered email address, allowing the form to be saved and edited before final submission. The system verifies all information entered, and any errors can be corrected. Once validation is complete, a confirmation page displays the details for final review.`,
     },
     {
       title: "Acknowledgement and Verifications",
@@ -18,7 +18,7 @@ export default function Guidelines() {
     },
     {
       title: "Contact Us",
-      desc: `For dependable online PAN service support, email support@savedost.in.`,
+      desc: `For dependable online PAN service support, email support@apphany.in.`,
     },
   ];
 

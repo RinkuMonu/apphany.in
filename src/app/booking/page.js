@@ -44,12 +44,12 @@ function Page() {
           },
         ],
         booking: {
-          title: "Travel Smart,\nTravel SaveDost",
+          title: "Travel Smart,\nTravel Apphany",
           features: [
             {
               cardBgImageUrl: "/booking/c1.png",
               iconUrl: "/booking/i1.png",
-              text: "Best Deals, Best Service\nsirf SaveDost par",
+              text: "Best Deals, Best Service\nsirf Apphany par",
               boldWords: [],
               textColor: "text-white",
             },
@@ -70,7 +70,7 @@ function Page() {
             {
               cardBgImageUrl: "/booking/c4.png",
               iconUrl: "/booking/i4.png",
-              text: "SaveDost Jahan Har \nBooking Ho Assured",
+              text: "Apphany Jahan Har \nBooking Ho Assured",
               boldWords: ["Assured"],
               textColor: "text-white",
             },
@@ -85,12 +85,12 @@ function Page() {
         },
         aeps: {
           subheading: "BOOKING",
-          heading: "Easy Travelling with SaveDost",
+          heading: "Easy Travelling with Apphany",
           description:
-            "Book your flights effortlessly with SaveDost, whether for domestic or international journeys. Enjoy a smooth, hassle-free booking experience with just a few clicks. ",
+            "Book your flights effortlessly with Apphany, whether for domestic or international journeys. Enjoy a smooth, hassle-free booking experience with just a few clicks. ",
           features: [
             "Search, select, and secure your flights instantly. With flexible options, real-time support, and reliable service, your trips whether business or leisure are always stress-free and on time. ",
-            "Fly smart, travel confidently, and make every journey seamless with SaveDost.",
+            "Fly smart, travel confidently, and make every journey seamless with Apphany.",
           ],
         },
         travel: {
@@ -120,17 +120,17 @@ function Page() {
           {
             title: "Bus Booking",
             description: [
-              "Planning your next trip has never been easier. With SaveDost, you can book flights instantly and receive confirmed tickets within minutes. Enjoy a stress-free journey, whether it’s for business or leisure.",
+              "Planning your next trip has never been easier. With Apphany, you can book flights instantly and receive confirmed tickets within minutes. Enjoy a stress-free journey, whether it’s for business or leisure.",
               "Our platform offers fast, secure booking on both mobile and desktop. Compare fares, select convenient timings, and confirm your flights in just a few simple steps.",
-              "At SaveDost, we prioritize quality service and prompt support, ensuring your travel experience is smooth, comfortable, and hassle-free from start to finish.",
+              "At Apphany, we prioritize quality service and prompt support, ensuring your travel experience is smooth, comfortable, and hassle-free from start to finish.",
             ],
           },
           {
             title: "Train Booking",
             description: [
-              "SaveDost makes booking your flights faster and easier than ever. Whether it’s a domestic or international journey, enjoy instant confirmation and travel without worries.",
+              "Apphany makes booking your flights faster and easier than ever. Whether it’s a domestic or international journey, enjoy instant confirmation and travel without worries.",
               "We help you find the best flights that match your schedule and budget, providing a platform with secure payments, easy booking, and reliable support anytime, anywhere.",
-              "Travel smart, travel comfortably, and make every trip a memorable experience with SaveDost.",
+              "Travel smart, travel comfortably, and make every trip a memorable experience with Apphany.",
             ],
           },
           {
@@ -138,7 +138,7 @@ function Page() {
             description: [
               "Book your flights in just a few clicks, whether it’s a domestic or international journey. Find the best options quickly and travel with peace of mind.",
               "Compare airlines, choose convenient timings and fares, and make secure online payments. Our booking process is fast, simple, and available anytime, anywhere.",
-              "With SaveDost, enjoy a hassle-free travel experience from start to finish. Fly comfortably, conveniently, and stress-free.",
+              "With Apphany, enjoy a hassle-free travel experience from start to finish. Fly comfortably, conveniently, and stress-free.",
             ],
           },
           {
@@ -146,7 +146,7 @@ function Page() {
             description: [
               "Book your flights in just a few clicks, whether it’s a domestic or international journey. Find the best options quickly and travel with peace of mind.",
               "Compare airlines, choose convenient timings and fares, and make secure online payments. Our booking process is fast, simple, and available anytime, anywhere.",
-              "With SaveDost, enjoy a hassle-free travel experience from start to finish. Fly comfortably, conveniently, and stress-free.",
+              "With Apphany, enjoy a hassle-free travel experience from start to finish. Fly comfortably, conveniently, and stress-free.",
             ],
           },
         ],
@@ -180,12 +180,12 @@ function Page() {
           },
         ],
         booking: {
-          title: "Book Smart,\nBook SaveDost",
+          title: "Book Smart,\nBook Apphany",
           features: [
             {
               cardBgImageUrl: "/booking/c1.png",
               iconUrl: "/booking/i1.png",
-              text: "Best Deals, Best Service\nsirf SaveDost par",
+              text: "Best Deals, Best Service\nsirf Apphany par",
               boldWords: [],
               textColor: "text-white",
             },
@@ -206,7 +206,7 @@ function Page() {
             {
               cardBgImageUrl: "/booking/c4.png",
               iconUrl: "/booking/i4.png",
-              text: "SaveDost Jahan Har \nBooking Ho Assured",
+              text: "Apphany Jahan Har \nBooking Ho Assured",
               boldWords: ["Assured"],
               textColor: "text-white",
             },
@@ -223,7 +223,7 @@ function Page() {
           subheading: "HOTAL BOOKING",
           heading: "Turant Confirmation, Aasaan Booking.",
           description:
-            "It has never been so easy to book your hotel stay. While booking with SaveDost, one can search, compare, and book a room just by clicking a few times. From budget rooms to luxurious suites, we make booking a smooth and easy process for travellers.",
+            "It has never been so easy to book your hotel stay. While booking with Apphany, one can search, compare, and book a room just by clicking a few times. From budget rooms to luxurious suites, we make booking a smooth and easy process for travellers.",
           features: [
             "All our reservations are instantly confirmed. You do not have to wait until email arrives or fear about the hotel being overbooked. You can arrange your travel at your own time because of flexible check-in and check-out, which will provide you with the maximum freedom.",
             "We also provide the best deals and 24/7 customer service. Compare various hotels, get competitive prices, and be sure that our team is always at your service. Travel without the worry that you have a place to stay and be with you throughout the journey   .",
@@ -258,7 +258,7 @@ function Page() {
           {
             title: "Fast and easy hotel reservation",
             description: [
-              "Reserve a hotel in real time with SaveDost. Whether it is a budget accommodation or luxury suites, search and book the ideal accommodation in a few clicks.",
+              "Reserve a hotel in real time with Apphany. Whether it is a budget accommodation or luxury suites, search and book the ideal accommodation in a few clicks.",
               "Book at several hotels, compare prices, and make the final decision in the shortest time possible. Make a booking in a secure, comfortable, and convenient way at any time and place.",
               "Travel worry free and make your stay worry free with 24/7 support and flexibility in the check-in/check-out.",
             ],
@@ -267,7 +267,7 @@ function Page() {
           {
             title: "Your Perfect Stay, Just a Click Away",
             description: [
-              "Booking a hotel has never been easier. With SaveDost, you can find the ideal room in seconds whether it’s a cozy budget option or a luxurious suite.",
+              "Booking a hotel has never been easier. With Apphany, you can find the ideal room in seconds whether it’s a cozy budget option or a luxurious suite.",
               "Compare deals, choose your favorite, and get instant confirmation. Enjoy hassle-free payments, flexible check-in and check-out, and worry-free reservations.",
               "Our friendly 24/7 support team ensures your trip is smooth, relaxing, and memorable from start to finish.",
             ],
@@ -275,7 +275,7 @@ function Page() {
           {
             title: "Fast and stress-free hotel reservation.",
             description: [
-              " Reserve your hotel within a few clicks with SaveDost. Whether it is budget accommodations or luxury suites, book the best accommodation to enjoy your trip immediately.",
+              " Reserve your hotel within a few clicks with Apphany. Whether it is budget accommodations or luxury suites, book the best accommodation to enjoy your trip immediately.",
               "Check and compare hotels, select the most attractive deals, and receive confirmation. Have a comfortable, safe, and convenient booking process anywhere, anytime.",
               "Travel without stress and make it a comfortable and stress-free stay with flexible check-in /check-out schedules and 24/7 customer care.",
             ],
@@ -312,12 +312,12 @@ function Page() {
           },
         ],
         booking: {
-          title: "Book Smart,\nBook SaveDost",
+          title: "Book Smart,\nBook Apphany",
           features: [
             {
               cardBgImageUrl: "/booking/c1.png",
               iconUrl: "/booking/i1.png",
-              text: "Best Deals, Best Service\nsirf SaveDost par",
+              text: "Best Deals, Best Service\nsirf Apphany par",
               boldWords: [],
               textColor: "text-white",
             },
@@ -338,7 +338,7 @@ function Page() {
             {
               cardBgImageUrl: "/booking/c4.png",
               iconUrl: "/booking/i4.png",
-              text: "SaveDost Jahan Har \nBooking Ho Assured",
+              text: "Apphany Jahan Har \nBooking Ho Assured",
               boldWords: ["Assured"],
               textColor: "text-white",
             },
@@ -355,7 +355,7 @@ function Page() {
           subheading: "TRAINS BOOKING",
           heading: "Turant Confirmation, Aasaan Booking.",
           description:
-            "With SaveDost, booking your train tickets has become a simple affair. Local trains or long-distance trains: discover the best routes and seats in the shortest time possible with a few clicks.",
+            "With Apphany, booking your train tickets has become a simple affair. Local trains or long-distance trains: discover the best routes and seats in the shortest time possible with a few clicks.",
           features: [
             "Travel when you want and choose your coach to suit your schedule. Real-time confirmations make you travel without worries and on time.",
             "Compare trains, best fares, and 24/7 customer support. You can travel without worrying that you will never see a face because help will always be there when you need it.",
@@ -390,7 +390,7 @@ function Page() {
           {
             title: "Fast and Convenient Train ticket booking.",
             description: [
-              "Book tickets instantly with SaveDost. Whether it is a regional trip or long-distance travel, book your seat within a few clicks.",
+              "Book tickets instantly with Apphany. Whether it is a regional trip or long-distance travel, book your seat within a few clicks.",
               "Compare trains, select the most suitable coach, and receive instant confirmation. Book smoothly, safely, and conveniently anywhere around the clock.",
               "Flexible travel dates, 24/7 customer support, plan your trip without any stress, and travel with confidence.",
             ],
@@ -398,7 +398,7 @@ function Page() {
           {
             title: "Fast & Reliable Train Tickets",
             description: [
-              "Make your train reservations fast with SaveDost. Select among all the existing trains, classes, and times that will best fit your plans.",
+              "Make your train reservations fast with Apphany. Select among all the existing trains, classes, and times that will best fit your plans.",
               "Get real-time seat availability, and bookings are confirmed. The waiting time is now over, and there is no doubt that your travel is booked in a few clicks.",
               "Flexible cancellations, best fare offers, and 24/7 customer service. Always travel with confidence, stress-free, and smart enough whenever you get to the tracks.",
             ],
@@ -406,7 +406,7 @@ function Page() {
           {
             title: "Fast & Easy Train Booking",
             description: [
-              "SaveDost allows you to book your train tickets in a few clicks. Whether it is a local train or a long-distance ride, reserve your seat immediately.",
+              "Apphany allows you to book your train tickets in a few clicks. Whether it is a local train or a long-distance ride, reserve your seat immediately.",
               "Compare trains, choose a coach of your choice and timing, and get immediate confirmation to have a hassle-free ride",
               "Bring your own dates, cancel without any difficulties, and with 24/7 customer service, you can plan your trip and travel without any worries.",
             ],
@@ -442,12 +442,12 @@ function Page() {
           },
         ],
         booking: {
-          title: "Book Smart,\nBook SaveDost",
+          title: "Book Smart,\nBook Apphany",
           features: [
             {
               cardBgImageUrl: "/booking/c1.png",
               iconUrl: "/booking/i1.png",
-              text: "Best Deals, Best Service\nsirf SaveDost par",
+              text: "Best Deals, Best Service\nsirf Apphany par",
               boldWords: [],
               textColor: "text-white",
             },
@@ -468,7 +468,7 @@ function Page() {
             {
               cardBgImageUrl: "/booking/c4.png",
               iconUrl: "/booking/i4.png",
-              text: "SaveDost Jahan Har \nBooking Ho Assured",
+              text: "Apphany Jahan Har \nBooking Ho Assured",
               boldWords: ["Assured"],
               textColor: "text-white",
             },
@@ -485,7 +485,7 @@ function Page() {
           subheading: "BUS BOOKING",
           heading: "Turant Confirmation, Aasaan Booking.",
           description:
-            "Get your bus tickets with SaveDost. From local routes to intercity travels, book your seat within a few clicks and travel without any hassles. Travel When You Want To",
+            "Get your bus tickets with Apphany. From local routes to intercity travels, book your seat within a few clicks and travel without any hassles. Travel When You Want To",
           features: [
             "Enjoy the opportunity to travel at your time and in the seat or coach of your choice. Schedule your trip with quick bookings that will give you confidence in your travels.",
             "Get real-time seat availability, and bookings are confirmed. The waiting time is now over, and there is no doubt that your travel is booked in a few clicks.",
@@ -525,7 +525,7 @@ function Page() {
           {
             title: "Fast & Hassle-Free Bus Booking",
             description: [
-              "SaveDost provides the quickest experience with your bus booking. Reserve your bus tickets quickly and easily. If you are booking a local route or intercity travel, your tickets can be bought in 3-clicks or less, and travel without the stress of long wait times.",
+              "Apphany provides the quickest experience with your bus booking. Reserve your bus tickets quickly and easily. If you are booking a local route or intercity travel, your tickets can be bought in 3-clicks or less, and travel without the stress of long wait times.",
               "Compare buses, select your ideal premium seat and time, and receive immediate confirmation for your bus ticket. Enjoy personalized, convenient bus booking no matter where you go.",
               "Plan your trip with confidence, and travel easily with flexible cancellations, easy refunds, and 24/7 customer care.",
             ],
@@ -533,9 +533,9 @@ function Page() {
           {
             title: "Your Journey, Our Priority",
             description: [
-              "At any time you travel, SaveDost is there to get you there. Book your bus ticket now ,so that you can sit back and enjoy the ride, whether it is local or an intercity trip you'll stay relaxed on your journey.",
+              "At any time you travel, Apphany is there to get you there. Book your bus ticket now ,so that you can sit back and enjoy the ride, whether it is local or an intercity trip you'll stay relaxed on your journey.",
               "Choose from several bus companies, select your seat and time of departure, and receive an instant confirmation to help provide you a pleasurable journey.",
-              "Flexible cancellations, secure payment processing, and customer support 24/7, all add to the comfort, peace of mind and stress-free travel that a SaveDost traveler is accustomed to!",
+              "Flexible cancellations, secure payment processing, and customer support 24/7, all add to the comfort, peace of mind and stress-free travel that a Apphany traveler is accustomed to!",
             ],
           },
         ],
@@ -557,7 +557,7 @@ function Page() {
   };
   const faqs = [
     {
-      question: "What can I book on SaveDost?",
+      question: "What can I book on Apphany?",
       answer: "You can explore booking options for flights, trains, buses, and hotels.",
     },
     {
@@ -683,7 +683,7 @@ function Page() {
         <div className="mx-auto max-w-7xl">
           <div className="mx-auto max-w-3xl text-center">
             <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#0289ad]">
-              Travel With SaveDost
+              Travel With Apphany
             </p>
             <h2 className="mt-3 text-3xl font-extrabold tracking-tight text-[#0C3D4C] sm:text-4xl">
               Everything you need to plan your trip

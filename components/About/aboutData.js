@@ -146,19 +146,19 @@ export const journey = [
 
 export const faqs = [
   {
-    question: "What is SaveDost?",
+    question: "What is Apphany?",
     answer:
-      "SaveDost is a fintech platform that brings supported recharge, utility payment and everyday financial services together in one place.",
+      "Apphany is a fintech platform that brings supported recharge, utility payment and everyday financial services together in one place.",
   },
   {
-    question: "Which services are available on SaveDost?",
+    question: "Which services are available on Apphany?",
     answer:
       "Available services include mobile and DTH recharge, utility bill payments, credit card payments, insurance-related services and other supported digital payment services.",
   },
   {
-    question: "Is SaveDost secure?",
+    question: "Is Apphany secure?",
     answer:
-      "SaveDost uses secure account access and responsible technology practices designed to protect user information and payment activity.",
+      "Apphany uses secure account access and responsible technology practices designed to protect user information and payment activity.",
   },
   {
     question: "How can I check my transaction status?",
@@ -168,12 +168,12 @@ export const faqs = [
   {
     question: "What should I do if a payment fails?",
     answer:
-      "Do not immediately repeat the payment. First check your bank or payment method, note the transaction reference, and contact SaveDost support if the amount was deducted.",
+      "Do not immediately repeat the payment. First check your bank or payment method, note the transaction reference, and contact Apphany support if the amount was deducted.",
   },
   {
-    question: "How can I contact SaveDost support?",
+    question: "How can I contact Apphany support?",
     answer:
-      "Visit the Contact Us page to find the current support details and send your question to the SaveDost team.",
+      "Visit the Contact Us page to find the current support details and send your question to the Apphany team.",
   },
 ];
 

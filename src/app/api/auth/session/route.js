@@ -27,7 +27,7 @@ export async function GET() {
   return NextResponse.json({
     authenticated: true,
     user: {
-      name: claims.name || claims.fullName || claims.username || "SaveDost User",
+      name: claims.name || claims.fullName || claims.username || "Apphany User",
       email: claims.email || "",
       mobile: claims.mobileNumber || claims.mobile || claims.phone_number || verifiedMobile,
     },

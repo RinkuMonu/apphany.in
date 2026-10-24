@@ -153,7 +153,7 @@ const allProducts = [
 
 const promotions = [
   {
-    eyebrow: "SaveDost Business",
+    eyebrow: "Apphany Business",
     title: "Manage every payment in one place",
     description: "Simple, secure and convenient utility payments for your everyday needs.",
     button: "Explore Services",

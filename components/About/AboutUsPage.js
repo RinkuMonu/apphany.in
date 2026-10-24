@@ -79,7 +79,7 @@ function PaymentVisual() {
   return (
     <div
       className="relative mx-auto h-[420px] w-full max-w-[500px]"
-      aria-label="Illustration of a secure SaveDost mobile payment"
+      aria-label="Illustration of a secure Apphany mobile payment"
     >
       <div className="absolute left-1/2 top-1/2 h-72 w-72 -translate-x-1/2 -translate-y-1/2 rounded-full border border-[#a9dbe4] bg-white/55" />
       <div className="absolute left-[8%] top-[20%] rounded-2xl border border-white bg-white p-4 shadow-[0_16px_35px_rgba(12,61,76,.12)]">
@@ -100,8 +100,8 @@ function PaymentVisual() {
       <div className="absolute left-1/2 top-1/2 w-[230px] -translate-x-1/2 -translate-y-1/2 rounded-[32px] border-[7px] border-[#163d63] bg-white p-4 shadow-[0_25px_60px_rgba(12,61,76,.24)]">
         <div className="mx-auto h-1.5 w-16 rounded-full bg-[#163d63]" />
         <Image
-          src="/image/SaveDost-initial.png"
-          alt="SaveDost"
+          src="/image/Apphany-initial.png"
+          alt="Apphany"
           width={52}
           height={52}
           className="mx-auto mt-5 h-12 w-12 object-contain"
@@ -142,7 +142,7 @@ function HeroSection() {
               variants={item}
               className="text-xs font-extrabold uppercase tracking-[.18em] text-[#0289ad]"
             >
-              About SaveDost
+              About Apphany
             </motion.p>
             <motion.h1
               variants={item}
@@ -154,7 +154,7 @@ function HeroSection() {
               variants={item}
               className="mt-6 max-w-2xl text-base leading-8 text-slate-600 sm:text-lg"
             >
-              SaveDost brings essential financial and utility services together in one secure
+              Apphany brings essential financial and utility services together in one secure
               platform, helping customers manage payments, recharges, bills and everyday
               transactions with confidence.
             </motion.p>
@@ -214,7 +214,7 @@ function AnimatedNumber({ value, suffix, decimals = 0 }) {
 
 function StatisticsSection() {
   return (
-    <section className="relative z-10 -mt-12 px-5 sm:px-8" aria-label="SaveDost statistics">
+    <section className="relative z-10 -mt-12 px-5 sm:px-8" aria-label="Apphany statistics">
       <motion.div
         variants={container}
         initial="hidden"
@@ -257,13 +257,13 @@ function StorySection() {
             className="h-[360px] w-full rounded-[24px] object-cover sm:h-[470px]"
           />
           <div className="absolute -bottom-5 right-5 rounded-xl border border-[#dbeaed] bg-white px-5 py-4 shadow-xl sm:right-8">
-            <p className="text-sm font-extrabold text-[#0C3D4C]">Fast. Secure. SaveDost.</p>
+            <p className="text-sm font-extrabold text-[#0C3D4C]">Fast. Secure. Apphany.</p>
           </div>
         </Reveal>
         <Reveal>
           <SectionHeading label="Our Story" title="Fintech Built Around Everyday Needs" />
           <p className="mt-6 text-base leading-8 text-slate-600">
-            SaveDost was created with a simple goal: to make digital financial services easier to
+            Apphany was created with a simple goal: to make digital financial services easier to
             understand and more convenient to use.
           </p>
           <p className="mt-4 text-base leading-8 text-slate-600">
@@ -329,7 +329,7 @@ function LeadershipSection() {
               A clear vision for simpler digital finance.
             </h2>
             <p className="mt-6 max-w-3xl text-base leading-7 text-slate-600 sm:text-lg">
-              Under the leadership of founder Mr. Dinesh Kumar, SaveDost is working to make
+              Under the leadership of founder Mr. Dinesh Kumar, Apphany is working to make
               essential payments and financial services easier for people to access and understand.
             </p>
             <p className="mt-3 max-w-3xl text-base leading-7 text-slate-600 sm:text-lg">
@@ -356,14 +356,14 @@ function LeadershipSection() {
         <Reveal delay={0.08} className="relative min-h-[400px] lg:min-h-[550px]">
           <Image
             src="/about/founder.jpeg"
-            alt="Mr. Dinesh Kumar, Founder of SaveDost"
+            alt="Mr. Dinesh Kumar, Founder of Apphany"
             fill
             sizes="(max-width: 1024px) 100vw, 42vw"
             className="object-cover object-top"
           />
           <div className="absolute bottom-6 left-6 right-6 rounded-xl border border-white/70 bg-white/90 px-5 py-4 shadow-lg backdrop-blur-sm">
             <p className="text-sm font-extrabold text-[#0C3D4C]">Mr. Dinesh Kumar</p>
-            <p className="mt-1 text-xs font-semibold text-[#0289ad]">Founder, SaveDost</p>
+            <p className="mt-1 text-xs font-semibold text-[#0289ad]">Founder, Apphany</p>
           </div>
         </Reveal>
       </div>
@@ -421,7 +421,7 @@ function BenefitsSection() {
       <div className="mx-auto max-w-7xl">
         <Reveal>
           <SectionHeading
-            label="Why SaveDost"
+            label="Why Apphany"
             title="Designed for Secure and Effortless Payments"
             centered
           />
@@ -465,7 +465,7 @@ function SecuritySection() {
             light
           />
           <p className="mt-5 max-w-2xl text-sm leading-7 text-white/70">
-            SaveDost follows secure technology practices to provide a reliable digital payment
+            Apphany follows secure technology practices to provide a reliable digital payment
             experience. Our platform is designed to protect sensitive information and maintain
             transparency throughout the transaction journey.
           </p>
@@ -496,7 +496,7 @@ function SecuritySection() {
               </div>
               <div className="text-right">
                 <LockKeyhole size={16} className="ml-auto text-[#026381]" />
-                <p className="mt-1 text-[10px] text-slate-400">Secured by SaveDost</p>
+                <p className="mt-1 text-[10px] text-slate-400">Secured by Apphany</p>
               </div>
             </div>
           </div>
@@ -511,7 +511,7 @@ function ValuesSection() {
     <section className="bg-[#f7fafb] px-5 py-20 sm:px-8 lg:py-28">
       <div className="mx-auto max-w-7xl">
         <Reveal>
-          <SectionHeading label="Our Values" title="Principles That Guide SaveDost" centered />
+          <SectionHeading label="Our Values" title="Principles That Guide Apphany" centered />
         </Reveal>
         <motion.div
           variants={container}
@@ -545,7 +545,7 @@ function JourneySection() {
     <section className="px-5 py-20 sm:px-8 lg:py-28">
       <div className="mx-auto max-w-7xl">
         <Reveal>
-          <SectionHeading label="Our Journey" title="Building SaveDost Step by Step" centered />
+          <SectionHeading label="Our Journey" title="Building Apphany Step by Step" centered />
         </Reveal>
         <motion.ol
           variants={container}
@@ -593,7 +593,7 @@ function CtaSection() {
               Ready to Experience Simpler Digital Payments?
             </h2>
             <p className="mt-4 text-sm leading-7 text-white/70">
-              Explore SaveDost and manage your everyday financial services from one secure platform.
+              Explore Apphany and manage your everyday financial services from one secure platform.
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
               <Link
@@ -632,7 +632,7 @@ export default function AboutUsPage() {
       <CtaSection />
       <FAQ
         faqs={faqs}
-        subheading="Clear answers to common questions about SaveDost and supported payment services."
+        subheading="Clear answers to common questions about Apphany and supported payment services."
       />
     </main>
   );

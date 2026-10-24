@@ -5,7 +5,7 @@ const reasons = [
   {
     icon: ShieldCheck,
     title: "NPCI & Bank Authorized",
-    desc: "SaveDost FASTag recharge is fully integrated with NPCI and authorized banks, ensuring safe, secure, and trusted transactions every time.",
+    desc: "Apphany FASTag recharge is fully integrated with NPCI and authorized banks, ensuring safe, secure, and trusted transactions every time.",
   },
   {
     icon: Zap,
@@ -40,10 +40,10 @@ export default function WhySaveDostFastag() {
       <div className="max-w-7xl mx-auto px-5">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-            Why Choose SaveDost for FASTag Recharges?
+            Why Choose Apphany for FASTag Recharges?
           </h2>
           <p className="text-slate-600 text-lg">
-            Fast, secure, and profitable, SaveDost helps retailers offer seamless FASTag recharges
+            Fast, secure, and profitable, Apphany helps retailers offer seamless FASTag recharges
             while boosting business and keeping customers happy.
           </p>
         </div>

@@ -47,7 +47,7 @@ function IntegrationOrbit() {
       <div className="absolute h-[135px] w-[135px] rounded-full border-2 border-[#136091] sm:h-[165px] sm:w-[165px] lg:h-[180px] lg:w-[180px]"></div>
 
       <div className="relative z-10 flex items-center justify-center w-20 h-20 rounded-full bg-white shadow-md">
-        <Image src="/image/SaveDost-initial.png" alt="SaveDost" width={40} height={47} />
+        <Image src="/image/Apphany-initial.png" alt="Apphany" width={40} height={47} />
       </div>
 
       <OrbitIcon top="10%" left="60%" src="/bank/instantpay.png" />

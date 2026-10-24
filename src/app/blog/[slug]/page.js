@@ -58,7 +58,7 @@ export async function generateMetadata({ params }) {
 
   if (sampleBlog) {
     return {
-      title: `${sampleBlog.title} | SaveDost`,
+      title: `${sampleBlog.title} | Apphany`,
       description: sampleBlog.short_description,
     };
   }
@@ -66,7 +66,7 @@ export async function generateMetadata({ params }) {
   const seo = await seoConfig(`/blog/${slug}`);
   if (!seo) {
     return {
-      title: "Blog – SaveDost",
+      title: "Blog – Apphany",
     };
   }
 

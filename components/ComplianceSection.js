@@ -59,7 +59,7 @@ export default function ComplianceSection() {
 
       <div
         className="compliance-marquee group relative mt-10 overflow-hidden py-4 sm:mt-14"
-        aria-label="SaveDost licences and certifications"
+        aria-label="Apphany licences and certifications"
       >
         <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-12 bg-gradient-to-r from-white to-transparent sm:w-28" />
         <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-12 bg-gradient-to-l from-white to-transparent sm:w-28" />

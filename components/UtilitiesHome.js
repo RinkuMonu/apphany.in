@@ -66,7 +66,7 @@ const UtilitiesHome = () => {
             </h2>
             <h4 className="text-2xl font-bold">Quick Services, No Stress</h4>
             <p className="text-gray-600 text-base sm:text-lg leading-relaxed">
-              At SaveDost, we make digital payments simple and hassle-free. Whether you’re at home,
+              At Apphany, we make digital payments simple and hassle-free. Whether you’re at home,
               traveling, or anywhere on the go, our platform ensures fast, secure, and reliable
               transactions. Enjoy a seamless experience with services designed to save you time and
               give you peace of mind.

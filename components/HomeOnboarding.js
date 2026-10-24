@@ -16,7 +16,7 @@ const onboardingData = {
         id: 1,
         title: "Download App",
         description:
-          "Install the SaveDost app in a few seconds in either the Play Store or the App Store.",
+          "Install the Apphany app in a few seconds in either the Play Store or the App Store.",
       },
       {
         id: 2,

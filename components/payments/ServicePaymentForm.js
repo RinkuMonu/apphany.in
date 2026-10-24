@@ -49,7 +49,7 @@ export default function ServicePaymentForm({
     <>
       <div className="w-full max-w-[450px] rounded-[22px] border border-[#d9edf2] bg-white p-5 shadow-[0_16px_38px_rgba(12,61,76,0.12)] sm:p-7 lg:p-8">
         <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-[#026381]">
-          SaveDost Payments
+          Apphany Payments
         </p>
         <h1 className="mt-2 text-xl font-extrabold tracking-tight text-[#0C3D4C]">{title}</h1>
 
@@ -123,7 +123,7 @@ export default function ServicePaymentForm({
         </form>
 
         <p className="mt-4 text-center text-[11px] leading-4 text-slate-400">
-          Secure payments powered by FinUnique. Your details are protected.
+          Secure payments powered by Apphany Technologies Pvt. Ltd.. Your details are protected.
         </p>
       </div>
 
@@ -205,7 +205,7 @@ export default function ServicePaymentForm({
                   id="download-app-title"
                   className="pr-12 text-center text-xl font-extrabold text-[#0C3D4C] sm:pr-0 sm:text-2xl"
                 >
-                  Continue with the SaveDost App
+                  Continue with the Apphany App
                 </h2>
 
                 <div className="mt-7 grid items-center gap-6 rounded-2xl bg-[#f2f7fb] p-5 sm:grid-cols-[1fr_230px] sm:p-7">
@@ -222,14 +222,14 @@ export default function ServicePaymentForm({
                       </li>
                       <li className="flex gap-3">
                         <span className="font-bold">3.</span>
-                        <span>Open the link and download the SaveDost app</span>
+                        <span>Open the link and download the Apphany app</span>
                       </li>
                     </ol>
                   </div>
                   <div className="mx-auto rounded-xl bg-white p-3 shadow-[0_8px_24px_rgba(12,61,76,0.14)]">
                     <Image
                       src="/MainQR.jpeg"
-                      alt="QR code to download the SaveDost app"
+                      alt="QR code to download the Apphany app"
                       width={210}
                       height={210}
                       className="h-44 w-44 object-contain sm:h-52 sm:w-52"
@@ -251,7 +251,7 @@ export default function ServicePaymentForm({
 
                 <div className="mt-6 flex flex-col gap-4 border-t border-slate-200 pt-6 sm:flex-row sm:items-center sm:justify-between">
                   <p className="max-w-[225px] text-sm font-semibold leading-5 text-[#132238] sm:text-base">
-                    To complete your payment, download the SaveDost App
+                    To complete your payment, download the Apphany App
                   </p>
                   <div className="flex flex-wrap gap-3">
                     <Link

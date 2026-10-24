@@ -52,7 +52,7 @@ export default function InstructionsIndianCitizens() {
     },
     {
       title: "Full Name – Company",
-      desc: "Name: Finunique Small Private Limited\nLast Name/Surname: F I N U N I Q U E S M A L L P R I V A T E L I M I T E D\nFirst Name: P R I V A T E\nMiddle Name: L I M I T E D\nAvoid abbreviations like Pvt Ltd or P. Ltd. Do not use titles like Shri, Smt., or Dr.",
+      desc: "Name: Apphany Technologies Pvt. Ltd.\nLast Name/Surname: F I N U N I Q U E S M A L L P R I V A T E L I M I T E D\nFirst Name: P R I V A T E\nMiddle Name: L I M I T E D\nAvoid abbreviations like Pvt Ltd or P. Ltd. Do not use titles like Shri, Smt., or Dr.",
     },
     {
       title: "Name on PAN Card",
@@ -104,7 +104,7 @@ export default function InstructionsIndianCitizens() {
     },
     {
       title: "Source of Income",
-      desc: "Select one or more sources. Business or profession applicants must provide the relevant code (e.g., 12 – Information Technology for Finunique Small Private Limited).",
+      desc: "Select one or more sources. Business or profession applicants must provide the relevant code (e.g., 12 – Information Technology for Apphany Technologies Pvt. Ltd.).",
     },
     {
       title: "Representative Assessee",

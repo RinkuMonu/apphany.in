@@ -95,10 +95,10 @@ export default function AnimatedHeroPreview() {
       <div className="preview-grid" aria-hidden="true" />
       <div className="preview-glow preview-glow-one" aria-hidden="true" />
       <div className="preview-glow preview-glow-two" aria-hidden="true" />
-      <Link href="/" className="hero-corner-brand" aria-label="SaveDost home">
+      <Link href="/" className="hero-corner-brand" aria-label="Apphany home">
         <Image
-          src="/image/SaveDost logo.png"
-          alt="SaveDost"
+          src="/image/SaveDostlogo.png"
+          alt="Apphany"
           width={1686}
           height={933}
           priority
@@ -130,7 +130,7 @@ export default function AnimatedHeroPreview() {
                   ?.nextElementSibling?.scrollIntoView({ behavior: "smooth", block: "start" })
               }
             >
-              Explore SaveDost <ArrowRight size={18} />
+              Explore Apphany <ArrowRight size={18} />
             </button>
             <Link
               href="https://www.youtube.com/@finuniques"
@@ -179,7 +179,7 @@ export default function AnimatedHeroPreview() {
 
         <section
           className={`visual-stage ${heroVisible ? "hero-visible" : ""}`}
-          aria-label="SaveDost mobile application preview"
+          aria-label="Apphany mobile application preview"
         >
           <div className="visual-halo" aria-hidden="true" />
           <div className="orbit orbit-a" aria-hidden="true" />
@@ -218,8 +218,8 @@ export default function AnimatedHeroPreview() {
                 </div>
                 <div className="app-brand">
                   <Image
-                    src="/image/SaveDost logo.png"
-                    alt="SaveDost"
+                    src="/image/SaveDostlogo.png"
+                    alt="Apphany"
                     width={1686}
                     height={933}
                   />

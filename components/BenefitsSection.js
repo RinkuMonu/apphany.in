@@ -24,7 +24,7 @@ const BenefitsSection = () => {
               href="https://apps.apple.com/in/app/finunique/id6760808229"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Download SaveDost on the App Store"
+              aria-label="Download Apphany on the App Store"
             >
               <Image src="/loan/image7.png" alt="logo-bbps" width={200} height={200} />
             </Link>

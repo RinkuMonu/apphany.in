@@ -91,7 +91,7 @@ export default function HeroBanner() {
           </h1>
 
           <p className="mx-auto mt-6 max-w-xl text-pretty text-lg leading-relaxed text-zinc-600 md:text-xl">
-            SaveDost combines practical technology, useful services, and helpful support
+            Apphany combines practical technology, useful services, and helpful support
             <br className="hidden md:block" />
             to make everyday digital and financial needs simpler for users across India.
           </p>

@@ -161,10 +161,10 @@ export default function ProfilePage() {
             </span>
             <div className="min-w-0">
               <p className="text-[10px] font-extrabold uppercase tracking-[.18em] text-[#8ee5f2] sm:text-xs">
-                SaveDost account
+                Apphany account
               </p>
               <h1 className="mt-1.5 truncate text-2xl font-extrabold tracking-tight sm:mt-2 sm:text-4xl">
-                {user.name || "SaveDost User"}
+                {user.name || "Apphany User"}
               </h1>
               <div className="mt-2 flex flex-wrap items-center gap-1.5 text-[10px] text-white/80 sm:mt-3 sm:gap-2 sm:text-sm">
                 <span className="inline-flex items-center gap-1.5 rounded-full bg-white/10 px-2.5 py-1 sm:px-3 sm:py-1.5">
@@ -208,13 +208,13 @@ export default function ProfilePage() {
             <SectionHeading
               eyebrow="Account details"
               title="Your profile information"
-              text="Details currently available from your authenticated SaveDost session."
+              text="Details currently available from your authenticated Apphany session."
             />
             <div className="mt-5 grid gap-3 sm:mt-7 sm:gap-4 md:grid-cols-2">
               <DetailCard
                 icon={CircleUserRound}
                 label="Full name"
-                value={user.name || "SaveDost User"}
+                value={user.name || "Apphany User"}
               />
               <DetailCard
                 icon={Phone}
@@ -358,7 +358,7 @@ export default function ProfilePage() {
             <div className="grid items-center gap-5 md:grid-cols-[1fr_190px] md:gap-7">
               <div>
                 <p className="text-xs font-extrabold uppercase tracking-[.17em] text-[#0289ad]">
-                  SaveDost mobile app
+                  Apphany mobile app
                 </p>
                 <h2 className="mt-2 text-xl font-extrabold text-[#0C3D4C] sm:mt-3 sm:text-2xl">
                   Manage services from your phone
@@ -379,7 +379,7 @@ export default function ProfilePage() {
               <div className="mx-auto hidden rounded-2xl bg-white p-3 shadow-[0_10px_28px_rgba(12,61,76,.12)] sm:block">
                 <Image
                   src="/MainQR.jpeg"
-                  alt="QR code to download the SaveDost app"
+                  alt="QR code to download the Apphany app"
                   width={165}
                   height={165}
                   className="h-40 w-40 object-contain"
@@ -407,8 +407,8 @@ export default function ProfilePage() {
               <SupportLink
                 icon={Mail}
                 label="Email us"
-                text="support@savedost.in"
-                href="mailto:support@savedost.in"
+                text="support@apphany.in"
+                href="mailto:support@apphany.in"
               />
             </div>
           </section>

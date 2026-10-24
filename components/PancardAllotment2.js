@@ -38,7 +38,7 @@ export default function PancardAllotment2() {
             Form 49AA is intended for foreign individuals and entities who have not previously been
             allotted a PAN.
             <br />
-            With SaveDost’s e-PAN service, you can apply online, upload your documents, and receive
+            With Apphany’s e-PAN service, you can apply online, upload your documents, and receive
             your PAN number without visiting any office. Our online process is simple, secure, and
             reliable for international applicants.
           </p>

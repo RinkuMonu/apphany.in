@@ -553,7 +553,7 @@ export default function MultiStepAuthForm({ mode }) {
             <p className="mt-1 text-sm text-slate-500">
               {isSignup
                 ? "Complete secure verification in a few simple steps"
-                : "Login to access your SaveDost account"}
+                : "Login to access your Apphany account"}
             </p>
 
             {isSignup && <SignupProgress currentStep={signupStep} />}
@@ -1233,8 +1233,8 @@ function Brand() {
   return (
     <Link href="/" className="inline-flex w-fit items-center gap-3">
       <Image
-        src="/image/SaveDost-initial.png"
-        alt="SaveDost"
+        src="/image/Apphany-initial.png"
+        alt="Apphany"
         width={40}
         height={40}
         className="h-9 w-9 object-contain"
@@ -1245,7 +1245,7 @@ function Brand() {
           Save<span className="text-[#00a8e8]">Dost</span>
         </span>
         <span className="block text-[8px] font-semibold uppercase tracking-[0.13em] text-[#315381]">
-          Powered by FinUnique
+          Powered by Apphany Technologies Pvt. Ltd.
         </span>
       </span>
     </Link>
@@ -1347,7 +1347,7 @@ function LoginVisual() {
         <div className="relative h-56 w-36 overflow-hidden rounded-[30px] border-[7px] border-[#354d6c] bg-white shadow-2xl">
           <span className="absolute left-1/2 top-1 h-3 w-14 -translate-x-1/2 rounded-full bg-[#1c293a]" />
           <div className="flex h-full flex-col items-center justify-center text-center">
-            <Image src="/image/SaveDost-initial.png" alt="" width={42} height={49} />
+            <Image src="/image/Apphany-initial.png" alt="" width={42} height={49} />
             <ShieldCheck size={56} className="mt-5 text-[#00a8e8]" fill="#e8f7fb" />
             <span className="mt-3 text-[9px] font-bold text-[#12396d]">
               Safe &amp; Simple Payments
@@ -1378,7 +1378,7 @@ function SignupVisual() {
           <Check size={22} strokeWidth={3} />
         </span>
       </div>
-      <h2 className="relative mt-10 text-center text-xl font-extrabold">Why Join SaveDost?</h2>
+      <h2 className="relative mt-10 text-center text-xl font-extrabold">Why Join Apphany?</h2>
       <ul className="relative mx-auto mt-6 w-full max-w-[210px] space-y-4">
         {reasons.map(({ icon: Icon, text }) => (
           <li key={text} className="flex items-center gap-3 text-xs font-medium leading-5">

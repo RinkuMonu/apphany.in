@@ -85,7 +85,7 @@ export default function ChatSection() {
                 </div>
 
                 <div>
-                  <p className="text-base font-semibold leading-tight">SaveDost</p>
+                  <p className="text-base font-semibold leading-tight">Apphany</p>
                   <p className="text-xs text-white/80">You can ask me anything</p>
                 </div>
               </div>

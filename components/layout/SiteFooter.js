@@ -19,7 +19,7 @@ const navigationLinks = [
       ["DTH Recharge", "/service-payment/dth"],
       ["FASTag Recharge", "/service-payment/fastag"],
       ["Electricity Bill", "/service-payment/electricity"],
-      ["BBPS Services", "/bbps"],
+      // ["BBPS Services", "/bbps"],
     ],
   },
   {
@@ -116,16 +116,16 @@ export default function SiteFooter() {
       <div className="mx-auto max-w-7xl px-5 pb-7 pt-10 sm:px-6 lg:py-12">
         <div className="grid gap-9 sm:grid-cols-2 lg:grid-cols-[1.25fr_0.8fr_1fr_1.15fr_1.15fr] lg:gap-0">
           <section className="lg:pr-8">
-            <Link href="/" className="inline-flex flex-col items-start" aria-label="SaveDost home">
+            <Link href="/" className="inline-flex flex-col items-start" aria-label="Apphany home">
               <Image
-                src="/image/SaveDost logo.png"
-                alt="SaveDost"
+                src="/image/SaveDostlogo.png"
+                alt="Apphany"
                 width={1686}
                 height={933}
                 className="h-auto w-48 object-contain"
               />
               <span className="-mt-5 ml-6 text-[9px] font-bold uppercase tracking-[0.18em] text-white/75">
-                Powered by FinUnique
+                Powered by Apphany Technologies Pvt. Ltd.
               </span>
             </Link>
             <p className="mt-4 max-w-xs text-xs leading-5 text-white/80">
@@ -133,10 +133,10 @@ export default function SiteFooter() {
             </p>
             <div className="mt-5 space-y-3 text-xs text-white/90">
               <a
-                href="mailto:support@savedost.in"
+                href="mailto:support@apphany.in"
                 className="flex items-center gap-2 hover:text-lime-300"
               >
-                <Mail size={14} /> support@savedost.in
+                <Mail size={14} /> support@apphany.in
               </a>
             </div>
           </section>
@@ -179,7 +179,7 @@ export default function SiteFooter() {
           <section className="border-white/15 lg:border-l lg:px-8">
             <FooterHeading>Company</FooterHeading>
             <p className="text-xs leading-5 text-white/80">
-              SaveDost, powered by FinUnique, brings recharge, bill payments, travel bookings and
+              Apphany, powered by Apphany Technologies Pvt. Ltd., brings recharge, bill payments, travel bookings and
               essential financial services together on one secure platform for customers and
               merchants across India.
             </p>
@@ -212,7 +212,7 @@ export default function SiteFooter() {
               </div>
             </div>
 
-            <div className="rounded-xl bg-white/10 p-5 ring-1 ring-white/10">
+            {/* <div className="rounded-xl bg-white/10 p-5 ring-1 ring-white/10">
               <FooterHeading>Follow Us</FooterHeading>
               <div className="flex flex-nowrap items-center gap-2.5">
                 {socialLinks.map(([Icon, href, label, color]) => (
@@ -228,7 +228,7 @@ export default function SiteFooter() {
                   </Link>
                 ))}
               </div>
-            </div>
+            </div> */}
           </section>
         </div>
 
@@ -256,7 +256,7 @@ export default function SiteFooter() {
       <div className="border-t border-white/20">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-5 py-5 text-center text-[11px] text-white/80 sm:px-6 lg:flex-row lg:text-left">
           <p>
-            &copy; {new Date().getFullYear()} SaveDost. Powered by Finunique Small Private Limited.
+            &copy; {new Date().getFullYear()} Apphany Technologies Pvt. Ltd.
             All rights reserved.
           </p>
           <nav className="flex flex-wrap justify-center gap-x-3 gap-y-2">

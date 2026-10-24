@@ -6,7 +6,7 @@ const sections = [
     id: "purpose",
     title: "Purpose of KYC",
     paragraphs: [
-      "Know Your Customer verification helps SaveDost and its regulated service providers confirm a user’s identity, prevent fraud, meet legal obligations, and provide eligible financial or digital services safely.",
+      "Know Your Customer verification helps Apphany and its regulated service providers confirm a user’s identity, prevent fraud, meet legal obligations, and provide eligible financial or digital services safely.",
     ],
   },
   {
@@ -51,7 +51,7 @@ const sections = [
     id: "failure",
     title: "Incomplete or Failed Verification",
     paragraphs: [
-      "SaveDost may pause, restrict, or decline access to a service when required information is missing, cannot be verified, appears fraudulent, or does not satisfy the relevant provider’s eligibility rules.",
+      "Apphany may pause, restrict, or decline access to a service when required information is missing, cannot be verified, appears fraudulent, or does not satisfy the relevant provider’s eligibility rules.",
     ],
   },
   {
@@ -79,7 +79,7 @@ const sections = [
     id: "support",
     title: "KYC Support",
     paragraphs: [
-      "For help, email support@savedost.in. Never send OTPs, passwords, or payment PINs to anyone.",
+      "For help, email support@apphany.in. Never send OTPs, passwords, or payment PINs to anyone.",
     ],
   },
 ];
@@ -89,7 +89,7 @@ export default function KycPolicyPage() {
     <LegalPolicyPage
       title="KYC Policy"
       eyebrow="Identity and security"
-      description="How identity verification works for users accessing eligible SaveDost services."
+      description="How identity verification works for users accessing eligible Apphany services."
       effectiveDate="23 July 2026"
       sections={sections}
       summary="Users must provide accurate identity information when required. KYC data is used for verification, fraud prevention, service eligibility, and compliance with applicable obligations."

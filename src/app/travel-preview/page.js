@@ -67,7 +67,7 @@ export default function TravelPreviewPage() {
           </div>
 
           <div className="hidden pb-5 text-right lg:block">
-            <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#00a8e8]">SaveDost</p>
+            <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#00a8e8]">Apphany</p>
             <p className="text-xl font-extrabold text-[#0C3D4C]">Travel</p>
           </div>
         </div>

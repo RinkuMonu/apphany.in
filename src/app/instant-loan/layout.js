@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Loan Services | SaveDost",
-  description: "Explore digital loan services and guidance from SaveDost.",
+  title: "Loan Services | Apphany",
+  description: "Explore digital loan services and guidance from Apphany.",
 };
 
 export default function LoanLayout({ children }) {

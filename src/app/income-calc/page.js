@@ -369,7 +369,7 @@ export default function IncomeCalculator() {
               See how much your business <span className="text-[#0289ad]">can earn.</span>
             </h1>
             <p className="mx-auto mt-5 max-w-2xl text-base leading-7 text-slate-600 lg:mx-0 lg:text-lg">
-              Estimate daily and monthly income across SaveDost services. Adjust transaction volumes
+              Estimate daily and monthly income across Apphany services. Adjust transaction volumes
               and plan your growth with a clearer earning picture.
             </p>
             <div className="mt-7 flex flex-wrap justify-center gap-x-6 gap-y-3 lg:justify-start">
@@ -396,7 +396,7 @@ export default function IncomeCalculator() {
               <div className="relative h-[260px] sm:h-[330px]">
                 <Image
                   src="/image/income-calc-img.png"
-                  alt="SaveDost income calculator overview"
+                  alt="Apphany income calculator overview"
                   fill
                   className="object-contain"
                   priority

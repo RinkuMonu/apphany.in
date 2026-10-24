@@ -151,7 +151,7 @@ function Contact() {
         <div className="mx-auto grid max-w-7xl items-center gap-8 lg:grid-cols-[0.88fr_1.12fr]">
           <div className="text-center lg:text-left">
             <span className="inline-flex rounded-full border border-[#b9e1e9] bg-white px-4 py-2 text-xs font-bold uppercase tracking-[0.16em] text-[#026381] shadow-sm">
-              Contact SaveDost
+              Contact Apphany
             </span>
             <h1 className="mt-6 text-3xl font-extrabold leading-tight tracking-tight text-[#0C3D4C] sm:text-4xl lg:text-[52px] lg:leading-[1.1]">
               Let&apos;s find the right <span className="text-[#0289ad]">solution together.</span>
@@ -161,7 +161,7 @@ function Contact() {
               query and our support team will help you.
             </p>
             <div className="mt-7 flex flex-wrap justify-center gap-3 lg:justify-start">
-              <a href="mailto:support@savedost.in" className="pan-hero-button gap-2">
+              <a href="mailto:support@apphany.in" className="pan-hero-button gap-2">
                 <MdOutlineMail className="text-lg" /> Email Us
               </a>
             </div>
@@ -173,7 +173,7 @@ function Contact() {
                 src={data.centerImage}
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
-                alt="SaveDost customer support"
+                alt="Apphany customer support"
                 className="object-contain mix-blend-multiply"
                 priority
               />
@@ -316,17 +316,17 @@ function Contact() {
                 <div>
                   <p className="font-bold">Email</p>
                   <p className="mt-1 text-sm text-slate-600">
-                    <a href="mailto:support@savedost.in" className="hover:underline">
-                      support@savedost.in
+                    <a href="mailto:support@apphany.in" className="hover:underline">
+                      support@apphany.in
                     </a>
                   </p>
 
                   {/* <p className="text-gray-500 text-sm">
                     <a
-                      href="mailto:support@savedost.in"
+                      href="mailto:support@apphany.in"
                       className="hover:underline"
                     >
-                      support@savedost.in
+                      support@apphany.in
                     </a>
                   </p> */}
                 </div>
@@ -352,7 +352,7 @@ function Contact() {
                 <div>
                   <p className="font-bold">Email support</p>
                   <p className="mt-1 text-sm leading-5 text-slate-600">
-                    For assistance, write to support@savedost.in.
+                    For assistance, write to support@apphany.in.
                   </p>
                   {/* <p className="text-gray-500 text-sm">
                     <span className="font-bold">Corporate Office:</span>Office

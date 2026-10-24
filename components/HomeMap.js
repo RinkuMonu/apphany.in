@@ -8,7 +8,7 @@ const LocationPin = ({ top, left, name }) => (
     style={{ top, left, transform: "translate(-50%, -50%)" }}
   >
     <Image
-      src="/image/SaveDost-initial.png"
+      src="/image/Apphany-initial.png"
       alt={name}
       width={16}
       height={16}
@@ -101,7 +101,7 @@ const HomeMap = () => {
           </h2>
 
           <p className="mx-auto mb-6 max-w-lg text-sm leading-6 text-gray-200 sm:mb-8 sm:text-base md:mx-0">
-            SaveDost gives users convenient access to secure digital payments, utility services,
+            Apphany gives users convenient access to secure digital payments, utility services,
             recharges, and financial solutions across India.
           </p>
 
@@ -118,7 +118,7 @@ const HomeMap = () => {
           <div className="relative w-full aspect-[4/5] sm:aspect-[3/4] md:aspect-[4/5]">
             <Image
               src="/image/india-mapp.PNG"
-              alt="SaveDost services available to users across India"
+              alt="Apphany services available to users across India"
               fill
               sizes="(max-width: 640px) 310px, (max-width: 1024px) 576px, 50vw"
               className="object-contain"

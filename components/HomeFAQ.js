@@ -8,12 +8,12 @@ const homeFaqs = [
   {
     question: "Can I pay all my household bills in one place?",
     answer:
-      "Yes. You can use SaveDost for mobile and DTH recharge, electricity, water, gas, broadband, FASTag, loan EMI, credit card, insurance, and several other everyday payments.",
+      "Yes. You can use Apphany for mobile and DTH recharge, electricity, water, gas, broadband, FASTag, loan EMI, credit card, insurance, and several other everyday payments.",
   },
   {
     question: "What should I do if money is deducted but my payment fails?",
     answer:
-      "First check the transaction status in your account. Failed payments are generally reversed by the payment provider. If the amount is not returned, contact SaveDost support with your transaction ID so the team can help you.",
+      "First check the transaction status in your account. Failed payments are generally reversed by the payment provider. If the amount is not returned, contact Apphany support with your transaction ID so the team can help you.",
   },
   {
     question: "How will I know whether my recharge or bill payment succeeded?",
@@ -23,27 +23,27 @@ const homeFaqs = [
   {
     question: "Can I book bus, train, flight, and hotel services here?",
     answer:
-      "Yes. SaveDost provides access to bus, train, and flight booking as well as hotel stays. Select the booking service, enter your travel details, and continue through the SaveDost app.",
+      "Yes. Apphany provides access to bus, train, and flight booking as well as hotel stays. Select the booking service, enter your travel details, and continue through the Apphany app.",
   },
   {
-    question: "Can I pay my vehicle insurance premium through SaveDost?",
+    question: "Can I pay my vehicle insurance premium through Apphany?",
     answer:
       "Yes. Dedicated payment options are available for car, bike, taxi, and commercial vehicle insurance. Enter your policy and vehicle details to fetch the premium.",
   },
   {
     question: "Is it safe to enter my mobile number and payment details?",
     answer:
-      "SaveDost uses secure authentication and protected payment flows. Never share your OTP, password, or other confidential account information with anyone.",
+      "Apphany uses secure authentication and protected payment flows. Never share your OTP, password, or other confidential account information with anyone.",
   },
   {
-    question: "Do I need the SaveDost app to complete a payment?",
+    question: "Do I need the Apphany app to complete a payment?",
     answer:
       "You can explore services and enter the required details on the website. When an app is required to complete the transaction, a QR code and official app-store links will be shown.",
   },
   {
     question: "Where can I get help with my account or a transaction?",
     answer:
-      "Use the Contact Us page or email support@savedost.in with your registered mobile number and transaction reference. Support is available Monday to Saturday, 9:30 AM to 6:30 PM.",
+      "Use the Contact Us page or email support@apphany.in with your registered mobile number and transaction reference. Support is available Monday to Saturday, 9:30 AM to 6:30 PM.",
   },
 ];
 
@@ -104,7 +104,7 @@ export default function HomeFAQ() {
           <div className="relative order-1 mx-auto h-52 w-full max-w-[320px] overflow-hidden rounded-[18px] sm:h-auto sm:max-w-[470px] sm:rounded-[22px]">
             <Image
               src="/image/faq-support-portrait.png"
-              alt="Customer using SaveDost services with payment and support assistance"
+              alt="Customer using Apphany services with payment and support assistance"
               width={1024}
               height={1536}
               className="h-full w-full object-cover object-[center_22%] sm:h-auto"

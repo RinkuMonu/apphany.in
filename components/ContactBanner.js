@@ -15,7 +15,7 @@ export default function ContactBanner() {
                 <Headphones size={24} />
               </span>
               <p className="text-xs font-extrabold uppercase tracking-[.2em] text-[#9de4ef]">
-                SaveDost Support
+                Apphany Support
               </p>
             </div>
 
@@ -23,7 +23,7 @@ export default function ContactBanner() {
               Need help? Let&apos;s find the right answer together.
             </h2>
             <p className="mt-4 max-w-2xl text-sm leading-7 text-white/70 sm:text-base">
-              Contact our support team for guidance about your SaveDost account, available services
+              Contact our support team for guidance about your Apphany account, available services
               or a transaction concern.
             </p>
 
@@ -32,10 +32,10 @@ export default function ContactBanner() {
                 <Clock3 size={15} className="text-[#8ac954]" /> Mon–Sat, 9:30 AM–6:30 PM
               </span>
               <a
-                href="mailto:support@savedost.in"
+                href="mailto:support@apphany.in"
                 className="inline-flex min-w-0 items-center gap-2 break-all rounded-xl border border-white/12 bg-white/7 px-3 py-2 text-[11px] font-semibold text-white/80 transition hover:bg-white/12 sm:rounded-full sm:px-4 sm:text-xs"
               >
-                <Mail size={15} className="text-[#8ac954]" /> support@savedost.in
+                <Mail size={15} className="text-[#8ac954]" /> support@apphany.in
               </a>
               <span className="inline-flex items-center gap-2 rounded-xl border border-white/12 bg-white/7 px-3 py-2 text-[11px] font-semibold text-white/80 sm:rounded-full sm:px-4 sm:text-xs">
                 <ShieldCheck size={15} className="text-[#8ac954]" /> Secure account guidance

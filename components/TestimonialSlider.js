@@ -14,7 +14,7 @@ const testimonials = [
   {
     id: 2,
     name: "Raghu Sharma",
-    text: "SaveDost makes my everyday payments easy to manage. The website is straightforward, and the support team is always helpful.",
+    text: "Apphany makes my everyday payments easy to manage. The website is straightforward, and the support team is always helpful.",
     date: "26 July 2025",
     avatar: "/image/p2.jpg",
     rating: 5,
@@ -30,7 +30,7 @@ const testimonials = [
   {
     id: 4,
     name: "Amit Verma",
-    text: "I use SaveDost for recharges and bill payments. Everything I need is available in one place, which saves me time and effort.",
+    text: "I use Apphany for recharges and bill payments. Everything I need is available in one place, which saves me time and effort.",
     date: "28 July 2025",
     avatar: "/image/p1.jpg",
     rating: 5,

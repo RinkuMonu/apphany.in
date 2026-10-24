@@ -8,7 +8,7 @@ export default function DocumentsRequired() {
   const documentList = [
     {
       title: "Documents Required for PAN Application",
-      desc: "For Indian citizens applying for the digital PAN service through SaveDost, it is mandatory to provide valid proof of identity, address, and date of birth. Single applicants must submit documents that clearly show their residential address. In the case of minors (under 18 years of age), documents of parents or guardians are accepted as valid proof of both identity and address.",
+      desc: "For Indian citizens applying for the digital PAN service through Apphany, it is mandatory to provide valid proof of identity, address, and date of birth. Single applicants must submit documents that clearly show their residential address. In the case of minors (under 18 years of age), documents of parents or guardians are accepted as valid proof of both identity and address.",
     },
     {
       title: "For Individuals and Hindu Undivided Family (HUF)",

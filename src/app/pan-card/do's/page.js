@@ -81,8 +81,8 @@ export default function dosforeign() {
     {
       title: "For Assistance",
       desc: [
-        "Finunique Small Private Limited",
-        "Email: support@savedost.in",
+        "Apphany Technologies Pvt. Ltd.",
+        "Email: support@apphany.in",
         "Website: www.savedost.in",
       ],
     },

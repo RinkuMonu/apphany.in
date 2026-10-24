@@ -54,7 +54,7 @@ export default function ReferAppButton({ children, className = "" }) {
                   id="refer-download-title"
                   className="mt-2 pr-10 text-center text-2xl font-extrabold text-[#0C3D4C] sm:pr-0"
                 >
-                  Start referring with the SaveDost app
+                  Start referring with the Apphany app
                 </h2>
                 <p className="mx-auto mt-3 max-w-xl text-center text-sm leading-6 text-slate-600">
                   Download the app, sign in and open Refer & Earn to share your unique referral
@@ -81,7 +81,7 @@ export default function ReferAppButton({ children, className = "" }) {
                   <div className="mx-auto rounded-2xl border border-[#d7e9ed] bg-white p-3 shadow-lg">
                     <Image
                       src="/MainQR.jpeg"
-                      alt="QR code to download the SaveDost app"
+                      alt="QR code to download the Apphany app"
                       width={210}
                       height={210}
                       className="h-44 w-44 object-contain sm:h-52 sm:w-52"
@@ -90,7 +90,7 @@ export default function ReferAppButton({ children, className = "" }) {
                 </div>
                 <div className="mt-6 flex flex-col gap-4 border-t border-slate-200 pt-6 sm:flex-row sm:items-center sm:justify-between">
                   <p className="max-w-[240px] text-sm font-semibold leading-5 text-[#132238]">
-                    Download SaveDost and access your referral code.
+                    Download Apphany and access your referral code.
                   </p>
                   <div className="flex flex-wrap gap-3">
                     <Link

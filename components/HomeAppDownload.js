@@ -16,15 +16,15 @@ export default function HomeAppDownload() {
         <div className="relative z-10 px-4 py-6 sm:px-10 sm:py-10 lg:px-14 lg:py-14">
           <div className="flex items-center gap-2.5 sm:gap-3">
             <Image
-              src="/image/SaveDost-initial.png"
-              alt="SaveDost"
+              src="/image/Apphany-initial.png"
+              alt="Apphany"
               width={58}
               height={58}
               className="h-10 w-auto object-contain sm:h-12"
               style={{ width: "auto" }}
             />
             <span className="text-xs font-bold uppercase tracking-[0.16em] text-[#026381] sm:text-sm sm:tracking-[0.18em]">
-              SaveDost App
+              Apphany App
             </span>
           </div>
 
@@ -32,7 +32,7 @@ export default function HomeAppDownload() {
             Your everyday payments, <span className="text-[#00a8e8]">all in one app</span>
           </h2>
           <p className="mt-3 max-w-xl text-[13px] leading-5 text-slate-600 sm:mt-5 sm:text-lg sm:leading-7">
-            Download the SaveDost app to manage recharges, bills and travel services anytime,
+            Download the Apphany app to manage recharges, bills and travel services anytime,
             anywhere.
           </p>
 
@@ -103,13 +103,13 @@ export default function HomeAppDownload() {
             <div className="mt-4 rounded-2xl border border-slate-100 bg-white p-3 shadow-inner">
               <Image
                 src="/MainQR.jpeg"
-                alt="QR code to download the SaveDost app"
+                alt="QR code to download the Apphany app"
                 width={220}
                 height={220}
                 className="h-[160px] w-[160px] sm:h-[220px] sm:w-[220px]"
               />
             </div>
-            <p className="mt-4 text-base font-extrabold text-[#0C3D4C]">Download SaveDost App</p>
+            <p className="mt-4 text-base font-extrabold text-[#0C3D4C]">Download Apphany App</p>
             <p className="mt-1 text-xs text-slate-500">Available for Android devices</p>
           </div>
         </div>

@@ -40,7 +40,7 @@ const BenefitsSection2 = ({ compact = false }) => {
           <h3
             className={`${compact ? "text-2xl sm:text-3xl" : "text-2xl sm:text-3xl md:text-4xl"} font-bold leading-tight`}
           >
-            Download the SaveDost App, <br /> Get Started in Minutes.
+            Download the Apphany App, <br /> Get Started in Minutes.
           </h3>
 
           <div className="flex flex-col sm:flex-row items-center sm:space-x-4 space-y-4 sm:space-y-0">
@@ -48,7 +48,7 @@ const BenefitsSection2 = ({ compact = false }) => {
               href="https://apps.apple.com/in/app/finunique/id6760808229"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Download SaveDost on the App Store"
+              aria-label="Download Apphany on the App Store"
             >
               <Image
                 src="/loan/image7.png"

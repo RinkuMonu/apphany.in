@@ -24,7 +24,7 @@ export default function CreditComp() {
       <div className="mx-auto grid max-w-7xl items-center gap-10 rounded-[28px] border border-[#d7e9ed] bg-[#eaf6f9] p-6 sm:p-9 lg:grid-cols-[.9fr_1.1fr] lg:p-12">
         <div>
           <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#0289ad]">
-            Why Explore With SaveDost
+            Why Explore With Apphany
           </p>
           <h2 className="mt-3 text-3xl font-extrabold leading-tight tracking-tight text-[#0C3D4C] sm:text-4xl">
             Compare benefits before choosing your card

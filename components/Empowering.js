@@ -6,7 +6,7 @@ const merchantTypes = [
   {
     id: "retailersection",
     eyebrow: "For Local Businesses",
-    title: "Become a SaveDost Retailer",
+    title: "Become a Apphany Retailer",
     description:
       "Turn your shop into a convenient service point for customers in your neighborhood.",
     imageUrl: "/aeps/retailer.png",
@@ -21,7 +21,7 @@ const merchantTypes = [
   {
     id: "distributorsection",
     eyebrow: "For Network Builders",
-    title: "Grow as a SaveDost Distributor",
+    title: "Grow as a Apphany Distributor",
     description:
       "Build and support a network of retailers while creating a scalable business in your region.",
     imageUrl: "/aeps/distributor.png",
@@ -47,7 +47,7 @@ export default function Empowering() {
             Empowering retailers and distributors
           </h2>
           <p className="mt-4 text-base leading-7 text-slate-600">
-            Select the partnership model that fits your goals and grow with SaveDost&apos;s platform
+            Select the partnership model that fits your goals and grow with Apphany&apos;s platform
             and support.
           </p>
         </div>
@@ -87,7 +87,7 @@ export default function Empowering() {
                   href="/signup"
                   className="group mt-7 inline-flex items-center gap-2 rounded-xl bg-[#026381] px-5 py-3 text-sm font-bold text-white transition hover:bg-[#0C3D4C]"
                 >
-                  Join SaveDost{" "}
+                  Join Apphany{" "}
                   <ArrowRight
                     size={17}
                     className="transition-transform group-hover:translate-x-1"

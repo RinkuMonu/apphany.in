@@ -7,7 +7,7 @@ export const sampleBlogs = [
     categoryName: "Bill Payments",
     created_at: "2026-07-20T10:00:00.000Z",
     image: "/blog/blog1.png",
-    author: "SaveDost Team",
+    author: "Apphany Team",
     short_description:
       "Understand the basic checks that can help you pay supported household bills clearly and confidently.",
     content: `
@@ -28,7 +28,7 @@ export const sampleBlogs = [
     categoryName: "Recharge Guides",
     created_at: "2026-07-16T10:00:00.000Z",
     image: "/blog/blog2.png",
-    author: "SaveDost Team",
+    author: "Apphany Team",
     short_description:
       "Learn what to check when selecting a mobile number, operator and recharge plan.",
     content: `
@@ -49,7 +49,7 @@ export const sampleBlogs = [
     categoryName: "Payment Safety",
     created_at: "2026-07-11T10:00:00.000Z",
     image: "/blog/blogbg.png",
-    author: "SaveDost Team",
+    author: "Apphany Team",
     short_description:
       "Practical habits that can help protect your account, OTPs and payment information.",
     content: `
@@ -57,9 +57,9 @@ export const sampleBlogs = [
       <h2>Keep OTPs and credentials private</h2>
       <p>Never share an OTP, password, PIN or card security code with another person. Genuine support teams should not ask for these details.</p>
       <h2>Use trusted access points</h2>
-      <p>Open SaveDost through the official website or app. Avoid unknown links received through messages, advertisements or social media.</p>
+      <p>Open Apphany through the official website or app. Avoid unknown links received through messages, advertisements or social media.</p>
       <h2>Review transaction alerts</h2>
-      <p>Check bank alerts and account activity. If you notice an unfamiliar transaction, contact your bank and SaveDost support promptly.</p>
+      <p>Check bank alerts and account activity. If you notice an unfamiliar transaction, contact your bank and Apphany support promptly.</p>
     `,
   },
 ];

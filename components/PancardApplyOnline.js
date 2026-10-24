@@ -76,7 +76,7 @@ const PancardApplyOnline = () => {
             <p className="text-sm leading-7 text-slate-600">
               For individual and HUF applicants who select an office address as the communication
               address, both office address proof and residential address proof must be submitted to
-              SaveDost.
+              Apphany.
             </p>
 
             <p className="text-sm leading-7 text-slate-600">
@@ -133,7 +133,7 @@ const PancardApplyOnline = () => {
                   id="pan-app-title"
                   className="mt-2 pr-10 text-center text-2xl font-extrabold text-[#0C3D4C] sm:pr-0"
                 >
-                  Apply through the SaveDost app
+                  Apply through the Apphany app
                 </h2>
                 <p className="mx-auto mt-2 max-w-xl text-center text-sm leading-5 text-slate-600">
                   Scan the QR code or use an app-store link to continue your new PAN application.
@@ -159,7 +159,7 @@ const PancardApplyOnline = () => {
                   <div className="mx-auto rounded-2xl border border-[#d7e9ed] bg-white p-3 shadow-lg">
                     <Image
                       src="/MainQR.jpeg"
-                      alt="QR code to download the SaveDost app"
+                      alt="QR code to download the Apphany app"
                       width={160}
                       height={160}
                       className="h-36 w-36 object-contain sm:h-40 sm:w-40"
@@ -168,7 +168,7 @@ const PancardApplyOnline = () => {
                 </div>
                 <div className="mt-4 flex flex-col gap-3 border-t border-slate-200 pt-4 sm:flex-row sm:items-center sm:justify-between">
                   <p className="max-w-[245px] text-sm font-semibold leading-5 text-[#132238]">
-                    Download SaveDost to complete your PAN application securely.
+                    Download Apphany to complete your PAN application securely.
                   </p>
                   <div className="flex flex-wrap gap-3">
                     <Link

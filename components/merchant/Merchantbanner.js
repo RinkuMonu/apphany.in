@@ -16,13 +16,13 @@ export default function MerchantBannerSection() {
       <div className="mx-auto grid max-w-7xl items-center gap-10 lg:grid-cols-[.92fr_1.08fr]">
         <div className="text-center lg:text-left">
           <span className="inline-flex rounded-full border border-[#b9e1e9] bg-white px-4 py-2 text-xs font-bold uppercase tracking-[0.16em] text-[#026381] shadow-sm">
-            SaveDost Merchant Network
+            Apphany Merchant Network
           </span>
           <h1 className="mt-6 text-4xl font-extrabold leading-tight tracking-tight text-[#0C3D4C] sm:text-5xl lg:text-[58px] lg:leading-[1.08]">
             Grow your business with <span className="text-[#0289ad]">digital services.</span>
           </h1>
           <p className="mx-auto mt-5 max-w-xl text-base leading-7 text-slate-600 lg:mx-0 lg:text-lg">
-            Join SaveDost as a retailer or distributor and offer trusted payment, recharge, banking,
+            Join Apphany as a retailer or distributor and offer trusted payment, recharge, banking,
             and utility services to customers in your area.
           </p>
           <div className="mt-7 flex flex-wrap justify-center gap-3 lg:justify-start">
@@ -40,7 +40,7 @@ export default function MerchantBannerSection() {
           <div className="relative h-[300px] overflow-hidden rounded-[28px] border-4 border-white shadow-[0_22px_50px_rgba(12,61,76,0.16)] sm:h-[390px] lg:h-[440px]">
             <Image
               src="/image/merchant-banner.jpg"
-              alt="SaveDost merchant services"
+              alt="Apphany merchant services"
               fill
               className="object-cover"
               priority

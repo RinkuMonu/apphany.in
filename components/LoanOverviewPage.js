@@ -100,9 +100,9 @@ const faqs = [
       "Start with the actual purpose, required amount, expected repayment period, and whether the purchase is linked to an asset. A dedicated home, car, business, or equipment loan may be more suitable than general-purpose credit.",
   },
   {
-    question: "Does SaveDost approve or disburse loans?",
+    question: "Does Apphany approve or disburse loans?",
     answer:
-      "SaveDost helps users understand and explore loan journeys. The lending institution makes the final decision on eligibility, approval, rate, fees, tenure, and disbursal.",
+      "Apphany helps users understand and explore loan journeys. The lending institution makes the final decision on eligibility, approval, rate, fees, tenure, and disbursal.",
   },
   {
     question: "What documents should I prepare first?",
@@ -133,7 +133,7 @@ export default function LoanOverviewPage() {
         <div className="relative mx-auto grid max-w-7xl items-center gap-7 sm:gap-12 lg:grid-cols-[1fr_.9fr]">
           <ScrollReveal>
             <span className="inline-flex items-center gap-2 rounded-full border border-[#b9e1e9] bg-[#eff9fb] px-4 py-2 text-xs font-bold uppercase tracking-[.15em] text-[#026381]">
-              <Sparkles size={15} /> SaveDost loan solutions
+              <Sparkles size={15} /> Apphany loan solutions
             </span>
             <h1 className="mt-4 max-w-3xl text-3xl font-black leading-[1.1] tracking-tight text-[#0C3D4C] sm:mt-6 sm:text-5xl lg:text-6xl">
               One place to explore a loan for
@@ -204,7 +204,7 @@ export default function LoanOverviewPage() {
                 src="/loan/loan3.png"
                 fill
                 priority
-                alt="SaveDost loan guidance"
+                alt="Apphany loan guidance"
                 className="relative z-10 object-contain object-bottom drop-shadow-2xl"
               />
             </div>

@@ -1,9 +1,9 @@
 import LoanOverviewPage from "../../../components/LoanOverviewPage";
 
 export const metadata = {
-  title: "Loan Overview | Explore Loan Options | SaveDost",
+  title: "Loan Overview | Explore Loan Options | Apphany",
   description:
-    "Compare personal, instant, home, car, business, and construction equipment loan options with SaveDost.",
+    "Compare personal, instant, home, car, business, and construction equipment loan options with Apphany.",
 };
 
 export default function LoanPage() {

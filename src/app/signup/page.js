@@ -1,8 +1,8 @@
 import MultiStepAuthForm from "../../../components/auth/MultiStepAuthForm";
 
 export const metadata = {
-  title: "Sign Up | SaveDost",
-  description: "Create your personal SaveDost account.",
+  title: "Sign Up | Apphany",
+  description: "Create your personal Apphany account.",
 };
 
 export default function SignupPage() {

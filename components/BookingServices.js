@@ -69,7 +69,7 @@ export default function BookingServicesSection() {
             Choose how you want to travel
           </h2>
           <p className="mt-3 text-base leading-7 text-slate-600">
-            Explore each category and continue to SaveDost&apos;s booking platform for available
+            Explore each category and continue to Apphany&apos;s booking platform for available
             options.
           </p>
         </div>

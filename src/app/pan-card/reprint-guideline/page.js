@@ -115,7 +115,7 @@ export default function Reprintguideline() {
           <br />
           Income Tax PAN Services Unit
           <ul className="list-disc list-outside text-gray-700 leading-relaxed space-y-2 marker:text-[#0077b6]">
-            <li>Finunique Small Private Limited</li>
+            <li>Apphany Technologies Pvt. Ltd.</li>
             <li>
               {" "}
               Website:{" "}
@@ -137,7 +137,7 @@ export default function Reprintguideline() {
           <br />
           Superscribe the envelope with: ‘APPLICATION FOR PAN – N-[15 digit Acknowledgement Number]’
           (e.g., APPLICATION FOR PAN – N-881010200000097). Your acknowledgement and proofs should
-          reach Finunique Small Private Limited within 15 days from the date of online application.
+          reach Apphany Technologies Pvt. Ltd. within 15 days from the date of online application.
           Applications shall be processed upon receipt of relevant documents (acknowledgment and
           proofs).
         </>
@@ -149,7 +149,7 @@ export default function Reprintguideline() {
       answer: (
         <>
           <ul className="list-disc list-outside text-gray-700 leading-relaxed space-y-2 marker:text-[#0077b6]">
-            <li>Finunique Small Private Limited</li>
+            <li>Apphany Technologies Pvt. Ltd.</li>
             <li>
               Website:
               <Link

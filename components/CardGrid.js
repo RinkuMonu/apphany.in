@@ -369,7 +369,7 @@ export default function CardGrid() {
                 Continue securely
               </p>
               <h2 id="card-app-title" className="mt-2 text-2xl font-extrabold text-[#0C3D4C]">
-                Apply through the SaveDost app
+                Apply through the Apphany app
               </h2>
               <p className="mt-3 text-sm leading-6 text-slate-600">
                 You are signed in. Download or open the app to continue the credit-card application

@@ -15,9 +15,9 @@ import ContactBanner from "../../../components/ContactBanner";
 import ScrollReveal from "../../../components/ScrollReveal";
 
 export const metadata = {
-  title: "SaveDost Blog | Payment Guides & Financial Insights",
+  title: "Apphany Blog | Payment Guides & Financial Insights",
   description:
-    "Read practical SaveDost guides about digital payments, utility bills, recharges, financial awareness and safer everyday transactions.",
+    "Read practical Apphany guides about digital payments, utility bills, recharges, financial awareness and safer everyday transactions.",
 };
 
 const topics = [
@@ -29,9 +29,9 @@ const topics = [
 
 const faqData = [
   {
-    question: "What topics does the SaveDost blog cover?",
+    question: "What topics does the Apphany blog cover?",
     answer:
-      "The blog covers digital payments, recharges, utility bills, financial awareness, payment safety and updates about supported SaveDost services.",
+      "The blog covers digital payments, recharges, utility bills, financial awareness, payment safety and updates about supported Apphany services.",
   },
   {
     question: "How can I find a specific article?",
@@ -44,7 +44,7 @@ const faqData = [
       "New articles are published when we have useful guidance, service information or important updates to share.",
   },
   {
-    question: "Can I get help with a SaveDost service here?",
+    question: "Can I get help with a Apphany service here?",
     answer:
       "Articles provide general guidance. For assistance with your account or a transaction, please use the Contact Us page.",
   },
@@ -58,7 +58,7 @@ export default function BlogPage() {
         <div className="mx-auto grid max-w-7xl items-center gap-10 lg:grid-cols-2">
           <ScrollReveal direction="left">
             <span className="inline-flex items-center gap-2 rounded-full border border-[#b9dfe7] bg-white px-4 py-2 text-xs font-extrabold tracking-widest text-[#026381] uppercase">
-              <BookOpen size={15} /> SaveDost Blog
+              <BookOpen size={15} /> Apphany Blog
             </span>
             <h1 className="mt-6 max-w-3xl text-4xl leading-tight font-extrabold tracking-tight text-[#0C3D4C] sm:text-5xl lg:text-6xl">
               Clear answers for smarter financial decisions.
@@ -79,7 +79,7 @@ export default function BlogPage() {
             <div className="absolute inset-6 rounded-4xl bg-white/75 shadow-xl" />
             <Image
               src="/blog/blog2.png"
-              alt="SaveDost financial learning and blog illustration"
+              alt="Apphany financial learning and blog illustration"
               fill
               priority
               className="relative object-contain p-5"
@@ -123,7 +123,7 @@ export default function BlogPage() {
 
       <FAQ
         faqs={faqData}
-        subheading="Quick answers about SaveDost articles and service guidance."
+        subheading="Quick answers about Apphany articles and service guidance."
       />
 
       <ContactBanner />

@@ -39,13 +39,13 @@ function page() {
     {
       title: "Apply now and get your PAN instantly",
       description:
-        "Apply online with SaveDost, submit your details and documents quickly, and receive your acknowledgment in seconds. Our streamlined process makes it easy to complete your application, upload identity and address proofs, and track your PAN status in real time. Get your PAN delivered conveniently to your registered address.",
+        "Apply online with Apphany, submit your details and documents quickly, and receive your acknowledgment in seconds. Our streamlined process makes it easy to complete your application, upload identity and address proofs, and track your PAN status in real time. Get your PAN delivered conveniently to your registered address.",
       image: "/image/pan-sideimg13d.png",
     },
     {
       title: "Your Identity, Your Power",
       description:
-        "Applying for your PAN Card with SaveDost is simple, secure, and fully online. Submit your details, upload the required documents, and receive instant acknowledgment. Our reliable verification process ensures accuracy while real-time tracking keeps you informed at every step. Get your PAN delivered quickly to your registered address and manage your financial and tax activities with confidence.",
+        "Applying for your PAN Card with Apphany is simple, secure, and fully online. Submit your details, upload the required documents, and receive instant acknowledgment. Our reliable verification process ensures accuracy while real-time tracking keeps you informed at every step. Get your PAN delivered quickly to your registered address and manage your financial and tax activities with confidence.",
       image: "/image/panimg-23d.png",
     },
   ];

@@ -102,7 +102,7 @@ export default function LoanEnquiryForm({ initialProduct = "instant", mode = "en
       await Swal.fire({
         icon: "success",
         title: "Request submitted",
-        text: "The SaveDost team will review your details and follow up with the next steps.",
+        text: "The Apphany team will review your details and follow up with the next steps.",
         confirmButtonColor: "#026381",
       });
       setForm((current) => ({

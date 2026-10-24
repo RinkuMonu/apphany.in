@@ -31,7 +31,7 @@ function ArticleImage({ post, className }) {
   return (
     <Image
       src={post?.image || "/blog/blogbg.png"}
-      alt={post?.title || "SaveDost article"}
+      alt={post?.title || "Apphany article"}
       fill
       sizes="(max-width: 768px) 100vw, 50vw"
       className={className}
@@ -52,7 +52,7 @@ function FeaturedArticle({ post }) {
       <div className="flex flex-col justify-center p-7 sm:p-9">
         <div className="flex flex-wrap items-center gap-3 text-xs">
           <span className="rounded-full bg-[#e6f5f7] px-3 py-1.5 font-extrabold text-[#027f9f]">
-            {post.category || "SaveDost"}
+            {post.category || "Apphany"}
           </span>
           <span className="flex items-center gap-1.5 text-slate-500">
             <CalendarDays size={14} /> {formatDate(post.created_at)}
@@ -169,7 +169,7 @@ function PostCard({ post }) {
       <div className="flex flex-1 flex-col p-6">
         <div className="flex items-center justify-between gap-3 text-xs">
           <span className="rounded-full bg-[#e8f5f7] px-3 py-1 font-bold text-[#027f9f]">
-            {post.category || "SaveDost"}
+            {post.category || "Apphany"}
           </span>
           <span className="text-slate-400">{formatDate(post.created_at)}</span>
         </div>
@@ -247,7 +247,7 @@ export default function BlogC() {
             Latest Insights
           </p>
           <h2 className="mt-3 text-3xl font-extrabold tracking-tight text-[#0C3D4C] sm:text-4xl">
-            Guides and updates from SaveDost
+            Guides and updates from Apphany
           </h2>
         </div>
         <p className="max-w-xl text-sm leading-7 text-slate-600 lg:text-right">

@@ -87,7 +87,7 @@ const orbitStyles = [
 
 export default function ServicePaymentIntro({
   serviceSlug = "more",
-  serviceTitle = "SaveDost service",
+  serviceTitle = "Apphany service",
 }) {
   const reduceMotion = useReducedMotion();
   const serviceIcons = serviceIconSets[serviceSlug] || [
@@ -147,8 +147,8 @@ export default function ServicePaymentIntro({
           className="grid h-28 w-28 place-items-center overflow-hidden rounded-[30px] bg-transparent"
         >
           <Image
-            src="/image/SaveDost-initial.png"
-            alt="SaveDost"
+            src="/image/Apphany-initial.png"
+            alt="Apphany"
             width={346}
             height={405}
             className="h-24 w-auto object-contain"

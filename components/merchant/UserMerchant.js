@@ -6,7 +6,7 @@ import { ArrowRight, CheckCircle2, UserRound } from "lucide-react";
 
 const benefits = [
   "Access useful payment, recharge, and financial services in one place",
-  "Complete everyday transactions through a nearby SaveDost merchant",
+  "Complete everyday transactions through a nearby Apphany merchant",
   "Receive assistance from trained retailers when you need it",
   "Enjoy a simple and convenient digital service experience",
 ];
@@ -18,7 +18,7 @@ export default function UserMerchantSection() {
         <div className="relative h-[300px] overflow-hidden rounded-[26px] border border-[#d8edf2] shadow-[0_18px_40px_rgba(12,61,76,0.12)] sm:h-[420px]">
           <Image
             src="/image/user-image.JPG"
-            alt="SaveDost service user"
+            alt="Apphany service user"
             fill
             className="object-cover"
           />
@@ -32,7 +32,7 @@ export default function UserMerchantSection() {
             Everyday services made easier for every user
           </h2>
           <p className="mt-4 text-base leading-7 text-slate-600">
-            SaveDost connects users with a growing merchant network, making essential digital and
+            Apphany connects users with a growing merchant network, making essential digital and
             financial services easier to access within their community.
           </p>
 

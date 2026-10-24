@@ -6,14 +6,14 @@ const sections = [
     id: "purpose",
     title: "Purpose and Scope",
     paragraphs: [
-      "This policy explains how SaveDost handles transaction disputes and chargebacks raised by users for supported digital, financial, recharge, bill-payment, booking, and application services.",
+      "This policy explains how Apphany handles transaction disputes and chargebacks raised by users for supported digital, financial, recharge, bill-payment, booking, and application services.",
     ],
   },
   {
     id: "contact-first",
-    title: "Contact SaveDost First",
+    title: "Contact Apphany First",
     paragraphs: [
-      "Before filing a chargeback with a bank or card issuer, contact SaveDost so the transaction can be reviewed. Many failed or pending transactions are resolved through provider reconciliation or an automatic reversal.",
+      "Before filing a chargeback with a bank or card issuer, contact Apphany so the transaction can be reviewed. Many failed or pending transactions are resolved through provider reconciliation or an automatic reversal.",
     ],
   },
   {
@@ -40,7 +40,7 @@ const sections = [
     id: "investigation",
     title: "Investigation Process",
     paragraphs: [
-      "SaveDost reviews transaction logs, payment confirmation, service-delivery status, and communication records. Information may be requested from the bank, payment gateway, biller, or service provider before a decision is made.",
+      "Apphany reviews transaction logs, payment confirmation, service-delivery status, and communication records. Information may be requested from the bank, payment gateway, biller, or service provider before a decision is made.",
     ],
   },
   {
@@ -61,7 +61,7 @@ const sections = [
     id: "unauthorized",
     title: "Unauthorized Transactions",
     paragraphs: [
-      "Users should immediately contact their bank or payment provider and SaveDost if they suspect unauthorized activity. Credentials, OTPs, PINs, and passwords must never be shared. Account access may be temporarily restricted to protect the user during investigation.",
+      "Users should immediately contact their bank or payment provider and Apphany if they suspect unauthorized activity. Credentials, OTPs, PINs, and passwords must never be shared. Account access may be temporarily restricted to protect the user during investigation.",
     ],
   },
   {
@@ -75,14 +75,14 @@ const sections = [
     id: "outcome",
     title: "Outcome and Refund",
     paragraphs: [
-      "If a dispute is approved, the refund or reversal will be processed through the applicable payment channel. If denied, SaveDost will provide the available reason and supporting transaction status.",
+      "If a dispute is approved, the refund or reversal will be processed through the applicable payment channel. If denied, Apphany will provide the available reason and supporting transaction status.",
     ],
   },
   {
     id: "support",
     title: "Support",
     paragraphs: [
-      "Submit disputes to support@savedost.in. Include complete transaction information to avoid delays.",
+      "Submit disputes to support@apphany.in. Include complete transaction information to avoid delays.",
     ],
   },
 ];
@@ -95,7 +95,7 @@ export default function ChargebackPolicyPage() {
       description="The process users should follow when disputing an unauthorized, duplicate, failed, or undelivered transaction."
       effectiveDate="23 July 2026"
       sections={sections}
-      summary="Contact SaveDost before raising a bank chargeback, provide complete transaction evidence, and allow the payment and service status to be verified through the relevant providers."
+      summary="Contact Apphany before raising a bank chargeback, provide complete transaction evidence, and allow the payment and service status to be verified through the relevant providers."
     />
   );
 }

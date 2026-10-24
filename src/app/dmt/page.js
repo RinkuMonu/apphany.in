@@ -93,7 +93,7 @@ function page() {
       answer: "Most transfers are instant; some may take a few minutes depending on the bank.",
     },
     {
-      question: "Is it safe to use SaveDost for DMT?",
+      question: "Is it safe to use Apphany for DMT?",
       answer: "Yes, all transfers are encrypted and verified through bank IFSC codes.",
     },
     {

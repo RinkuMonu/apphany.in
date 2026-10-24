@@ -5,7 +5,7 @@ import { ChevronDown } from "lucide-react";
 
 export default function FAQ({
   faqs = [],
-  subheading = "Clear answers to common questions about SaveDost and supported services.",
+  subheading = "Clear answers to common questions about Apphany and supported services.",
   label = "Help Centre",
   title = "Frequently Asked Questions",
 }) {

@@ -7,7 +7,7 @@ import { ArrowRight } from "lucide-react";
 const services = [
   {
     title: "Recharges",
-    text: "SaveDost BBPS makes supported mobile and DTH recharges quick and convenient, helping users maintain access to essential communication and entertainment services.",
+    text: "Apphany BBPS makes supported mobile and DTH recharges quick and convenient, helping users maintain access to essential communication and entertainment services.",
     image: "/allservices/recharge.png",
     href: "/service-payment/mobile",
   },
@@ -19,7 +19,7 @@ const services = [
   },
   {
     title: "Booking",
-    text: "Explore available travel and booking categories with simple navigation, relevant information, and access to the SaveDost booking platform.",
+    text: "Explore available travel and booking categories with simple navigation, relevant information, and access to the Apphany booking platform.",
     image: "/allservices/booking.png",
     href: "/booking",
   },
@@ -40,7 +40,7 @@ export default function AllServices() {
             Available Categories
           </p>
           <h2 className="mt-3 text-3xl font-extrabold tracking-tight text-[#0C3D4C] sm:text-4xl">
-            Services available through SaveDost
+            Services available through Apphany
           </h2>
         </div>
 
