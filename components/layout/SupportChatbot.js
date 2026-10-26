@@ -83,11 +83,11 @@ const LEAD_STEPS = [
       return ok ? null : "That doesn't look like a valid email. Could you re-enter it?";
     },
   },
-  {
-    key: "service",
-    question:
-      "Which service(s) are you interested in? (e.g. Bill Payments, Recharges, BBPS, Car/Bike/Taxi/Commercial Insurance, Bus Booking)",
-  },
+  // {
+  //   key: "service",
+  //   question:
+  //     "Which service(s) are you interested in? (e.g. Bill Payments, Recharges, BBPS, Car/Bike/Taxi/Commercial Insurance, Bus Booking)",
+  // },
   {
     key: "callbackTime",
     question: "When's a good time to call you back? (e.g. today 5pm, tomorrow morning)",

@@ -15,11 +15,11 @@ const features = [
     description: "Use UPI, Net Banking, Cards, or Wallets for maximum flexibility.",
     Icon: Wallet,
   },
-  {
-    title: "Instant Confirmation",
-    description: "Get immediate digital receipts with a unique BBPS transaction ID.",
-    Icon: Zap,
-  },
+  // {
+  //   title: "Instant Confirmation",
+  //   description: "Get immediate digital receipts with a unique BBPS transaction ID.",
+  //   Icon: Zap,
+  // },
   {
     title: "Available 24x7",
     description: "Pay your bills anytime, anywhere—no more queues or branch timings.",

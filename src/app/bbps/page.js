@@ -28,36 +28,36 @@ function page() {
   };
 
   const faqs = [
-    {
-      question: "What is BBPS?",
-      answer:
-        "BBPS is a secure bill payment system by NPCI that lets you pay all types of bills through banks, apps, and agent outlets.",
-    },
+    // {
+    //   question: "What is BBPS?",
+    //   answer:
+    //     "BBPS is a secure bill payment system by NPCI that lets you pay all types of bills through banks, apps, and agent outlets.",
+    // },
     {
       question: "How do I know if my biller is available?",
       answer:
         "Supported billers appear in the list while selecting a biller. Most utilities, telecom, DTH, broadband, and loan billers are already covered.",
     },
-    {
-      question: "Is paying bills online safe?",
-      answer:
-        "Yes. BBPS uses NPCI-backed secure systems and provides instant digital receipts for every payment.",
-    },
-    {
-      question: "What if my payment fails?",
-      answer:
-        "You’ll see the payment status instantly. If needed, refunds or reversals are processed as per BBPS guidelines.",
-    },
+    // {
+    //   question: "Is paying bills online safe?",
+    //   answer:
+    //     "Yes. BBPS uses NPCI-backed secure systems and provides instant digital receipts for every payment.",
+    // },
+    // {
+    //   question: "What if my payment fails?",
+    //   answer:
+    //     "You’ll see the payment status instantly. If needed, refunds or reversals are processed as per BBPS guidelines.",
+    // },
     {
       question: "How do I get a receipt?",
       answer:
         "A digital receipt with a unique transaction ID is generated instantly and can be viewed anytime in payment history.",
     },
-    {
-      question: "Where can I use BBPS?",
-      answer:
-        "You can pay bills via BBPS using banks, authorized agents, and popular payment apps.",
-    },
+    // {
+    //   question: "Where can I use BBPS?",
+    //   answer:
+    //     "You can pay bills via BBPS using banks, authorized agents, and popular payment apps.",
+    // },
   ];
   return (
     <>

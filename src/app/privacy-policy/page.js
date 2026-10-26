@@ -33,7 +33,7 @@ const privacySections = [
     icon: <Shield />,
     title: "Introduction",
     content: [
-      "Apphany is a consumer-facing brand powered and operated by Apphany Technologies Pvt. Ltd. (“Company”, “we”, “our”, or “us”). The Company values the privacy of its users and is fully committed to safeguarding personal data. This Privacy Policy outlines how we collect, use, store, and protect your information when you access or use Apphany services, including but not limited to Bharat Bill Payment System (BBPS), Mobile/DTH Recharges, Utility Bill Payments, and other financial technology solutions offered by us.",
+      // "Apphany is a consumer-facing brand powered and operated by Apphany Technologies Pvt. Ltd. (“Company”, “we”, “our”, or “us”). The Company values the privacy of its users and is fully committed to safeguarding personal data. This Privacy Policy outlines how we collect, use, store, and protect your information when you access or use Apphany services, including but not limited to Bharat Bill Payment System (BBPS), Mobile/DTH Recharges, Utility Bill Payments, and other financial technology solutions offered by us.",
       "Our goal is to ensure that your personal and financial information is handled responsibly, securely, and in compliance with applicable laws and regulatory guidelines, including those prescribed by the Reserve Bank of India (RBI), National Payments Corporation of India (NPCI), and Unique Identification Authority of India (UIDAI).",
       "By using our services, you consent to the collection and use of your information in accordance with this Privacy Policy. We only gather information that is essential to provide seamless transactions, meet compliance obligations, and enhance user experience. We do not sell or rent your personal data to unauthorized third parties.",
       "We encourage all users to read this policy carefully to understand how we handle your information and to exercise your rights effectively.",
@@ -58,7 +58,7 @@ const privacySections = [
     title: "How We Use Your Information",
     content: [
       "Your information is used solely to deliver secure and compliant services.",
-      "Processing Transactions — For BBPS, and other payments.",
+      // "Processing Transactions — For BBPS, and other payments.",
       "Identity Verification — For KYC and AML compliance under RBI/NPCI/UIDAI.",
       "Security & Fraud Prevention — To detect and prevent unauthorized access.",
       "Customer Support — For grievance handling and dispute resolution.",

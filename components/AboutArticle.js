@@ -69,7 +69,7 @@ const AboutArticle = () => {
       date: "October 1, 2025",
       title: "How Digital Payments Are Changing India",
       description:
-        " Explore the rise of BBPS and and how they are simplifying payments for millions.",
+        " Explore the rise of digital payments and how they are simplifying payments for millions.",
     },
     // {
     //     imgSrc: "/home/RA.avif",

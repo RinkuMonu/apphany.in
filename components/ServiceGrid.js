@@ -285,7 +285,7 @@ const ServiceGrid = () => {
     <>
       <div className="max-w-6xl mx-auto px-4 pt-16 pb-10 space-y-8">
         <h3 className="text-3xl font-bold text-[#0C3D4C] sm:text-4xl">
-          Bharat Bill Payment System - BBPS
+          {/* Bharat Bill Payment System - BBPS */}
         </h3>
 
         {services.map((category, catIdx) => (

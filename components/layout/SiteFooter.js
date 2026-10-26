@@ -22,16 +22,16 @@ const navigationLinks = [
   //     ["BBPS Services", "/bbps"],
   //   ],
   // },
-  {
-    title: "Bookings",
-    links: [
-      ["Booking Overview", "/booking"],
-      ["Bus Booking", "/service-payment/bus-booking"],
-      ["Train Booking", "/service-payment/train-booking"],
-      ["Flight Booking", "/service-payment/flight-booking"],
-      ["Hotel Booking", "/service-payment/hotel-booking"],
-    ],
-  },
+  // {
+  //   title: "Bookings",
+  //   links: [
+  //     ["Booking Overview", "/booking"],
+  //     ["Bus Booking", "/service-payment/bus-booking"],
+  //     ["Train Booking", "/service-payment/train-booking"],
+  //     ["Flight Booking", "/service-payment/flight-booking"],
+  //     ["Hotel Booking", "/service-payment/hotel-booking"],
+  //   ],
+  // },
   {
     title: "Financial Services",
     links: [

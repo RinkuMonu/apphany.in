@@ -21,7 +21,7 @@ export default function GiftCardTrigger() {
         <X size={12} strokeWidth={2.5} />
       </button>
       <Link
-        href="/service-payment/gift-card"
+        href="/"
         aria-label="Explore gift cards"
         className="flex flex-col items-center p-2 sm:p-3"
       >

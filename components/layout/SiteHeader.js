@@ -36,16 +36,16 @@ const navGroups = [
     
   //   ],
   // },
-  {
-    label: "Ticket Booking",
-    links: [
-      { label: "Booking Overview", href: "/booking" },
-      { label: "Bus Booking", href: "/service-payment/bus-booking" },
-      { label: "Train Booking", href: "/service-payment/train-booking" },
-      { label: "Flight Booking", href: "/service-payment/flight-booking" },
-      { label: "Hotel Booking", href: "/service-payment/hotel-booking" },
-    ],
-  },
+  // {
+  //   label: "Ticket Booking",
+  //   links: [
+  //     { label: "Booking Overview", href: "/booking" },
+  //     { label: "Bus Booking", href: "/service-payment/bus-booking" },
+  //     { label: "Train Booking", href: "/service-payment/train-booking" },
+  //     { label: "Flight Booking", href: "/service-payment/flight-booking" },
+  //     { label: "Hotel Booking", href: "/service-payment/hotel-booking" },
+  //   ],
+  // },
   {
     label: "Payment Services",
     links: [

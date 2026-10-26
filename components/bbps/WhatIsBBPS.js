@@ -10,11 +10,11 @@ const highlights = [
     title: "Multiple Bill Categories",
     text: "Access supported utilities and recurring bill-payment categories.",
   },
-  {
-    icon: ShieldCheck,
-    title: "Trusted Framework",
-    text: "Payments are processed through the applicable BBPS ecosystem.",
-  },
+  // {
+  //   icon: ShieldCheck,
+  //   title: "Trusted Framework",
+  //   text: "Payments are processed through the applicable BBPS ecosystem.",
+  // },
   {
     icon: FileCheck2,
     title: "Digital Confirmation",
@@ -32,9 +32,9 @@ export default function WhatIsBBPS() {
     <section className="bg-white px-4 py-14 sm:px-6 lg:px-8 lg:py-20">
       <div className="mx-auto grid max-w-7xl items-center gap-10 rounded-[28px] border border-[#d7e9ed] bg-[#f4fafb] p-6 shadow-[0_12px_30px_rgba(12,61,76,0.07)] sm:p-9 lg:grid-cols-[1.08fr_.92fr] lg:p-12">
         <div>
-          <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#0289ad]">
+          {/* <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#0289ad]">
             What Is BBPS?
-          </p>
+          </p> */}
           <h2 className="mt-3 text-3xl font-extrabold leading-tight tracking-tight text-[#0C3D4C] sm:text-4xl">
             One system for supported bill payments
           </h2>
