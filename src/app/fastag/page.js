@@ -80,7 +80,7 @@ function page() {
         </div>
       </section>
       <Process processdata={processdata} />
-      <WhySaveDostFastag />
+      <WhyApphanyFastag />
     </>
   );
 }
