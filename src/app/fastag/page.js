@@ -16,6 +16,7 @@ function page() {
       "With FASTag recharge, you can quickly add balance to your FASTag and enjoy seamless, cashless toll payments across national highways. Easily recharge online, track your transactions in real-time, and travel without stopping at toll plazas. FASTag makes your journeys smooth, convenient, and completely stress-free.",
   };
 
+
   const processdata = {
     title1: "Simple and Fast Process",
     title2: "Recharge FASTag in 4 Easy Steps",
