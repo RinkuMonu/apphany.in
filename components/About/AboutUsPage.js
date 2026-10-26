@@ -9,6 +9,7 @@ import {
   Check,
   CheckCircle2,
   CreditCard,
+  FileText,
   LockKeyhole,
   ReceiptText,
   ShieldCheck,
@@ -78,47 +79,62 @@ function SectionHeading({ label, title, text, centered = false, light = false })
 function PaymentVisual() {
   return (
     <div
-      className="relative mx-auto h-[420px] w-full max-w-[500px]"
-      aria-label="Illustration of a secure Apphany mobile payment"
+      className="relative mx-auto h-[440px] w-full max-w-[500px]"
+      aria-label="Illustration of Apphany financial services"
     >
       <div className="absolute left-1/2 top-1/2 h-72 w-72 -translate-x-1/2 -translate-y-1/2 rounded-full border border-[#a9dbe4] bg-white/55" />
-      <div className="absolute left-[8%] top-[20%] rounded-2xl border border-white bg-white p-4 shadow-[0_16px_35px_rgba(12,61,76,.12)]">
-        <ReceiptText className="text-[#0289ad]" size={23} />
-        <p className="mt-3 text-xs font-bold text-[#0C3D4C]">Utility bill</p>
-        <p className="mt-1 text-[10px] text-slate-400">Ready to pay</p>
-      </div>
-      <div className="absolute right-[4%] top-[13%] rounded-2xl border border-white bg-white p-4 shadow-[0_16px_35px_rgba(12,61,76,.12)]">
-        <WalletCards className="text-[#65b828]" size={23} />
-        <p className="mt-3 text-xs font-bold text-[#0C3D4C]">Digital wallet</p>
-      </div>
-      <div className="absolute bottom-[12%] right-[2%] rounded-2xl border border-white bg-white px-4 py-3 shadow-[0_16px_35px_rgba(12,61,76,.12)]">
-        <div className="flex items-center gap-2">
-          <CheckCircle2 size={18} className="text-[#65b828]" />
-          <span className="text-xs font-bold text-[#0C3D4C]">Payment confirmed</span>
-        </div>
-      </div>
-      <div className="absolute left-1/2 top-1/2 w-[230px] -translate-x-1/2 -translate-y-1/2 rounded-[32px] border-[7px] border-[#163d63] bg-white p-4 shadow-[0_25px_60px_rgba(12,61,76,.24)]">
+
+      {/* Phone Screen Mockup */}
+      <div className="absolute left-1/2 top-1/2 z-10 w-[230px] -translate-x-1/2 -translate-y-1/2 rounded-[32px] border-[7px] border-[#163d63] bg-white p-4 shadow-[0_25px_60px_rgba(12,61,76,.24)]">
         <div className="mx-auto h-1.5 w-16 rounded-full bg-[#163d63]" />
         <Image
-          src="/image/Apphany-initial.png"
+          src="/image/apphany-logoo.png"
           alt="Apphany"
-          width={52}
-          height={52}
-          className="mx-auto mt-5 h-12 w-12 object-contain"
+          width={120}
+          height={34}
+          className="mx-auto mt-4 h-7 w-auto object-contain"
         />
-        <p className="mt-3 text-center text-xs font-bold text-[#0C3D4C]">Pay electricity bill</p>
-        <div className="mt-5 rounded-xl bg-[#f1f8fa] p-3">
+        <p className="mt-3 text-center text-xs font-bold text-[#0C3D4C]">Instant Personal Loan</p>
+        <div className="mt-4 rounded-xl bg-[#f1f8fa] p-3 text-center">
           <div className="flex justify-between text-[10px] text-slate-500">
-            <span>Amount</span>
-            <span>Due today</span>
+            <span>Pre-Approved</span>
+            <span className="font-semibold text-emerald-600">Quick Disbursal</span>
           </div>
-          <p className="mt-2 text-xl font-extrabold text-[#0C3D4C]">₹2,450</p>
+          <p className="mt-2 text-xl font-extrabold text-[#0C3D4C]">₹5,00,000</p>
+          <p className="mt-1 text-[10px] text-slate-500">Low Interest Rates</p>
         </div>
-        <div className="mt-4 rounded-xl bg-[#026381] py-3 text-center text-xs font-bold text-white">
-          Pay securely
+        <div className="mt-3 rounded-xl bg-[#026381] py-2.5 text-center text-xs font-bold text-white shadow-sm">
+          Apply in 2 Minutes
         </div>
-        <div className="mt-4 flex items-center justify-center gap-1 text-[9px] text-slate-400">
-          <LockKeyhole size={10} /> Protected payment
+        <div className="mt-3 flex items-center justify-center gap-1 text-[9px] text-slate-400">
+          <LockKeyhole size={10} /> 100% Paperless & Secure
+        </div>
+      </div>
+
+      {/* Left Badge: PAN Card */}
+      <div className="absolute -left-2 sm:left-[2%] top-[20%] z-20 rounded-2xl border border-white bg-white p-3.5 sm:p-4 shadow-[0_16px_35px_rgba(12,61,76,.15)]">
+        <FileText className="text-[#0289ad]" size={22} />
+        <p className="mt-2.5 text-xs font-bold text-[#0C3D4C]">PAN Card</p>
+        <p className="mt-0.5 text-[10px] text-slate-400">Apply & Correction</p>
+      </div>
+
+      {/* Top Right Badge: Credit Card */}
+      <div className="absolute -right-2 sm:right-[1%] top-[12%] z-20 rounded-2xl border border-white bg-white p-3.5 sm:p-4 shadow-[0_16px_35px_rgba(12,61,76,.15)]">
+        <CreditCard className="text-[#65b828]" size={22} />
+        <p className="mt-2.5 text-xs font-bold text-[#0C3D4C]">Credit Card</p>
+        <p className="mt-0.5 text-[10px] text-slate-400">Instant Pre-Approved</p>
+      </div>
+
+      {/* Bottom Right Badge: Insurance */}
+      <div className="absolute -right-2 sm:right-[0%] bottom-[6%] z-20 rounded-2xl border border-white bg-white px-4 py-3 shadow-[0_16px_35px_rgba(12,61,76,.16)]">
+        <div className="flex items-center gap-2.5">
+          <span className="grid h-8 w-8 place-items-center rounded-xl bg-emerald-50 text-[#65b828]">
+            <ShieldCheck size={18} />
+          </span>
+          <div>
+            <p className="text-xs font-bold text-[#0C3D4C]">Vehicle Insurance</p>
+            <p className="text-[10px] text-slate-400">Car, Bike & Taxi</p>
+          </div>
         </div>
       </div>
     </div>
@@ -154,12 +170,11 @@ function HeroSection() {
               variants={item}
               className="mt-6 max-w-2xl text-base leading-8 text-slate-600 sm:text-lg"
             >
-              Apphany brings essential financial and utility services together in one secure
-              platform, helping customers manage payments, recharges, bills and everyday
-              transactions with confidence.
+              Apphany brings essential financial services including PAN cards, credit cards, loans, and insurance together in one secure
+              platform, helping customers manage their financial requirements with confidence.
             </motion.p>
             <motion.div variants={item} className="mt-8 flex flex-wrap gap-3">
-              <Link href="/bill-payments" className="pan-hero-button gap-2">
+              <Link href="/pan-card" className="pan-hero-button gap-2">
                 Explore Our Services <ArrowRight size={17} />
               </Link>
               <Link href="/contact" className="pan-hero-button">
@@ -632,7 +647,7 @@ export default function AboutUsPage() {
       <CtaSection />
       <FAQ
         faqs={faqs}
-        subheading="Clear answers to common questions about Apphany and supported payment services."
+        subheading="Clear answers to common questions about Apphany, credit cards, PAN cards, loans, and insurance services."
       />
     </main>
   );

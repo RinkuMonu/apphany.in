@@ -6,20 +6,9 @@ import { useState } from "react";
 
 const homeFaqs = [
   {
-    question: "Can I pay all my household bills in one place?",
-    answer:
-      "Yes. You can use Apphany for mobile and DTH recharge, electricity, water, gas, broadband, FASTag, loan EMI, credit card, insurance, and several other everyday payments.",
-  },
-  {
     question: "What should I do if money is deducted but my payment fails?",
     answer:
       "First check the transaction status in your account. Failed payments are generally reversed by the payment provider. If the amount is not returned, contact Apphany support with your transaction ID so the team can help you.",
-  },
-
-  {
-    question: "Can I book bus, train, flight, and hotel services here?",
-    answer:
-      "Yes. Apphany provides access to bus, train, and flight booking as well as hotel stays. Select the booking service, enter your travel details, and continue through the Apphany app.",
   },
   {
     question: "Can I pay my vehicle insurance premium through Apphany?",
@@ -57,7 +46,7 @@ export default function HomeFAQ() {
             Frequently Asked Questions
           </h2>
           <p className="mx-auto mt-3 max-w-2xl text-sm leading-6 text-slate-600 sm:text-base">
-            Clear answers to common questions about your payments, bookings, insurance, security,
+            Clear answers to common questions about your payments, loans, insurance, security,
             and account.
           </p>
         </div>

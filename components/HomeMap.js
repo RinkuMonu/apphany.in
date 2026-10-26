@@ -101,8 +101,8 @@ const HomeMap = () => {
           </h2>
 
           <p className="mx-auto mb-6 max-w-lg text-sm leading-6 text-gray-200 sm:mb-8 sm:text-base md:mx-0">
-            Apphany gives users convenient access to secure digital payments, utility services,
-            recharges, and financial solutions across India.
+            Apphany gives users convenient access to personal &amp; business loans, comprehensive vehicle
+            insurance (car, bike, taxi), credit cards, and PAN card services across India.
           </p>
 
           <div className="max-w-md mx-auto md:mx-0 bg-white/10 backdrop-blur-sm rounded-2xl shadow-2xl overflow-hidden">

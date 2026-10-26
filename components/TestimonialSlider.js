@@ -6,7 +6,7 @@ const testimonials = [
   {
     id: 1,
     name: "Ravi Kumar",
-    text: "I can recharge my mobile and pay utility bills from one place. The process is simple, quick, and convenient.",
+    text: "Applying for my PAN card through Apphany was completely seamless and fast. The paperless verification and real-time tracking made it effortless.",
     date: "25 July 2024",
     avatar: "/image/p5.jpg",
     rating: 5,
@@ -14,7 +14,7 @@ const testimonials = [
   {
     id: 2,
     name: "Raghu Sharma",
-    text: "Apphany makes my everyday payments easy to manage. The website is straightforward, and the support team is always helpful.",
+    text: "Apphany made getting my loan quick and transparent with minimal paperwork. The platform is straightforward, and the support team is always helpful.",
     date: "26 July 2025",
     avatar: "/image/p2.jpg",
     rating: 5,
@@ -22,7 +22,7 @@ const testimonials = [
   {
     id: 3,
     name: "Radhey Shyam",
-    text: "Paying bills and accessing financial services is now quick. The platform is easy to use and makes everyday payments more convenient.",
+    text: "Securing vehicle insurance and accessing financial services is now instant. The platform is trustworthy and makes policy management seamless.",
     date: "27 July 2025",
     avatar: "/image/p7.jpg",
     rating: 4,
@@ -30,7 +30,7 @@ const testimonials = [
   {
     id: 4,
     name: "Amit Verma",
-    text: "I use Apphany for recharges and bill payments. Everything I need is available in one place, which saves me time and effort.",
+    text: "I use Apphany for credit card services and financial solutions. Everything I need is available with top security, which saves me time and effort.",
     date: "28 July 2025",
     avatar: "/image/p1.jpg",
     rating: 5,

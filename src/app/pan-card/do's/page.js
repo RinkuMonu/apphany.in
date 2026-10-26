@@ -83,7 +83,7 @@ export default function dosforeign() {
       desc: [
         "Apphany Technologies Pvt. Ltd.",
         "Email: support@apphany.in",
-        "Website: www.savedost.in",
+        "Website: www.apphany.in",
       ],
     },
   ];

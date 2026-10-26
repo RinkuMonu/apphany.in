@@ -34,7 +34,7 @@ const reasons = [
   },
 ];
 
-export default function WhySaveDostFastag() {
+export default function WhyApphanyFastag() {
   return (
     <section className="bg-yellow-50 py-16 my-10">
       <div className="max-w-7xl mx-auto px-5">

@@ -6,11 +6,16 @@ import Link from "next/link";
 import {
   ArrowRight,
   BadgeIndianRupee,
+  Bike,
   Bolt,
   Bus,
+  CarFront,
+  CarTaxiFront,
   CreditCard,
   Flame,
   Headphones,
+  IdCard,
+  Landmark,
   Play,
   ReceiptText,
   ShieldCheck,
@@ -20,12 +25,12 @@ import {
 } from "lucide-react";
 
 const services = [
-  { icon: Smartphone, label: "Mobile Recharge", className: "service-mobile" },
-  { icon: Wifi, label: "Broadband Bill", className: "service-broadband" },
-  { icon: Bolt, label: "Electricity Bill", className: "service-electricity" },
-  { icon: CreditCard, label: "Credit Card", className: "service-card" },
-  { icon: ShieldCheck, label: "Insurance", className: "service-insurance" },
-  { icon: Flame, label: "Gas Booking", className: "service-gas" },
+  { icon: IdCard, label: "PAN Card", className: "service-pan" },
+  { icon: CarFront, label: "Car Loan", className: "service-car-loan" },
+  { icon: CreditCard, label: "Credit Card", className: "service-credit-card" },
+  { icon: Landmark, label: "Personal Loan", className: "service-personal-loan" },
+  { icon: CarTaxiFront, label: "Taxi Insurance", className: "service-taxi-insurance" },
+  { icon: Bike, label: "Bike Insurance", className: "service-bike-insurance" },
 ];
 
 export default function AnimatedHeroPreview() {
@@ -133,7 +138,7 @@ export default function AnimatedHeroPreview() {
               Explore Apphany <ArrowRight size={18} />
             </button>
             <Link
-              href="https://www.youtube.com/@finuniques"
+              href="https://www.youtube.com/@Apphany"
               target="_blank"
               rel="noopener noreferrer"
               className="preview-watch"
@@ -218,7 +223,7 @@ export default function AnimatedHeroPreview() {
                 </div>
                 <div className="app-brand">
                   <Image
-                    src="/image/SaveDostlogo.png"
+                    src="/image/apphany-logoo.png"
                     alt="Apphany"
                     width={1686}
                     height={933}
@@ -238,36 +243,36 @@ export default function AnimatedHeroPreview() {
                 <h3>Popular Services</h3>
                 <div className="app-services">
                   <div>
-                    <Smartphone />
-                    <span>Mobile</span>
-                  </div>
-                  <div>
-                    <ReceiptText />
-                    <span>DTH</span>
-                  </div>
-                  <div>
-                    <Bolt />
-                    <span>Electricity</span>
-                  </div>
-                  <div>
-                    <Wifi />
-                    <span>FASTag</span>
-                  </div>
-                  <div>
-                    <Flame />
-                    <span>Gas</span>
+                    <IdCard />
+                    <span>PAN Card</span>
                   </div>
                   <div>
                     <CreditCard />
                     <span>Cards</span>
                   </div>
                   <div>
+                    <Landmark />
+                    <span>Personal</span>
+                  </div>
+                  <div>
+                    <CarFront />
+                    <span>Car Loan</span>
+                  </div>
+                  <div>
+                    <Bike />
+                    <span>Bike Ins.</span>
+                  </div>
+                  <div>
+                    <CarTaxiFront />
+                    <span>Taxi Ins.</span>
+                  </div>
+                  <div>
                     <ShieldCheck />
                     <span>Insurance</span>
                   </div>
                   <div>
-                    <Bus />
-                    <span>Booking</span>
+                    <BadgeIndianRupee />
+                    <span>Finance</span>
                   </div>
                 </div>
                 <div className="refer-card">
@@ -891,27 +896,27 @@ export default function AnimatedHeroPreview() {
           background: #e9f5ff;
           color: #1689e8;
         }
-        .service-mobile {
+        .service-pan {
           left: 5%;
           top: 9%;
         }
-        .service-broadband {
+        .service-car-loan {
           right: 1%;
           top: 13%;
         }
-        .service-electricity {
+        .service-credit-card {
           left: 2%;
           top: 36%;
         }
-        .service-card {
+        .service-personal-loan {
           left: 4%;
           bottom: 14%;
         }
-        .service-insurance {
+        .service-taxi-insurance {
           right: 0;
           top: 39%;
         }
-        .service-gas {
+        .service-bike-insurance {
           right: 4%;
           bottom: 15%;
         }

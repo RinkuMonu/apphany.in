@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import FastagBannerSection from "../../../components/FastagBanner";
-import WhySaveDostFastag from "../../../components/WhyFastag";
+import WhyApphanyFastag from "../../../components/WhyFastag";
 import Process from "../../../components/Bike Insurance/Process";
 import { Shield, Clock, DollarSign, FileText, Headphones, Award } from "lucide-react";
 import { Search, CreditCard, CheckCircle } from "lucide-react";
