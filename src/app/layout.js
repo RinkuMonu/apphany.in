@@ -5,19 +5,20 @@ import DynamicSeo from "../../components/SEO/DynamicSeo";
 import SiteLayout from "../../components/layout/SiteLayout";
 
 export const metadata = {
-  metadataBase: new URL("https://savedost.in"),
+  metadataBase: new URL("https://apphany.in"),
   title: {
-    default: "Apphany | Payments, Recharge and Financial Services",
+    default: "Apphany | Payment Services, Loans & Insurance",
     template: "%s | Apphany",
   },
   description:
-    "Recharge, pay bills, explore insurance, booking, PAN card, credit and loan services with Apphany.",
+    "Explore Payment Services, Credit Card, PAN Card, Loans, and Insurance solutions with Apphany.",
   keywords: [
     "Apphany",
-    "bill payment",
-    "mobile recharge",
+    "payment services",
+    "credit card",
     "insurance",
     "PAN card",
+    "personal loan",
     "financial services",
   ],
   alternates: {
@@ -26,9 +27,9 @@ export const metadata = {
   openGraph: {
     type: "website",
     siteName: "Apphany",
-    title: "Apphany | Payments, Recharge and Financial Services",
+    title: "Apphany | Payment Services, Loans & Insurance",
     description:
-      "Recharge, pay bills, explore insurance, booking, PAN card, credit and loan services with Apphany.",
+      "Explore Payment Services, Credit Card, PAN Card, Loans, and Insurance solutions with Apphany.",
     url: "/",
     images: [
       {
@@ -39,9 +40,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Apphany | Payments, Recharge and Financial Services",
+    title: "Apphany | Payment Services, Loans & Insurance",
     description:
-      "Recharge, pay bills, explore insurance, booking, PAN card, credit and loan services with Apphany.",
+      "Explore Payment Services, Credit Card, PAN Card, Loans, and Insurance solutions with Apphany.",
     images: ["/image/Apphany-initial.png"],
   },
   icons: {
@@ -74,15 +75,15 @@ export default function RootLayout({ children }) {
         "@type": "Article",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://savedost.in/"
+          "@id": "https://apphany.in/"
         },
-        "headline": "Apphany Bill Payment, Recharge, Insurance, Booking, Credit Card, pancard, Loan",
-        "image": "https://savedost.in/_next/image?url=%2Fimage%2Fmen-home.png&w=1200&q=75",
-        "author": { "@type": "Organization", "name": "" },
+        "headline": "Apphany | Payment Services, PAN Card, Credit Card, Loans & Insurance",
+        "image": "https://apphany.in/_next/image?url=%2Fimage%2Fmen-home.png&w=1200&q=75",
+        "author": { "@type": "Organization", "name": "Apphany Technologies Pvt. Ltd." },
         "publisher": {
           "@type": "Organization",
-          "name": "",
-          "logo": { "@type": "ImageObject", "url": "" }
+          "name": "Apphany Technologies Pvt. Ltd.",
+          "logo": { "@type": "ImageObject", "url": "https://apphany.in/image/apphany-logoo.png" }
         },
         "datePublished": ""
       }
@@ -102,7 +103,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </Script>
         <meta
           property="og:image"
-          content="https://savedost.in/image/Apphany-initial.png"
+          content="https://apphany.in/image/Apphany-initial.png"
         />
       </head>
 

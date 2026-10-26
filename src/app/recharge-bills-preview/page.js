@@ -6,57 +6,43 @@ import {
   ArrowRight,
   Bike,
   Building2,
-  BusFront,
   CarFront,
   ChevronLeft,
   ChevronRight,
-  Droplets,
-  FileSpreadsheet,
-  Fuel,
-  Gauge,
-  Gamepad2,
-  Gift,
   Grid2X2,
-  Hotel,
+  IdCard,
   Landmark,
-  Lightbulb,
   ReceiptIndianRupee,
-  Router,
-  Plane,
-  SatelliteDish,
   ShieldCheck,
-  Smartphone,
-  TrainFront,
   Truck,
   WalletCards,
-  Users,
   X,
 } from "lucide-react";
 
 const services = [
   {
-    label: "Mobile Recharge/Bill",
-    href: "/service-payment/mobile",
-    icon: Smartphone,
+    label: "PAN Card",
+    href: "/pan-card",
+    icon: IdCard,
   },
   {
-    label: "Electricity Bill",
-    href: "/service-payment/electricity",
-    icon: Lightbulb,
+    label: "Credit Card",
+    href: "/credit-card",
+    icon: WalletCards,
   },
   {
-    label: "FASTag Recharge",
-    href: "/service-payment/fastag",
+    label: "Personal Loan",
+    href: "/loan/personal-loan",
+    icon: Landmark,
+  },
+  {
+    label: "Car Loan",
+    href: "/loan/car-loan",
     icon: CarFront,
   },
   {
-    label: "DTH Recharge",
-    href: "/service-payment/dth",
-    icon: SatelliteDish,
-  },
-  {
-    label: "Insurance Premium",
-    href: "/service-payment/insurance",
+    label: "Vehicle Insurance",
+    href: "/insurance",
     icon: ShieldCheck,
   },
   {
@@ -68,115 +54,65 @@ const services = [
 
 const allProducts = [
   {
-    title: "Travel & Booking",
+    title: "Payment Services",
     products: [
-      { label: "Bus Booking", href: "/service-payment/bus-booking", icon: BusFront },
-      { label: "Train Booking", href: "/service-payment/train-booking", icon: TrainFront },
-      { label: "Flight Booking", href: "/service-payment/flight-booking", icon: Plane },
-      { label: "Hotel Booking", href: "/service-payment/hotel-booking", icon: Hotel },
+      { label: "Financial Payments", href: "/financial-payments", icon: ReceiptIndianRupee },
+      { label: "Credit Card", href: "/credit-card", icon: WalletCards },
+      { label: "PAN Card", href: "/pan-card", icon: IdCard },
+      { label: "PAN Address Update", href: "/pan-card/pan-card-address-update", icon: IdCard },
+      { label: "Reprint PAN Card", href: "/pan-card/reprint-pan", icon: IdCard },
     ],
   },
   {
-    title: "Recharges",
+    title: "Loans",
     products: [
-      { label: "Mobile Recharge", href: "/service-payment/mobile", icon: Smartphone },
-      { label: "FASTag Recharge", href: "/service-payment/fastag", icon: CarFront },
-      { label: "DTH Recharge", href: "/service-payment/dth", icon: SatelliteDish },
-      { label: "NCMC Recharge", href: "/service-payment/more", icon: BusFront },
-      { label: "Prepaid Meter", href: "/service-payment/more", icon: Gauge },
+      { label: "Loan Overview", href: "/loan", icon: Landmark },
+      { label: "Instant Loan", href: "/instant-loan", icon: Landmark },
+      { label: "Personal Loan", href: "/loan/personal-loan", icon: Landmark },
+      { label: "Home Loan", href: "/loan/home-loan", icon: Building2 },
+      { label: "Car Loan", href: "/loan/car-loan", icon: CarFront },
+      { label: "Business Loan", href: "/loan/business-loan", icon: Building2 },
+      { label: "Construction Loan", href: "/loan/construction-equipment-loan", icon: Truck },
     ],
   },
   {
-    title: "Digital & Communication Utilities",
+    title: "Insurance",
     products: [
-      { label: "Mobile Prepaid", href: "/service-payment/mobile", icon: Smartphone },
-      { label: "Mobile Postpaid", href: "/service-payment/mobile", icon: Smartphone },
-      { label: "Broadband/Landline", href: "/service-payment/broadband", icon: Router },
-      { label: "Cable TV", href: "/service-payment/more", icon: Gamepad2 },
-      { label: "DTH", href: "/service-payment/dth", icon: SatelliteDish },
-      { label: "Landline Postpaid", href: "/service-payment/broadband", icon: Router },
-    ],
-  },
-  {
-    title: "Basic Household Utilities",
-    products: [
-      { label: "Electricity", href: "/service-payment/electricity", icon: Lightbulb },
-      { label: "Water Supply", href: "/service-payment/water", icon: Droplets },
-      { label: "Gas Supply", href: "/service-payment/piped-gas", icon: Fuel },
-      { label: "Prepaid Meter", href: "/service-payment/more", icon: Gauge },
-      { label: "LPG Cylinder Booking", href: "/service-payment/cylinder", icon: Fuel },
-    ],
-  },
-  {
-    title: "Financial & Payment Utilities",
-    products: [
-      { label: "Credit Card Bill", href: "/service-payment/more", icon: WalletCards },
-      { label: "Loan Repayment", href: "/service-payment/loan-emi", icon: Landmark },
-      { label: "Recurring Deposit", href: "/service-payment/more", icon: ReceiptIndianRupee },
-      { label: "Rental Payment", href: "/service-payment/more", icon: Building2 },
-      { label: "Subscription Payment", href: "/service-payment/more", icon: ReceiptIndianRupee },
-      { label: "Education Fees", href: "/service-payment/more", icon: Landmark },
-      { label: "NPS", href: "/service-payment/more", icon: ReceiptIndianRupee },
-      { label: "NCMC", href: "/service-payment/more", icon: BusFront },
-      { label: "Gift Cards", href: "/service-payment/gift-card", icon: Gift },
-    ],
-  },
-  {
-    title: "Insurance & Health Utilities",
-    products: [
-      { label: "General Insurance", href: "/service-payment/insurance", icon: ShieldCheck },
-      { label: "Life Insurance", href: "/service-payment/insurance", icon: ShieldCheck },
-      { label: "Health Insurance", href: "/service-payment/insurance", icon: ShieldCheck },
-      { label: "Car Insurance", href: "/service-payment/car-insurance", icon: CarFront },
-      { label: "Bike Insurance", href: "/service-payment/bike-insurance", icon: Bike },
-      { label: "Taxi Insurance", href: "/service-payment/taxi-insurance", icon: CarFront },
-      {
-        label: "Commercial Vehicle Insurance",
-        href: "/service-payment/commercial-vehicle-insurance",
-        icon: Truck,
-      },
-    ],
-  },
-  {
-    title: "Government & Municipal Utilities",
-    products: [
-      { label: "FASTag", href: "/service-payment/fastag", icon: CarFront },
-      { label: "Housing Society", href: "/service-payment/more", icon: Building2 },
-      { label: "Clubs & Association Fees", href: "/service-payment/more", icon: Users },
-      { label: "Municipal Services", href: "/service-payment/more", icon: Building2 },
-      { label: "Municipal Taxes", href: "/service-payment/more", icon: ReceiptIndianRupee },
-      { label: "E-Challan", href: "/service-payment/challan", icon: CarFront },
-      { label: "Donation", href: "/service-payment/more", icon: ShieldCheck },
+      { label: "Insurance Overview", href: "/insurance", icon: ShieldCheck },
+      { label: "Car Insurance", href: "/insurance/car-insurance", icon: CarFront },
+      { label: "Bike Insurance", href: "/insurance/bike-insurance", icon: Bike },
+      { label: "Taxi Insurance", href: "/insurance/taxi-insurance", icon: CarFront },
+      { label: "Commercial Vehicle", href: "/insurance/commercial-vehicle", icon: Truck },
     ],
   },
 ];
 
 const promotions = [
   {
-    eyebrow: "Apphany Business",
-    title: "Manage every payment in one place",
-    description: "Simple, secure and convenient utility payments for your everyday needs.",
-    button: "Explore Services",
-    href: "/bbps",
-    icon: FileSpreadsheet,
+    eyebrow: "Apphany Finance",
+    title: "Fast & Paperless PAN Services",
+    description: "Apply, update or reprint your PAN card online with fast doorstep delivery.",
+    button: "Apply PAN Card",
+    href: "/pan-card",
+    icon: IdCard,
     gradient: "from-[#c8f2fb] via-[#a9e5f2] to-[#7ed2e5]",
   },
   {
-    eyebrow: "Quick & Secure",
-    title: "Pay your bills without the wait",
-    description: "Complete recharges and bill payments quickly through one trusted platform.",
-    button: "Pay Bills Now",
-    href: "/bill-payments",
-    icon: ShieldCheck,
+    eyebrow: "Quick Approvals",
+    title: "Personal & Vehicle Loans",
+    description: "Access flexible loan options with competitive interest rates and minimal paperwork.",
+    button: "Explore Loans",
+    href: "/loan",
+    icon: Landmark,
     gradient: "from-[#d8f6ef] via-[#ace9dc] to-[#78d5c4]",
   },
   {
-    eyebrow: "Everyday Payments",
-    title: "Recharge anytime, from anywhere",
-    description: "Keep your mobile, DTH and FASTag services active with easy online payments.",
-    button: "Recharge Now",
-    href: "/recharge",
-    icon: WalletCards,
+    eyebrow: "Instant Protection",
+    title: "Comprehensive Vehicle Insurance",
+    description: "Protect your car, bike, and commercial vehicles with instant online policies.",
+    button: "Get Insured",
+    href: "/insurance",
+    icon: ShieldCheck,
     gradient: "from-[#dbeafe] via-[#bddcf8] to-[#91c5ee]",
   },
 ];
@@ -297,7 +233,7 @@ export default function RechargeBillsPreviewPage() {
                 <div className="absolute -bottom-52 right-2 h-[410px] w-[140px] rounded-[30px] border-[5px] border-[#26343b] bg-white shadow-[0_12px_28px_rgba(12,61,76,0.28)]">
                   <div className="mx-auto mt-2 h-2 w-14 rounded-full bg-[#26343b]" />
                   <div className="mt-4 flex items-center justify-center gap-1 text-[11px] font-extrabold text-[#026381]">
-                    SAVEDOST
+                    APPHANY
                   </div>
                   <div className="mt-6 grid place-items-center text-[#026381]">
                     <PromoIcon size={38} strokeWidth={1.5} />
@@ -305,7 +241,7 @@ export default function RechargeBillsPreviewPage() {
                 </div>
 
                 <div className="absolute bottom-[50px] right-1 z-10 hidden w-[145px] items-center gap-2 rounded-lg bg-white px-2.5 py-2 shadow-[0_5px_16px_rgba(12,61,76,0.18)] min-[410px]:flex sm:bottom-[58px] sm:w-[160px]">
-                  <FileSpreadsheet size={22} className="shrink-0 text-[#075db7]" />
+                  <ReceiptIndianRupee size={22} className="shrink-0 text-[#075db7]" />
                   <div>
                     <div className="text-[10px] font-bold text-gray-800">Payment summary</div>
                     <div className="mt-0.5 text-[8px] text-gray-500">Secure digital record</div>
@@ -380,9 +316,9 @@ export default function RechargeBillsPreviewPage() {
             aria-modal="true"
             aria-labelledby="all-products-title"
           >
-            <div className="finunique-scrollbar max-h-[calc(100dvh-4.75rem)] overflow-y-auto px-6 py-9 sm:max-h-[calc(100dvh-3rem)] sm:px-8 lg:px-10">
+            <div className="max-h-[calc(100dvh-4.75rem)] overflow-y-auto px-6 py-9 sm:max-h-[calc(100dvh-3rem)] sm:px-8 lg:px-10">
               <h2 id="all-products-title" className="sr-only">
-                All recharge and bill payment products
+                All financial services and products
               </h2>
 
               <div className="space-y-14 pr-4 sm:pr-10">

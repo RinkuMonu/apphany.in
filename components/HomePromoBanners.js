@@ -4,13 +4,13 @@ import { ArrowRight } from "lucide-react";
 
 const banners = [
   {
-    eyebrow: "Everyday payments",
-    title: "Pay bills without the wait.",
-    description: "Recharge and pay essential utility bills quickly from one app.",
-    image: "/home/gasbill3d.png",
-    background: "bg-[#fff1cf]",
-    href: "https://play.google.com/store/apps/details?id=com.utility.finunique",
-    cta: "Download App",
+    eyebrow: "Instant PAN Card",
+    title: "Apply or update PAN online.",
+    description: "Paperless application, quick verification & doorstep delivery.",
+    image: "/home/pan3d.png",
+    background: "bg-gradient-to-br from-[#dbeafe] via-[#eff6ff] to-[#f8fbff] border border-[#bfdbfe]/60 shadow-[0_4px_20px_rgba(37,99,235,0.06)]",
+    href: "/pan-card",
+    cta: "Apply PAN Card",
   },
   {
     eyebrow: "Gifts made easy",

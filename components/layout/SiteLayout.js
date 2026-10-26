@@ -3,7 +3,6 @@
 import { usePathname } from "next/navigation";
 import SiteHeader from "./SiteHeader";
 import SiteFooter from "./SiteFooter";
-import SupportChatbot from "./SupportChatbot";
 import GlobalScrollReveal from "./GlobalScrollReveal";
 import GiftCardTrigger from "./GiftCardTrigger";
 
@@ -19,7 +18,6 @@ export default function SiteLayout({ children }) {
       <SiteHeader />
       <GlobalScrollReveal>{children}</GlobalScrollReveal>
       <GiftCardTrigger />
-      <SupportChatbot />
       <SiteFooter />
     </>
   );

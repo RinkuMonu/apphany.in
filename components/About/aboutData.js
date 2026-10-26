@@ -140,7 +140,7 @@ export const values = [
 export const journey = [
   { title: "The Idea", text: "Identified the need for simpler digital financial services." },
   { title: "Platform Development", text: "Designed a secure and user-friendly fintech platform." },
-  { title: "Service Expansion", text: "Added recharge, utility and payment-related services." },
+  { title: "Service Expansion", text: "Expanded into PAN cards, credit cards, loans, and insurance services." },
   { title: "Growing Together", text: "Continuing to improve with users, partners and technology." },
 ];
 
@@ -148,12 +148,12 @@ export const faqs = [
   {
     question: "What is Apphany?",
     answer:
-      "Apphany is a fintech platform that brings supported recharge, utility payment and everyday financial services together in one place.",
+      "Apphany is a modern fintech platform providing seamless access to credit cards, PAN card services, personal & business loans, and comprehensive vehicle & life insurance solutions in one place.",
   },
   {
     question: "Which services are available on Apphany?",
     answer:
-      "Available services include mobile and DTH recharge, utility bill payments, credit card payments, insurance-related services and other supported digital payment services.",
+      "Available services include new PAN card applications and corrections, credit card services, personal and business loans, car, bike & taxi insurance, and secure digital payment solutions.",
   },
   {
     question: "Is Apphany secure?",

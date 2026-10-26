@@ -8,38 +8,18 @@ const quickLinks = [
   ["About Us", "/about"],
   ["Blog", "/blog"],
   ["Contact Us", "/contact"],
-  // ["Team Members", "/team"],
+  ["Refer & Earn", "/refer-earn"],
 ];
 
 const navigationLinks = [
-  // {
-  //   title: "Recharge & Bills",
-  //   links: [
-  //     ["Mobile Recharge", "/service-payment/mobile"],
-  //     ["DTH Recharge", "/service-payment/dth"],
-  //     ["FASTag Recharge", "/service-payment/fastag"],
-  //     ["Electricity Bill", "/service-payment/electricity"],
-  //     ["BBPS Services", "/bbps"],
-  //   ],
-  // },
-  // {
-  //   title: "Bookings",
-  //   links: [
-  //     ["Booking Overview", "/booking"],
-  //     ["Bus Booking", "/service-payment/bus-booking"],
-  //     ["Train Booking", "/service-payment/train-booking"],
-  //     ["Flight Booking", "/service-payment/flight-booking"],
-  //     ["Hotel Booking", "/service-payment/hotel-booking"],
-  //   ],
-  // },
   {
-    title: "Financial Services",
+    title: "Payment Services",
     links: [
       ["Financial Payments", "/financial-payments"],
-      ["Credit Card Bill", "/service-payment/credit-card-bill"],
+      ["Credit Card", "/credit-card"],
       ["PAN Card", "/pan-card"],
-      ["Insurance Premium", "/service-payment/insurance"],
-      ["Free Credit Score", "/free-credit-score"],
+      ["PAN Address Update", "/pan-card/pan-card-address-update"],
+      ["Reprint PAN Card", "/pan-card/reprint-pan"],
     ],
   },
   {
@@ -51,18 +31,18 @@ const navigationLinks = [
       ["Home Loan", "/loan/home-loan"],
       ["Car Loan", "/loan/car-loan"],
       ["Business Loan", "/loan/business-loan"],
-      ["Construction Equipment Loan", "/loan/construction-equipment-loan"],
+      ["Construction Loan", "/loan/construction-equipment-loan"],
     ],
   },
   {
     title: "Insurance",
     links: [
       ["Insurance Overview", "/insurance"],
-      ["Bike Insurance", "/insurance/bike-insurance"],
       ["Car Insurance", "/insurance/car-insurance"],
-      ["Commercial Vehicle", "/insurance/commercial-vehicle"],
+      ["Bike Insurance", "/insurance/bike-insurance"],
       ["Taxi Insurance", "/insurance/taxi-insurance"],
-      ["Pay Insurance Premium", "/service-payment/insurance"],
+      ["Commercial Vehicle", "/insurance/commercial-vehicle"],
+      ["Pay Insurance Premium", "/insurance"],
     ],
   },
 ];
@@ -76,26 +56,11 @@ const legalLinks = [
 ];
 
 const socialLinks = [
-  [
-    FaFacebookF,
-    "https://www.facebook.com/people/Finunique-small-private-limited/61584013341134",
-    "Facebook",
-    "bg-[#1877f2]",
-  ],
-  [FaYoutube, "https://www.youtube.com/@finuniques", "YouTube", "bg-[#ff0000]"],
-  [
-    FaInstagram,
-    "https://www.instagram.com/finunques?igsh=dDV3eXM0dHl6eWgx",
-    "Instagram",
-    "bg-gradient-to-br from-[#feda75] via-[#d62976] to-[#4f5bd5]",
-  ],
-  [
-    FaLinkedinIn,
-    "https://www.linkedin.com/company/finunique-small-private-limited/",
-    "LinkedIn",
-    "bg-[#0a66c2]",
-  ],
-  [FaXTwitter, "https://x.com/Finuniques", "X", "bg-black"],
+  [FaFacebookF, "https://www.facebook.com/apphany", "Facebook"],
+  [FaYoutube, "https://www.youtube.com/@Apphany", "YouTube"],
+  [FaInstagram, "https://www.instagram.com/apphany", "Instagram"],
+  [FaLinkedinIn, "https://www.linkedin.com/company/apphany", "LinkedIn"],
+  [FaXTwitter, "https://x.com/Apphany", "X"],
 ];
 
 function FooterHeading({ children }) {
@@ -114,32 +79,51 @@ export default function SiteFooter() {
       className="border-t border-white/20 bg-[radial-gradient(circle_at_center,_#018EDE,_#0C3D4C_70%)] text-white"
     >
       <div className="mx-auto max-w-7xl px-5 pb-7 pt-10 sm:px-6 lg:py-12">
-        <div className="grid gap-9 sm:grid-cols-2 lg:grid-cols-[1.25fr_0.8fr_1fr_1.15fr_1.15fr] lg:gap-0">
-          <section className="lg:pr-8">
-            <Link href="/" className="inline-flex flex-col items-start bg-[#ffffff] rounded-md" aria-label="Apphany home">
+        {/* Top 4-Column Section */}
+        <div className="grid gap-9 sm:grid-cols-2 lg:grid-cols-4 lg:gap-8">
+          <section className="lg:pr-6">
+            <Link
+              href="/"
+              className="inline-flex flex-col items-start rounded-md bg-white p-1.5"
+              aria-label="Apphany home"
+            >
               <Image
                 src="/image/apphany-logoo.png"
                 alt="Apphany"
                 width={1686}
                 height={933}
-                className="h-auto w-48 object-contain"
+                className="h-auto w-44 object-contain"
               />
-
             </Link>
             <p className="mt-4 max-w-xs text-xs leading-5 text-white/80">
               Innovating digital payment solutions and simplifying business operations across India.
             </p>
-            <div className="mt-5 space-y-3 text-xs text-white/90">
+            <div className="mt-4 space-y-2 text-xs text-white/90">
               <a
                 href="mailto:support@apphany.in"
-                className="flex items-center gap-2 hover:text-lime-300"
+                className="flex items-center gap-2 transition hover:text-lime-300"
               >
                 <Mail size={14} /> support@apphany.in
               </a>
             </div>
+            {/* Social Links */}
+            <div className="mt-5 flex items-center gap-2.5">
+              {socialLinks.map(([Icon, href, label]) => (
+                <a
+                  key={label}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={label}
+                  className="grid h-7 w-7 place-items-center rounded-full bg-white/10 text-white/85 transition hover:bg-lime-400 hover:text-[#0C3D4C]"
+                >
+                  <Icon size={12} />
+                </a>
+              ))}
+            </div>
           </section>
 
-          <section className="border-white/15 lg:border-l lg:px-8">
+          <section className="border-white/15 lg:border-l lg:pl-8">
             <FooterHeading>Quick Links</FooterHeading>
             <ul className="space-y-3 text-xs">
               {quickLinks.map(([label, href]) => (
@@ -152,13 +136,13 @@ export default function SiteFooter() {
             </ul>
           </section>
 
-          <section className="border-white/15 lg:border-l lg:px-8">
+          <section className="border-white/15 lg:border-l lg:pl-8">
             <FooterHeading>Tools</FooterHeading>
             <ul className="space-y-4 text-xs">
               <li>
                 <Link
                   href="/free-credit-score"
-                  className="flex items-center gap-2 text-white/85 hover:text-lime-300"
+                  className="flex items-center gap-2 text-white/85 transition hover:text-lime-300"
                 >
                   <Gauge size={14} /> Free Credit Score
                 </Link>
@@ -166,7 +150,7 @@ export default function SiteFooter() {
               <li>
                 <Link
                   href="/loan-emi"
-                  className="flex items-center gap-2 whitespace-nowrap text-white/85 hover:text-lime-300"
+                  className="flex items-center gap-2 whitespace-nowrap text-white/85 transition hover:text-lime-300"
                 >
                   <Gauge size={14} className="shrink-0" /> Loan EMI Calculator
                 </Link>
@@ -174,34 +158,32 @@ export default function SiteFooter() {
             </ul>
           </section>
 
-          <section className="border-white/15 lg:border-l lg:px-8">
+          <section className="border-white/15 lg:border-l lg:pl-8">
             <FooterHeading>Company</FooterHeading>
             <p className="text-xs leading-5 text-white/80">
-            Office No. 506, 5th Floor, Chordia&apos;s Kosmos (A Block),
-Plot No. E-5, Dr. Rajendra Prasad Nagar E, Village Badarwas,
-Jaipur, Rajasthan – 302019
+              Office No. 506, 5th Floor, Chordia&apos;s Kosmos (A Block), Plot No. E-5, Dr.
+              Rajendra Prasad Nagar E, Village Badarwas, Jaipur, Rajasthan – 302019
             </p>
-            <div className="mt-5 flex items-center gap-3 rounded-xl bg-white/10 p-4 ring-1 ring-white/10">
-              <ShieldCheck size={30} className="shrink-0 text-lime-400" />
+            <div className="mt-5 flex items-center gap-3 rounded-xl bg-white/10 p-3.5 ring-1 ring-white/10">
+              <ShieldCheck size={28} className="shrink-0 text-lime-400" />
               <p className="text-xs font-medium leading-5">
                 Trusted by 3,50,000+ customers across India
               </p>
             </div>
           </section>
-
-        
         </div>
 
+        {/* Services Navigation: 3 Balanced Columns (Payment Services, Loans, Insurance) */}
         <nav
-          className="mt-10 grid gap-7 border-t border-white/15 pt-9 sm:grid-cols-2 lg:grid-cols-5"
+          className="mt-10 grid gap-8 border-t border-white/15 pt-9 sm:grid-cols-2 lg:grid-cols-3"
           aria-label="Footer services navigation"
         >
           {navigationLinks.map((group) => (
             <section key={group.title}>
               <FooterHeading>{group.title}</FooterHeading>
-              <ul className="grid grid-cols-2 gap-x-5 gap-y-3 text-xs">
+              <ul className="grid grid-cols-2 gap-x-5 gap-y-2.5 text-xs">
                 {group.links.map(([label, href]) => (
-                  <li key={href}>
+                  <li key={label + href}>
                     <Link href={href} className="text-white/85 transition hover:text-lime-300">
                       {label}
                     </Link>
@@ -213,18 +195,20 @@ Jaipur, Rajasthan – 302019
         </nav>
       </div>
 
-      <div className="border-t border-white/20">
-        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-5 py-5 text-center text-[11px] text-white/80 sm:px-6 lg:flex-row lg:text-left">
-          <p>
-            &copy; {new Date().getFullYear()} Apphany Technologies Pvt. Ltd.
-            All rights reserved.
+      {/* Bottom Bar: Copyright & Legal */}
+      <div className="border-t border-white/20 bg-black/15">
+        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 py-5 text-center text-xs text-white/80 sm:px-8 lg:flex-row lg:text-left">
+          <p className="pl-1 sm:pl-0">
+            &copy; {new Date().getFullYear()} Apphany Technologies Pvt. Ltd. All rights reserved.
           </p>
-          <nav className="flex flex-wrap justify-center gap-x-3 gap-y-2">
+          <nav className="flex flex-wrap justify-center gap-x-3 gap-y-2 pr-0 sm:pr-10 lg:pr-16">
             {legalLinks.map(([label, href], index) => (
               <Link
                 key={href}
                 href={href}
-                className={`hover:text-lime-300 ${index < legalLinks.length - 1 ? "after:ml-3 after:text-white/30 after:content-['|']" : ""}`}
+                className={`transition hover:text-lime-300 ${
+                  index < legalLinks.length - 1 ? "after:ml-3 after:text-white/30 after:content-['|']" : ""
+                }`}
               >
                 {label}
               </Link>
