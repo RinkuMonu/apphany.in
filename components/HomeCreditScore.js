@@ -69,16 +69,10 @@ export default function HomeCreditScoreSection() {
 
             <div className="relative z-10 mt-5 flex items-center gap-2 sm:mt-7 sm:gap-3">
               <Link
-                href="https://play.google.com/store/apps/details?id=com.utility.finunique"
-                className="inline-flex flex-1 items-center justify-center gap-2 rounded-xl bg-[#0C3D4C] px-4 py-3 text-xs font-bold text-white transition-all hover:-translate-y-0.5 hover:bg-[#026381] sm:flex-none sm:px-5 sm:text-sm"
-              >
-                Check on App <ArrowRight size={17} />
-              </Link>
-              <Link
                 href="/free-credit-score"
-                className="rounded-xl px-3 py-3 text-xs font-bold text-[#026381] transition-colors hover:bg-white/70 sm:px-4 sm:text-sm"
+                className="inline-flex items-center gap-2 rounded-xl bg-[#0C3D4C] px-5 py-3 text-xs font-bold text-white transition-all hover:-translate-y-0.5 hover:bg-[#026381] sm:text-sm"
               >
-                Learn more
+                Learn more <ArrowRight size={17} />
               </Link>
             </div>
           </article>

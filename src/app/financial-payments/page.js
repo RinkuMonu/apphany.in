@@ -100,21 +100,21 @@ const paymentCategories = [
     ],
     tone: "bg-[#eaf6f7]",
   },
-  {
-    icon: Building2,
-    title: "Rental Payment",
-    eyebrow: "Monthly rent",
-    text: "Complete an eligible rental payment after entering the required tenant, property and recipient information.",
-    href: "/service-payment/rental-payment",
-    image: "/financial-payments/rental-payment.png",
-    points: [
-      "Add tenant information",
-      "Provide property and recipient details",
-      "Confirm the payment amount",
-      "Review everything before proceeding",
-    ],
-    tone: "bg-[#fff0f2]",
-  },
+  // {
+  //   icon: Building2,
+  //   title: "Rental Payment",
+  //   eyebrow: "Monthly rent",
+  //   text: "Complete an eligible rental payment after entering the required tenant, property and recipient information.",
+  //   href: "/service-payment/rental-payment",
+  //   image: "/financial-payments/rental-payment.png",
+  //   points: [
+  //     "Add tenant information",
+  //     "Provide property and recipient details",
+  //     "Confirm the payment amount",
+  //     "Review everything before proceeding",
+  //   ],
+  //   tone: "bg-[#fff0f2]",
+  // },
 ];
 
 const benefits = [
@@ -239,7 +239,7 @@ export default function FinancialPaymentsPage() {
       <section className="border-y border-[#dcebed] bg-white px-5 py-7 sm:px-8">
         <div className="mx-auto grid max-w-7xl gap-5 text-center sm:grid-cols-3">
           {[
-            ["6", "Payment categories"],
+            ["5", "Payment categories"],
             ["4", "Simple steps"],
             ["1", "Convenient overview"],
           ].map(([value, label], index) => (

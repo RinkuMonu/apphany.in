@@ -1,9 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
-import { useEffect, useState } from "react";
-import { createPortal } from "react-dom";
 import {
   ArrowRight,
   BadgePercent,
@@ -11,9 +8,7 @@ import {
   Gift,
   Sparkles,
   WalletCards,
-  X,
 } from "lucide-react";
-import { FaApple } from "react-icons/fa";
 import ScrollReveal from "../ScrollReveal";
 
 const offerGroups = {
@@ -332,25 +327,12 @@ function getOfferCategory(slug) {
 }
 
 export default function ServiceOffers({ serviceSlug, serviceName }) {
-  const [showDownload, setShowDownload] = useState(false);
   const category = getOfferCategory(serviceSlug);
   const offers = offerGroups[category];
   const images = serviceOfferImages[serviceSlug] || offerImages[category];
 
-  useEffect(() => {
-    if (!showDownload) return undefined;
-    const closeOnEscape = (event) => event.key === "Escape" && setShowDownload(false);
-    document.addEventListener("keydown", closeOnEscape);
-    document.body.style.overflow = "hidden";
-    return () => {
-      document.removeEventListener("keydown", closeOnEscape);
-      document.body.style.overflow = "";
-    };
-  }, [showDownload]);
-
   return (
-    <>
-      <section className="mt-8 overflow-hidden rounded-[26px] border border-[#d4e9ed] bg-[linear-gradient(135deg,#f0fafb,#ffffff_52%,#f2f9ed)] px-4 py-8 shadow-[0_14px_34px_rgba(12,61,76,.07)] sm:px-7 sm:py-10">
+    <section className="mt-8 overflow-hidden rounded-[26px] border border-[#d4e9ed] bg-[linear-gradient(135deg,#f0fafb,#ffffff_52%,#f2f9ed)] px-4 py-8 shadow-[0_14px_34px_rgba(12,61,76,.07)] sm:px-7 sm:py-10">
         <ScrollReveal className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
           <div className="max-w-2xl">
             <p className="inline-flex items-center gap-2 text-xs font-extrabold uppercase tracking-[.17em] text-[#0289ad]">
@@ -405,13 +387,11 @@ export default function ServiceOffers({ serviceSlug, serviceName }) {
                   </div>
                   <h3 className="relative mt-4 font-extrabold text-[#0C3D4C]">{title}</h3>
                   <p className="relative mt-2 text-sm leading-6 text-slate-600">{text}</p>
-                  <button
-                    type="button"
-                    onClick={() => setShowDownload(true)}
+                  <span
                     className={`relative mt-4 inline-flex items-center gap-1.5 text-xs font-bold transition group-hover:gap-2.5 ${theme.link}`}
                   >
                     {cta} <ArrowRight size={14} />
-                  </button>
+                  </span>
                 </article>
               </ScrollReveal>
             );
@@ -423,113 +403,5 @@ export default function ServiceOffers({ serviceSlug, serviceName }) {
           final offer details in the Apphany app before payment.
         </p>
       </section>
-
-      {showDownload &&
-        typeof document !== "undefined" &&
-        createPortal(
-          <div
-            className="fixed inset-0 z-[1100] flex items-center justify-center overflow-y-auto bg-[#132238]/75 p-4"
-            role="dialog"
-            aria-modal="true"
-            aria-labelledby="offers-download-title"
-            onMouseDown={(event) => event.target === event.currentTarget && setShowDownload(false)}
-          >
-            <div className="relative my-auto w-full max-w-[760px] overflow-hidden rounded-2xl bg-white shadow-[0_26px_80px_rgba(0,0,0,.35)]">
-              <button
-                type="button"
-                onClick={() => setShowDownload(false)}
-                aria-label="Close download app popup"
-                className="absolute right-4 top-4 z-10 grid h-9 w-9 place-items-center rounded-full bg-[#101010] text-white transition hover:bg-[#026381] sm:right-6 sm:top-5"
-              >
-                <X size={20} strokeWidth={3} />
-              </button>
-
-              <div className="px-5 pb-6 pt-7 sm:px-8 sm:pb-8 sm:pt-8">
-                <h2
-                  id="offers-download-title"
-                  className="pr-12 text-center text-xl font-extrabold text-[#0C3D4C] sm:pr-0 sm:text-2xl"
-                >
-                  Continue with the Apphany App
-                </h2>
-                <p className="mx-auto mt-2 max-w-xl text-center text-sm leading-6 text-slate-600">
-                  Open the app to check current eligibility and terms for this {serviceName} offer.
-                </p>
-
-                <div className="mt-7 grid items-center gap-6 rounded-2xl bg-[#f2f7fb] p-5 sm:grid-cols-[1fr_230px] sm:p-7">
-                  <div className="text-[#132238]">
-                    <h3 className="text-lg font-extrabold">Steps to scan QR Code</h3>
-                    <ol className="mt-5 space-y-4 text-sm leading-5 sm:text-base">
-                      <li className="flex gap-3">
-                        <span className="font-bold">1.</span>
-                        <span>Open your phone camera</span>
-                      </li>
-                      <li className="flex gap-3">
-                        <span className="font-bold">2.</span>
-                        <span>Point the camera at the QR code</span>
-                      </li>
-                      <li className="flex gap-3">
-                        <span className="font-bold">3.</span>
-                        <span>Open the link and download the Apphany app</span>
-                      </li>
-                    </ol>
-                  </div>
-                  <div className="mx-auto rounded-xl bg-white p-3 shadow-[0_8px_24px_rgba(12,61,76,.14)]">
-                    <Image
-                      src="/MainQR.jpeg"
-                      alt="QR code to download the Apphany app"
-                      width={210}
-                      height={210}
-                      className="h-44 w-44 object-contain sm:h-52 sm:w-52"
-                    />
-                  </div>
-                </div>
-
-                <div className="mt-6 flex flex-col gap-4 border-t border-slate-200 pt-6 sm:flex-row sm:items-center sm:justify-between">
-                  <p className="max-w-[245px] text-sm font-semibold leading-5 text-[#132238] sm:text-base">
-                    Download the app to view and claim eligible offers.
-                  </p>
-                  <div className="flex flex-wrap gap-3">
-                    <Link
-                      href="https://apps.apple.com/in/app/finunique/id6760808229"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex min-w-[142px] items-center justify-center gap-2 rounded-lg border border-slate-400 bg-white px-3 py-2 text-black transition hover:bg-slate-50"
-                    >
-                      <FaApple size={28} aria-hidden="true" />
-                      <span className="text-left">
-                        <span className="block text-[9px] leading-none">Download on the</span>
-                        <span className="mt-1 block text-base font-bold leading-none">
-                          App Store
-                        </span>
-                      </span>
-                    </Link>
-                    <Link
-                      href="https://play.google.com/store/apps/details?id=com.utility.finunique"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex min-w-[150px] items-center justify-center gap-2 rounded-lg border border-slate-400 bg-white px-3 py-2 text-black transition hover:bg-slate-50"
-                    >
-                      <Image
-                        src="/image/playstorelogo.png"
-                        alt="Google Play"
-                        width={28}
-                        height={28}
-                        className="h-7 w-7 object-contain"
-                      />
-                      <span className="text-left">
-                        <span className="block text-[9px] uppercase leading-none">Get it on</span>
-                        <span className="mt-1 block text-base font-bold leading-none">
-                          Google Play
-                        </span>
-                      </span>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>,
-          document.body
-        )}
-    </>
   );
 }

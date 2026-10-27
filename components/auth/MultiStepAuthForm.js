@@ -23,7 +23,6 @@ import {
   Phone,
   RefreshCw,
   ShieldCheck,
-  Smartphone,
   UserRound,
   WalletCards,
   Zap,
@@ -31,7 +30,6 @@ import {
 import { clearClientSession } from "./sessionClient";
 
 const paymentServices = [
-  { icon: Smartphone, label: "Recharge & Bills" },
   { icon: Zap, label: "Fast Payments" },
   { icon: CreditCard, label: "Credit Cards" },
   { icon: ShieldCheck, label: "Insurance" },

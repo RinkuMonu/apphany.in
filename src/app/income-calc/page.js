@@ -90,10 +90,10 @@ const serviceGroups = [
       // { label: "Money Transfer X-press DMT", key: "xpress", avgT: 250000 },
     ],
   },
-  {
-    title: "Recharge Services",
-    items: [{ label: "Mobile Recharge", key: "mobileRecharge", avgT: 500 }],
-  },
+  // {
+  //   title: "Recharge Services",
+  //   items: [{ label: "Mobile Recharge", key: "mobileRecharge", avgT: 500 }],
+  // },
 
   // {
   //   title: "Insurance",
@@ -215,7 +215,7 @@ export default function IncomeCalculator() {
     // aeps: 1,
     microAtm: 1,
     // miniStatement: 1,
-    mobileRecharge: 1,
+    // mobileRecharge: 1,
     xpress: 1,
     personalloan: 1,
     businessloan: 1,
