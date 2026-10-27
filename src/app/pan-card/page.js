@@ -2,7 +2,6 @@ import React from "react";
 import ServiceBanner from "../../../components/ServiceBanner";
 import Image from "next/image";
 import OnboardingProcess from "../../../components/OnboardingProcess";
-import BenefitsSection2 from "../../../components/BenefitsSection2";
 import PartnersSection from "../../../components/PartnersSection";
 import TestimonialSlider from "../../../components/TestimonialSlider";
 import ContactBanner from "../../../components/ContactBanner";
@@ -92,7 +91,6 @@ function page() {
       <div className="bg-white px-4 sm:px-6 lg:px-8">
         <OnboardingProcess />
       </div>
-      <BenefitsSection2 compact />
       {/* <VerticalTimeline /> */}
       {/* <PancardFeatures /> */}
       <section className="strippps bg-[#f3f9fb] px-4 py-14 sm:px-6 lg:px-8 lg:py-20">

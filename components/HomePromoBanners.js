@@ -8,26 +8,31 @@ const banners = [
     title: "Apply or update PAN online.",
     description: "Paperless application, quick verification & doorstep delivery.",
     image: "/home/pan3d.png",
-    background: "bg-gradient-to-br from-[#dbeafe] via-[#eff6ff] to-[#f8fbff] border border-[#bfdbfe]/60 shadow-[0_4px_20px_rgba(37,99,235,0.06)]",
+    background:
+      "bg-gradient-to-br from-[#dbeafe] via-[#eff6ff] to-[#f8fbff] border border-[#bfdbfe]/60 shadow-[0_4px_20px_rgba(37,99,235,0.06)]",
     href: "/pan-card",
     cta: "Apply PAN Card",
   },
   {
-    eyebrow: "Gifts made easy",
-    title: "A thoughtful gift in a few taps.",
-    description: "Choose a digital gift card and send something special for every occasion.",
-    image: "/about/gift.jpg",
-    background: "bg-[#f7e8f2]",
-    href: "/service-payment/gift-card",
-    cta: "Explore Gift Cards",
-    imageClass: "mix-blend-multiply",
+    eyebrow: "Quick & Flexible Loans",
+    title: "Instant loans for every need.",
+    description: "Personal, business, home & car loans with low rates and quick approval.",
+    image: "/loan/loan53d.png",
+    background:
+      "bg-gradient-to-br from-[#fef3c7] via-[#fffbeb] to-[#fefce8] border border-[#fde68a]/70 shadow-[0_4px_20px_rgba(217,119,6,0.08)]",
+    href: "/loan",
+    cta: "Explore Loans",
+    eyebrowColor: "text-[#b45309]",
+    starColor: "text-amber-400/90",
+    imageContainerClass: "-bottom-3 -right-3 h-[145px] w-[160px] sm:h-[155px] sm:w-[170px]",
   },
   {
     eyebrow: "Smart business planning",
     title: "Estimate. Plan. Grow.",
     description: "Understand your earning potential and make informed business decisions.",
     image: "/image/income-calc-img.png",
-    background: "bg-[#dcf3f7]",
+    background:
+      "bg-gradient-to-br from-[#d3f2f7] via-[#e6f8fa] to-[#f4fcfe] border border-[#b2e7f0]/60 shadow-[0_4px_20px_rgba(2,137,173,0.06)]",
     href: "/income-calc",
     cta: "Calculate Income",
   },
@@ -47,7 +52,9 @@ export default function HomePromoBanners() {
             aria-label={`${index + 1} of ${banners.length}: ${banner.title}`}
           >
             <div className="relative z-10 flex h-full max-w-[66%] flex-col items-start px-5 py-4 sm:px-6 sm:py-5">
-              <p className="text-[8px] font-extrabold uppercase tracking-[0.13em] text-[#0289ad]">
+              <p
+                className={`text-[8px] font-extrabold uppercase tracking-[0.13em] ${banner.eyebrowColor || "text-[#0289ad]"}`}
+              >
                 {banner.eyebrow}
               </p>
               <h2 className="mt-1.5 text-[18px] font-extrabold leading-[1.08] tracking-tight text-[#073b7a] sm:text-[20px]">
@@ -67,7 +74,9 @@ export default function HomePromoBanners() {
               </Link>
             </div>
 
-            <div className="absolute -bottom-6 -right-5 h-[145px] w-[145px] sm:h-[155px] sm:w-[155px]">
+            <div
+              className={`absolute ${banner.imageContainerClass || "-bottom-6 -right-5 h-[145px] w-[145px] sm:h-[155px] sm:w-[155px]"}`}
+            >
               <Image
                 src={banner.image}
                 alt=""
@@ -76,7 +85,7 @@ export default function HomePromoBanners() {
                 className={`object-contain object-bottom ${banner.imageClass || ""}`}
               />
             </div>
-            <span className="absolute right-4 top-3 text-base text-white/80">✦</span>
+            <span className={`absolute right-4 top-3 text-base ${banner.starColor || "text-white/80"}`}>✦</span>
           </article>
         ))}
       </div>

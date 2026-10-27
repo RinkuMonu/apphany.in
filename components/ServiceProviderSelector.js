@@ -297,7 +297,10 @@ export default function ServiceProviderSelector({ service }) {
   if (!providers.length) return null;
 
   return (
-    <div className="mt-6 w-full rounded-[1.375rem] border border-[#d9edf2] bg-white p-5 shadow-[0_12px_30px_rgba(12,61,76,0.07)] sm:p-7">
+    <div
+      id="providers"
+      className="mt-6 scroll-mt-28 w-full rounded-[1.375rem] border border-[#d9edf2] bg-white p-5 shadow-[0_12px_30px_rgba(12,61,76,0.07)] sm:p-7"
+    >
       <h2 className="text-lg font-extrabold text-[#0C3D4C]">
         {headingByService[service] || "Select a Provider"}
       </h2>
