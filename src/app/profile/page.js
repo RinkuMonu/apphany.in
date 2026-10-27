@@ -150,7 +150,7 @@ export default function ProfilePage() {
   const initial = user.name?.trim()?.charAt(0)?.toUpperCase() || "F";
 
   return (
-    <main className="min-h-screen bg-[#f2f7f9] pb-10 sm:pb-16">
+    <main className="min-h-screen bg-[#f2f7f9] pb-20 sm:pb-28 lg:pb-36">
       <section className="relative overflow-hidden bg-[radial-gradient(circle_at_88%_12%,rgba(138,201,84,.2),transparent_26%),linear-gradient(135deg,#073f58,#0C3D4C_58%,#026381)] px-4 pb-12 pt-7 text-white sm:px-6 sm:pb-14 sm:pt-10 lg:px-8 lg:py-14">
         <span className="pointer-events-none absolute -right-16 -top-20 h-64 w-64 rounded-full border-[42px] border-white/5" />
         <span className="pointer-events-none absolute -bottom-24 left-[38%] h-48 w-48 rounded-full bg-[#00a8e8]/10 blur-2xl" />
@@ -200,7 +200,7 @@ export default function ProfilePage() {
           <AccountNav href="#support" icon={HelpCircle} label="Help & support" />
         </aside>
 
-        <div className="min-w-0 space-y-4 sm:space-y-7">
+        <div className="min-w-0 space-y-6 sm:space-y-8">
           <section
             id="overview"
             className="scroll-mt-24 rounded-[22px] border border-[#d8e9ed] bg-white p-4 shadow-[0_12px_30px_rgba(12,61,76,.06)] sm:rounded-3xl sm:p-8"
@@ -354,7 +354,7 @@ export default function ProfilePage() {
             </section>
           </div>
 
-          <section className="overflow-hidden rounded-[22px] bg-[linear-gradient(135deg,#e8f6f9,#f7fbfc)] p-4 sm:rounded-3xl sm:p-8">
+          {/* <section className="overflow-hidden rounded-[22px] bg-[linear-gradient(135deg,#e8f6f9,#f7fbfc)] p-4 sm:rounded-3xl sm:p-8">
             <div className="grid items-center gap-5 md:grid-cols-[1fr_190px] md:gap-7">
               <div>
                 <p className="text-xs font-extrabold uppercase tracking-[.17em] text-[#0289ad]">
@@ -386,7 +386,7 @@ export default function ProfilePage() {
                 />
               </div>
             </div>
-          </section>
+          </section> */}
 
           <section
             id="support"
@@ -413,7 +413,7 @@ export default function ProfilePage() {
             </div>
           </section>
 
-          <section className="flex flex-col gap-4 rounded-[22px] border border-red-100 bg-white p-4 sm:flex-row sm:items-center sm:justify-between sm:rounded-3xl sm:p-8">
+          <section className="mt-8 flex flex-col gap-4 rounded-[22px] border border-red-100 bg-white p-4 sm:mt-12 sm:flex-row sm:items-center sm:justify-between sm:rounded-3xl sm:p-8">
             <div>
               <p className="text-xs font-extrabold uppercase tracking-[.16em] text-red-500">
                 Session controls
