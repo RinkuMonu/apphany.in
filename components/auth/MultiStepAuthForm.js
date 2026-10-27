@@ -55,6 +55,7 @@ export default function MultiStepAuthForm({ mode }) {
   const [verifyingOtp, setVerifyingOtp] = useState(false);
   const [registeringUser, setRegisteringUser] = useState(false);
   const [loginMobile, setLoginMobile] = useState("");
+  const [loginEmail, setLoginEmail] = useState("");
   const [loginOtp, setLoginOtp] = useState("");
   const [loginOtpSent, setLoginOtpSent] = useState(false);
   const [sendingLoginOtp, setSendingLoginOtp] = useState(false);
@@ -535,7 +536,7 @@ export default function MultiStepAuthForm({ mode }) {
   return (
     <main className="flex min-h-screen items-center bg-[radial-gradient(circle_at_top_left,#eaf5f3,transparent_34%),radial-gradient(circle_at_bottom_right,#eef2fa,transparent_36%),#f8fafb] p-3 sm:p-4">
       <div
-        className={`mx-auto grid w-full max-w-[920px] overflow-hidden rounded-[24px] border border-white bg-white shadow-[0_20px_55px_rgba(15,42,68,0.14)] ${isSignup ? "lg:h-[calc(100vh-48px)] lg:max-h-[720px] lg:min-h-[600px] lg:grid-cols-[1.38fr_.62fr]" : "lg:h-[560px] lg:grid-cols-[1.1fr_.9fr]"}`}
+        className={`mx-auto grid w-full max-w-[920px] overflow-hidden rounded-[24px] border border-white bg-white shadow-[0_20px_55px_rgba(15,42,68,0.14)] ${isSignup ? "lg:h-[calc(100vh-48px)] lg:max-h-[720px] lg:min-h-[600px] lg:grid-cols-[1.38fr_.62fr]" : "lg:min-h-[590px] lg:grid-cols-[1.1fr_.9fr]"}`}
       >
         <section
           className={`relative flex max-h-full flex-col overflow-y-auto px-6 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:px-9 lg:px-10 ${isSignup ? "justify-start py-4" : "justify-center py-6"}`}
@@ -594,6 +595,18 @@ export default function MultiStepAuthForm({ mode }) {
                         setLoginNeedsSignup(false);
                       }}
                       placeholder="Enter mobile number"
+                      className="auth-reference-input"
+                    />
+                  </Field>
+                  <Field icon={Mail} label="Email Address">
+                    <input
+                      id="login-email"
+                      name="email"
+                      type="email"
+                      autoComplete="email"
+                      value={loginEmail}
+                      onChange={(event) => setLoginEmail(event.target.value)}
+                      placeholder="Enter email address"
                       className="auth-reference-input"
                     />
                   </Field>
